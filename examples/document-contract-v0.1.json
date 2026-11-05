@@ -1,0 +1,158 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.1-draft.1",
+  "id": "deck-demo-001",
+  "title": "HTML Slide - contract example",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "slide-001",
+      "background": "#ffffff",
+      "elements": [
+        {
+          "id": "element-title-001",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 64,
+            "width": 1120,
+            "height": 100
+          },
+          "text": {
+            "paragraphs": [
+              "HTML 프레젠테이션"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 48,
+              "lineHeight": 1.2,
+              "color": "#182037",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          }
+        },
+        {
+          "id": "element-shape-001",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 220,
+            "width": 500,
+            "height": 240
+          },
+          "shape": "rectangle",
+          "fill": "#16a34a",
+          "stroke": {
+            "color": "#11632e",
+            "width": 2
+          },
+          "text": {
+            "paragraphs": [
+              "HTML Slide · 구조 분석"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 32,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "slide-002",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "element-text-002",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 80,
+            "width": 560,
+            "height": 260
+          },
+          "text": {
+            "paragraphs": [
+              "한글 · English · 123",
+              "두 번째 문단"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 36,
+              "lineHeight": 1.2,
+              "color": "#182037",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          }
+        },
+        {
+          "id": "element-image-001",
+          "type": "image",
+          "geometry": {
+            "x": 720,
+            "y": 200,
+            "width": 320,
+            "height": 180
+          },
+          "assetId": "asset-thumbnail-001",
+          "fit": "contain",
+          "alt": "Preserved thumbnail of the original Impress research fixture"
+        }
+      ]
+    },
+    {
+      "id": "slide-003",
+      "background": "#ffffff",
+      "elements": [
+        {
+          "id": "element-text-003",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 90,
+            "width": 1120,
+            "height": 400
+          },
+          "text": {
+            "paragraphs": [
+              "저장 → 다시 열기 → 재편집",
+              "문자 왕복 입력: < > & \" ' </script>",
+              "한 문단 내부 줄바꿈\n다음 줄",
+              "  선행과 후행 공백을 유지합니다  ",
+              ""
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 36,
+              "lineHeight": 1.2,
+              "color": "#182037",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-thumbnail-001",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 288,
+      "bytes": 3389,
+      "sha256": "e77a1afc403edcd826d36f848847ef82a3ee5659566712b5080b2f1f4021fdf1",
+      "dataBase64": "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"
+    }
+  ]
+}

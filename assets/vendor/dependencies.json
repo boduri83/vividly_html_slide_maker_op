@@ -1,0 +1,292 @@
+[
+  {
+    "name": "@daybrush/utils",
+    "version": "1.13.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@egjs/agent",
+    "version": "2.4.4",
+    "license": "MIT"
+  },
+  {
+    "name": "@egjs/children-differ",
+    "version": "1.0.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@egjs/list-differ",
+    "version": "1.0.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@modelcontextprotocol/core",
+    "version": "2.4.0",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "@modelcontextprotocol/server",
+    "version": "2.4.0",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "@scena/dragscroll",
+    "version": "1.4.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@scena/event-emitter",
+    "version": "1.0.5",
+    "license": "MIT"
+  },
+  {
+    "name": "@scena/matrix",
+    "version": "1.1.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/core",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-blockquote",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-bold",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-code",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-code-block",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-document",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-hard-break",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-heading",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-horizontal-rule",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-italic",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-link",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-list",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-paragraph",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-strike",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-text",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-text-style",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extension-underline",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/extensions",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/pm",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "@tiptap/starter-kit",
+    "version": "3.32.2",
+    "license": "MIT"
+  },
+  {
+    "name": "croact",
+    "version": "1.0.4",
+    "license": "MIT"
+  },
+  {
+    "name": "croact-css-styled",
+    "version": "1.1.9",
+    "license": "MIT"
+  },
+  {
+    "name": "croact-moveable",
+    "version": "0.9.0",
+    "license": "MIT"
+  },
+  {
+    "name": "css-styled",
+    "version": "1.0.8",
+    "license": "MIT"
+  },
+  {
+    "name": "css-to-mat",
+    "version": "1.1.1",
+    "license": "MIT"
+  },
+  {
+    "name": "css-tree",
+    "version": "3.2.1",
+    "license": "MIT"
+  },
+  {
+    "name": "framework-utils",
+    "version": "1.1.0",
+    "license": "MIT"
+  },
+  {
+    "name": "gesto",
+    "version": "1.19.4",
+    "license": "MIT"
+  },
+  {
+    "name": "keycon",
+    "version": "1.4.0",
+    "license": "MIT"
+  },
+  {
+    "name": "linkifyjs",
+    "version": "4.4.0",
+    "license": "MIT"
+  },
+  {
+    "name": "matter-js",
+    "version": "0.20.0",
+    "license": "MIT"
+  },
+  {
+    "name": "moveable",
+    "version": "0.53.0",
+    "license": "MIT"
+  },
+  {
+    "name": "orderedmap",
+    "version": "2.1.1",
+    "license": "MIT"
+  },
+  {
+    "name": "overlap-area",
+    "version": "1.1.0",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-commands",
+    "version": "1.7.2",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-dropcursor",
+    "version": "1.8.4",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-gapcursor",
+    "version": "1.4.1",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-history",
+    "version": "1.5.1",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-keymap",
+    "version": "1.2.3",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-model",
+    "version": "1.25.12",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-schema-list",
+    "version": "1.6.0",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-state",
+    "version": "1.4.4",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-transform",
+    "version": "1.12.4",
+    "license": "MIT"
+  },
+  {
+    "name": "prosemirror-view",
+    "version": "1.42.8",
+    "license": "MIT"
+  },
+  {
+    "name": "rope-sequence",
+    "version": "1.3.4",
+    "license": "MIT"
+  },
+  {
+    "name": "selecto",
+    "version": "1.26.3",
+    "license": "MIT"
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "w3c-keyname",
+    "version": "2.2.8",
+    "license": "MIT"
+  },
+  {
+    "name": "zod",
+    "version": "4.6.7",
+    "license": "MIT"
+  }
+]

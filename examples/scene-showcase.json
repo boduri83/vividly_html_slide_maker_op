@@ -1,0 +1,1759 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.14-scene.1",
+  "id": "vividly-scene-showcase",
+  "title": "Vividly · 이동하고 반응하는 장면",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "scene-page-00000000-0000-4000-8000-000000000002",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000003",
+          "type": "image",
+          "geometry": {
+            "x": 153.6,
+            "y": 575,
+            "width": 48,
+            "height": 70
+          },
+          "assetId": "scene-asset-00000000-0000-4000-8000-000000000004",
+          "fit": "contain",
+          "alt": "보라색 Vividly 이동 캐릭터",
+          "name": "이동 대상"
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000005",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 650,
+            "width": 2560,
+            "height": 70
+          },
+          "shape": "rectangle",
+          "fill": "#b7c5e4",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "name": "바닥",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000006",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 85,
+            "width": 1220,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              " "
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 24,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "현재 조작 안내",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000007",
+          "type": "shape",
+          "geometry": {
+            "x": 1095,
+            "y": 20,
+            "width": 160,
+            "height": 48
+          },
+          "shape": "rectangle",
+          "fill": "#e5e9ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "다시 시작"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실습 다시 시작",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000008",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 20,
+            "width": 704,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "이동·접촉 실습"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 33.28,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실습 제목",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000009",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 672,
+            "width": 1220,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "← → 이동 · Space 점프"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "조작법",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000010",
+          "type": "shape",
+          "geometry": {
+            "x": 970,
+            "y": 85,
+            "width": 280,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              " "
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "점수 표시",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000011",
+          "type": "shape",
+          "geometry": {
+            "x": 1856,
+            "y": 600,
+            "width": 38,
+            "height": 38
+          },
+          "shape": "rectangle",
+          "fill": "#fbbf24",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "name": "획득 표식",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000012",
+          "type": "shape",
+          "geometry": {
+            "x": 896,
+            "y": 535,
+            "width": 180,
+            "height": 28
+          },
+          "shape": "rectangle",
+          "fill": "#90b8d4",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "name": "발판",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-demo-navigation-0",
+          "type": "shape",
+          "geometry": {
+            "x": 1090,
+            "y": 160,
+            "width": 160,
+            "height": 46
+          },
+          "shape": "rectangle",
+          "fill": "#e5e9ff",
+          "stroke": {
+            "color": "#c3cbee",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "타이밍·상태 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.2,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "다른 실습으로 이동",
+          "style": {
+            "radius": 10
+          }
+        }
+      ],
+      "name": "이동·접촉 실습",
+      "transition": {
+        "type": "none",
+        "duration": 0,
+        "easing": "ease",
+        "navigation": "interaction"
+      },
+      "behavior": {
+        "inputs": [],
+        "rules": [
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000013",
+            "name": "왼쪽 이동",
+            "event": "keyHeld",
+            "trigger": {
+              "key": "ArrowLeft",
+              "intervalMs": 16
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "x": {
+                  "type": "literal",
+                  "value": -240
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000014"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000015",
+            "name": "이동 키에서 손을 떼면 멈추기",
+            "event": "keyUp",
+            "trigger": {
+              "key": "ArrowLeft"
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "x": {
+                  "type": "literal",
+                  "value": 0
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000016"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000017",
+            "name": "오른쪽 이동",
+            "event": "keyHeld",
+            "trigger": {
+              "key": "ArrowRight",
+              "intervalMs": 16
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "x": {
+                  "type": "literal",
+                  "value": 240
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000014"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000018",
+            "name": "이동 키에서 손을 떼면 멈추기",
+            "event": "keyUp",
+            "trigger": {
+              "key": "ArrowRight"
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "x": {
+                  "type": "literal",
+                  "value": 0
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000016"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000019",
+            "name": "바닥에서 점프",
+            "event": "keyDown",
+            "trigger": {
+              "key": "Space"
+            },
+            "actions": [
+              {
+                "type": "jump",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+                "speed": {
+                  "type": "literal",
+                  "value": 560
+                }
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000020",
+            "name": "표식을 처음 만나면 획득",
+            "event": "collisionStart",
+            "sourceId": "scene-item-00000000-0000-4000-8000-000000000003",
+            "trigger": {
+              "otherId": "scene-item-00000000-0000-4000-8000-000000000011"
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000021",
+                "value": {
+                  "type": "op",
+                  "op": "add",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "scene-value-00000000-0000-4000-8000-000000000021"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "hide",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000011"
+              },
+              {
+                "type": "playAudio",
+                "audioId": "scene-audio-00000000-0000-4000-8000-000000000022"
+              },
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000023",
+                "value": {
+                  "type": "literal",
+                  "value": "표식을 찾았어요. 다시 시작해 동작을 바꿔보세요."
+                }
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000024",
+            "name": "실습 처음으로",
+            "event": "click",
+            "sourceId": "scene-item-00000000-0000-4000-8000-000000000007",
+            "actions": [
+              {
+                "type": "resetBody",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000003"
+              },
+              {
+                "type": "show",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000011"
+              },
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000021",
+                "value": {
+                  "type": "literal",
+                  "value": 0
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000023",
+                "value": {
+                  "type": "literal",
+                  "value": "빛나는 표식을 찾아가 보세요."
+                }
+              }
+            ]
+          },
+          {
+            "id": "scene-demo-navigation-rule-0",
+            "name": "다른 실습으로 이동",
+            "event": "click",
+            "sourceId": "scene-demo-navigation-0",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "scene-page-00000000-0000-4000-8000-000000000025"
+              }
+            ]
+          }
+        ],
+        "machines": [],
+        "bindings": [
+          {
+            "id": "scene-binding-00000000-0000-4000-8000-000000000026",
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000006",
+            "format": "text",
+            "expression": {
+              "type": "variable",
+              "id": "scene-value-00000000-0000-4000-8000-000000000023"
+            }
+          },
+          {
+            "id": "scene-binding-00000000-0000-4000-8000-000000000027",
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000010",
+            "format": "text",
+            "expression": {
+              "type": "op",
+              "op": "concat",
+              "args": [
+                {
+                  "type": "literal",
+                  "value": "획득 점수 "
+                },
+                {
+                  "type": "variable",
+                  "id": "scene-value-00000000-0000-4000-8000-000000000021"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "scene": {
+        "world": {
+          "width": 2560,
+          "height": 720,
+          "gravityX": 0,
+          "gravityY": 1200,
+          "bounds": "solid"
+        },
+        "bodies": [
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+            "mode": "dynamic",
+            "collider": "rectangle",
+            "sensor": false,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000005",
+            "mode": "static",
+            "collider": "rectangle",
+            "sensor": false,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000011",
+            "mode": "static",
+            "collider": "circle",
+            "sensor": true,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000012",
+            "mode": "static",
+            "collider": "rectangle",
+            "sensor": false,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ],
+        "camera": {
+          "mode": "follow",
+          "zoom": 1,
+          "bounds": true,
+          "targetId": "scene-item-00000000-0000-4000-8000-000000000003"
+        },
+        "hudIds": [
+          "scene-item-00000000-0000-4000-8000-000000000006",
+          "scene-item-00000000-0000-4000-8000-000000000007",
+          "scene-item-00000000-0000-4000-8000-000000000008",
+          "scene-item-00000000-0000-4000-8000-000000000009",
+          "scene-item-00000000-0000-4000-8000-000000000010",
+          "scene-demo-navigation-0"
+        ],
+        "sprites": [
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000003",
+            "clips": [
+              {
+                "id": "scene-clip-00000000-0000-4000-8000-000000000016",
+                "name": "대기",
+                "frames": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  }
+                ],
+                "fps": 8,
+                "loop": true
+              },
+              {
+                "id": "scene-clip-00000000-0000-4000-8000-000000000014",
+                "name": "걷기",
+                "frames": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  },
+                  {
+                    "x": 48,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  },
+                  {
+                    "x": 96,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  },
+                  {
+                    "x": 144,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  }
+                ],
+                "fps": 10,
+                "loop": true
+              }
+            ],
+            "initialClipId": "scene-clip-00000000-0000-4000-8000-000000000016"
+          }
+        ],
+        "audio": [
+          {
+            "id": "scene-audio-00000000-0000-4000-8000-000000000022",
+            "name": "동작 알림",
+            "assetId": "scene-asset-00000000-0000-4000-8000-000000000028",
+            "volume": 0.5,
+            "loop": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "scene-page-00000000-0000-4000-8000-000000000025",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000029",
+          "type": "image",
+          "geometry": {
+            "x": 153.6,
+            "y": 575,
+            "width": 48,
+            "height": 70
+          },
+          "assetId": "scene-asset-00000000-0000-4000-8000-000000000030",
+          "fit": "contain",
+          "alt": "보라색 Vividly 이동 캐릭터",
+          "name": "이동 대상"
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000031",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 650,
+            "width": 1280,
+            "height": 70
+          },
+          "shape": "rectangle",
+          "fill": "#b7c5e4",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "name": "바닥",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000032",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 85,
+            "width": 1220,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              " "
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 24,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "현재 조작 안내",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000033",
+          "type": "shape",
+          "geometry": {
+            "x": 1095,
+            "y": 20,
+            "width": 160,
+            "height": 48
+          },
+          "shape": "rectangle",
+          "fill": "#e5e9ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "다시 시작"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실습 다시 시작",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000034",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 20,
+            "width": 704,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "타이밍·상태 실습"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 33.28,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실습 제목",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000035",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 672,
+            "width": 1220,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "← → 이동 · Space 점프 · J 공격"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "조작법",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000036",
+          "type": "shape",
+          "geometry": {
+            "x": 30,
+            "y": 140,
+            "width": 960,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff00",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              " "
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.3,
+              "color": "#233654",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "체력 표시",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000037",
+          "type": "shape",
+          "geometry": {
+            "x": 742.4,
+            "y": 575,
+            "width": 52,
+            "height": 70
+          },
+          "shape": "rectangle",
+          "fill": "#f08e79",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "name": "연습 상대",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-item-00000000-0000-4000-8000-000000000038",
+          "type": "shape",
+          "geometry": {
+            "x": 201.6,
+            "y": 580,
+            "width": 72,
+            "height": 60
+          },
+          "shape": "rectangle",
+          "fill": "#f7c76266",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "name": "공격 접촉 영역",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "scene-demo-navigation-1",
+          "type": "shape",
+          "geometry": {
+            "x": 1090,
+            "y": 160,
+            "width": 160,
+            "height": 46
+          },
+          "shape": "rectangle",
+          "fill": "#e5e9ff",
+          "stroke": {
+            "color": "#c3cbee",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "← 이동·접촉"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.2,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "다른 실습으로 이동",
+          "style": {
+            "radius": 10
+          }
+        }
+      ],
+      "name": "타이밍·상태 실습",
+      "transition": {
+        "type": "none",
+        "duration": 0,
+        "easing": "ease",
+        "navigation": "interaction"
+      },
+      "behavior": {
+        "inputs": [],
+        "rules": [
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000039",
+            "name": "왼쪽 이동",
+            "event": "keyHeld",
+            "trigger": {
+              "key": "ArrowLeft",
+              "intervalMs": 16
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "x": {
+                  "type": "literal",
+                  "value": -240
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000040"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000041",
+            "name": "이동 키에서 손을 떼면 멈추기",
+            "event": "keyUp",
+            "trigger": {
+              "key": "ArrowLeft"
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "x": {
+                  "type": "literal",
+                  "value": 0
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000042"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000043",
+            "name": "오른쪽 이동",
+            "event": "keyHeld",
+            "trigger": {
+              "key": "ArrowRight",
+              "intervalMs": 16
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "x": {
+                  "type": "literal",
+                  "value": 240
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000040"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000044",
+            "name": "이동 키에서 손을 떼면 멈추기",
+            "event": "keyUp",
+            "trigger": {
+              "key": "ArrowRight"
+            },
+            "actions": [
+              {
+                "type": "setBodyVelocity",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "x": {
+                  "type": "literal",
+                  "value": 0
+                }
+              },
+              {
+                "type": "playSprite",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "clipId": "scene-clip-00000000-0000-4000-8000-000000000042"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000045",
+            "name": "바닥에서 점프",
+            "event": "keyDown",
+            "trigger": {
+              "key": "Space"
+            },
+            "actions": [
+              {
+                "type": "jump",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                "speed": {
+                  "type": "literal",
+                  "value": 560
+                }
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000046",
+            "name": "J 키로 짧게 공격",
+            "event": "keyDown",
+            "trigger": {
+              "key": "j"
+            },
+            "inState": {
+              "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+              "stateId": "scene-stage-00000000-0000-4000-8000-000000000048"
+            },
+            "actions": [
+              {
+                "type": "transition",
+                "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+                "stateId": "scene-stage-00000000-0000-4000-8000-000000000049"
+              },
+              {
+                "type": "timerStart",
+                "ruleId": "scene-rule-00000000-0000-4000-8000-000000000050"
+              },
+              {
+                "type": "playAudio",
+                "audioId": "scene-audio-00000000-0000-4000-8000-000000000051"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000050",
+            "name": "공격 가능 시간 200ms",
+            "event": "timer",
+            "trigger": {
+              "intervalMs": 200,
+              "repeat": false,
+              "autoStart": false
+            },
+            "inState": {
+              "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+              "stateId": "scene-stage-00000000-0000-4000-8000-000000000049"
+            },
+            "actions": [
+              {
+                "type": "transition",
+                "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+                "stateId": "scene-stage-00000000-0000-4000-8000-000000000048"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000052",
+            "name": "공격 영역이 상대에게 닿으면",
+            "event": "collisionStart",
+            "sourceId": "scene-item-00000000-0000-4000-8000-000000000038",
+            "trigger": {
+              "otherId": "scene-item-00000000-0000-4000-8000-000000000037"
+            },
+            "inState": {
+              "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+              "stateId": "scene-stage-00000000-0000-4000-8000-000000000049"
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000053",
+                "value": {
+                  "type": "op",
+                  "op": "max",
+                  "args": [
+                    {
+                      "type": "literal",
+                      "value": 0
+                    },
+                    {
+                      "type": "op",
+                      "op": "subtract",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "scene-value-00000000-0000-4000-8000-000000000053"
+                        },
+                        {
+                          "type": "literal",
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "emit",
+                "name": "scene-hit-scene-page-00000000-0000-4000-8000-000000000025"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000054",
+            "name": "상대 체력이 0이면 성공",
+            "event": "custom",
+            "trigger": {
+              "eventName": "scene-hit-scene-page-00000000-0000-4000-8000-000000000025"
+            },
+            "condition": {
+              "type": "op",
+              "op": "lessOrEqual",
+              "args": [
+                {
+                  "type": "variable",
+                  "id": "scene-value-00000000-0000-4000-8000-000000000053"
+                },
+                {
+                  "type": "literal",
+                  "value": 0
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "transition",
+                "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+                "stateId": "scene-stage-00000000-0000-4000-8000-000000000055"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000056",
+            "name": "가까이 있으면 상대 반응",
+            "event": "timer",
+            "trigger": {
+              "intervalMs": 1200,
+              "repeat": true,
+              "autoStart": true
+            },
+            "condition": {
+              "type": "op",
+              "op": "and",
+              "args": [
+                {
+                  "type": "op",
+                  "op": "less",
+                  "args": [
+                    {
+                      "type": "op",
+                      "op": "abs",
+                      "args": [
+                        {
+                          "type": "op",
+                          "op": "subtract",
+                          "args": [
+                            {
+                              "type": "body",
+                              "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+                              "property": "x"
+                            },
+                            {
+                              "type": "body",
+                              "targetId": "scene-item-00000000-0000-4000-8000-000000000037",
+                              "property": "x"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "literal",
+                      "value": 135
+                    }
+                  ]
+                },
+                {
+                  "type": "op",
+                  "op": "greater",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "scene-value-00000000-0000-4000-8000-000000000057"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "op",
+                  "op": "greater",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "scene-value-00000000-0000-4000-8000-000000000053"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000057",
+                "value": {
+                  "type": "op",
+                  "op": "max",
+                  "args": [
+                    {
+                      "type": "literal",
+                      "value": 0
+                    },
+                    {
+                      "type": "op",
+                      "op": "subtract",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "scene-value-00000000-0000-4000-8000-000000000057"
+                        },
+                        {
+                          "type": "literal",
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "emit",
+                "name": "scene-counter-scene-page-00000000-0000-4000-8000-000000000025"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000058",
+            "name": "나의 체력이 0이면 종료",
+            "event": "custom",
+            "trigger": {
+              "eventName": "scene-counter-scene-page-00000000-0000-4000-8000-000000000025"
+            },
+            "condition": {
+              "type": "op",
+              "op": "lessOrEqual",
+              "args": [
+                {
+                  "type": "variable",
+                  "id": "scene-value-00000000-0000-4000-8000-000000000057"
+                },
+                {
+                  "type": "literal",
+                  "value": 0
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "transition",
+                "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+                "stateId": "scene-stage-00000000-0000-4000-8000-000000000059"
+              }
+            ]
+          },
+          {
+            "id": "scene-rule-00000000-0000-4000-8000-000000000060",
+            "name": "실습 처음으로",
+            "event": "click",
+            "sourceId": "scene-item-00000000-0000-4000-8000-000000000033",
+            "actions": [
+              {
+                "type": "resetBody",
+                "targetId": "scene-item-00000000-0000-4000-8000-000000000029"
+              },
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000057",
+                "value": {
+                  "type": "literal",
+                  "value": 5
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000053",
+                "value": {
+                  "type": "literal",
+                  "value": 3
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "scene-value-00000000-0000-4000-8000-000000000061",
+                "value": {
+                  "type": "literal",
+                  "value": "상대에게 가까이 가서 J 키로 공격하세요."
+                }
+              },
+              {
+                "type": "transition",
+                "machineId": "scene-stages-00000000-0000-4000-8000-000000000047",
+                "stateId": "scene-stage-00000000-0000-4000-8000-000000000048"
+              }
+            ]
+          },
+          {
+            "id": "scene-demo-navigation-rule-1",
+            "name": "다른 실습으로 이동",
+            "event": "click",
+            "sourceId": "scene-demo-navigation-1",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "scene-page-00000000-0000-4000-8000-000000000002"
+              }
+            ]
+          }
+        ],
+        "machines": [
+          {
+            "id": "scene-stages-00000000-0000-4000-8000-000000000047",
+            "name": "실습 단계",
+            "initialStateId": "scene-stage-00000000-0000-4000-8000-000000000048",
+            "states": [
+              {
+                "id": "scene-stage-00000000-0000-4000-8000-000000000048",
+                "name": "대기",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "scene-item-00000000-0000-4000-8000-000000000038"
+                  }
+                ]
+              },
+              {
+                "id": "scene-stage-00000000-0000-4000-8000-000000000049",
+                "name": "공격 중",
+                "enterActions": [
+                  {
+                    "type": "show",
+                    "targetId": "scene-item-00000000-0000-4000-8000-000000000038"
+                  }
+                ]
+              },
+              {
+                "id": "scene-stage-00000000-0000-4000-8000-000000000055",
+                "name": "성공",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "scene-item-00000000-0000-4000-8000-000000000038"
+                  },
+                  {
+                    "type": "set",
+                    "variableId": "scene-value-00000000-0000-4000-8000-000000000061",
+                    "value": {
+                      "type": "literal",
+                      "value": "성공했어요. 다시 시작해 공격 시간과 규칙을 바꿔보세요."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "scene-stage-00000000-0000-4000-8000-000000000059",
+                "name": "종료",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "scene-item-00000000-0000-4000-8000-000000000038"
+                  },
+                  {
+                    "type": "set",
+                    "variableId": "scene-value-00000000-0000-4000-8000-000000000061",
+                    "value": {
+                      "type": "literal",
+                      "value": "체력이 모두 줄었어요. 다시 시작해 보세요."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "bindings": [
+          {
+            "id": "scene-binding-00000000-0000-4000-8000-000000000062",
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000032",
+            "format": "text",
+            "expression": {
+              "type": "variable",
+              "id": "scene-value-00000000-0000-4000-8000-000000000061"
+            }
+          },
+          {
+            "id": "scene-binding-00000000-0000-4000-8000-000000000063",
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000036",
+            "format": "text",
+            "expression": {
+              "type": "op",
+              "op": "concat",
+              "args": [
+                {
+                  "type": "literal",
+                  "value": "나의 체력 "
+                },
+                {
+                  "type": "variable",
+                  "id": "scene-value-00000000-0000-4000-8000-000000000057"
+                },
+                {
+                  "type": "literal",
+                  "value": " · 상대 체력 "
+                },
+                {
+                  "type": "variable",
+                  "id": "scene-value-00000000-0000-4000-8000-000000000053"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "scene": {
+        "world": {
+          "width": 1280,
+          "height": 720,
+          "gravityX": 0,
+          "gravityY": 1200,
+          "bounds": "solid"
+        },
+        "bodies": [
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+            "mode": "dynamic",
+            "collider": "rectangle",
+            "sensor": false,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000031",
+            "mode": "static",
+            "collider": "rectangle",
+            "sensor": false,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000037",
+            "mode": "static",
+            "collider": "rectangle",
+            "sensor": false,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000038",
+            "mode": "static",
+            "collider": "rectangle",
+            "sensor": true,
+            "fixedRotation": true,
+            "restitution": 0,
+            "friction": 0.1,
+            "frictionAir": 0,
+            "velocity": {
+              "x": 0,
+              "y": 0
+            },
+            "acceleration": {
+              "x": 0,
+              "y": 0
+            },
+            "followTargetId": "scene-item-00000000-0000-4000-8000-000000000029",
+            "offset": {
+              "x": 48,
+              "y": 5
+            }
+          }
+        ],
+        "camera": {
+          "mode": "fixed",
+          "zoom": 1,
+          "bounds": true
+        },
+        "hudIds": [
+          "scene-item-00000000-0000-4000-8000-000000000032",
+          "scene-item-00000000-0000-4000-8000-000000000033",
+          "scene-item-00000000-0000-4000-8000-000000000034",
+          "scene-item-00000000-0000-4000-8000-000000000035",
+          "scene-item-00000000-0000-4000-8000-000000000036",
+          "scene-demo-navigation-1"
+        ],
+        "sprites": [
+          {
+            "targetId": "scene-item-00000000-0000-4000-8000-000000000029",
+            "clips": [
+              {
+                "id": "scene-clip-00000000-0000-4000-8000-000000000042",
+                "name": "대기",
+                "frames": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  }
+                ],
+                "fps": 8,
+                "loop": true
+              },
+              {
+                "id": "scene-clip-00000000-0000-4000-8000-000000000040",
+                "name": "걷기",
+                "frames": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  },
+                  {
+                    "x": 48,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  },
+                  {
+                    "x": 96,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  },
+                  {
+                    "x": 144,
+                    "y": 0,
+                    "width": 48,
+                    "height": 64
+                  }
+                ],
+                "fps": 10,
+                "loop": true
+              }
+            ],
+            "initialClipId": "scene-clip-00000000-0000-4000-8000-000000000042"
+          }
+        ],
+        "audio": [
+          {
+            "id": "scene-audio-00000000-0000-4000-8000-000000000051",
+            "name": "동작 알림",
+            "assetId": "scene-asset-00000000-0000-4000-8000-000000000064",
+            "volume": 0.5,
+            "loop": false
+          }
+        ]
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "scene-asset-00000000-0000-4000-8000-000000000004",
+      "mimeType": "image/png",
+      "width": 192,
+      "height": 64,
+      "bytes": 1299,
+      "sha256": "5328d5dc16e17e53f973de76ffe5a5be715c3dbd5e4d41f39d41a2b8f309438c",
+      "dataBase64": "iVBORw0KGgoAAAANSUhEUgAAAMAAAABACAYAAABMbHjfAAAE2klEQVR42u1dT0hUQRx+R6UiyMKQhQ79MSmUQKO1DCrasMwykQ4ZBIEKYWAgUWEHz7FBx06CgeClWxpEHQqhg4c6BHWJkDxEdAk6BPHyJ0xsj5n3Zt+b92Z+4/fBDy13fvObb+b7Zt/b3dkgAAAAAAAAAAAAAAAAAAAAAADAJBobdpR277o00dVxb/5C5XmYJSgH5aKcYBZwHgdbR6tZF70qKDcUDAd1kn/KXzn+ZEX0e/n8m3Bs+FM4cf1rODn6LVVQW8pBuURe6iPXsXihYDhoofzXLv7Bsy/D8WufUy96VVBOyp2bCLxRMBy0cP5F3cMDb40v/GhQH2IcUDAc1Dr/gm/KnffiFyHGYWw+2CsYDmqFf+JB8JKHaOPELPrNPBc+KBgOaod/emoozKao2kUIU6IaNraC4aDW+BfXWLRLyvqZm/sZLn/4Ha7+ClMFtaUcstzUp7hG27gKhoNa5V+IKPo0c/r29/Dj6p/UCz8alItyRp+eiv5FPSfK01Xxd/rdewXDQe3yLziI5ja5+GtFEO2nVgC1i19bBNwVDAe1y79MACQ404tfRFTMov8tm1pKqnnyWsFw0GL4VwlDVr+K73dffoSPZl+s/1TVmPQYyi2rX1Z7agFwUjAcNH/+44Qhq1/Vd8/AnXD/sbH1n1keI6s/rvbAZwXDQfPnP25edAUwt7i8vrBF0L/TPKZeAZCwAy8UDAe1xr/qb53tYxMuC+Df2mGvYDioVf5VY7ty8dmSywIWayfgrmA4qF3+W5o7y6ox1MO/CQPSrf+/Zw7cFQwHteyga6BaswrAVOjUX1s7ewXDQS076BqIa936s9x21rktndS/9LqRs4LhoJYdNMaIXLkJkVQ7awXDQR1wUIURuXIbWuuuIWcFw0EtO6jCiFTjL+KFyGj/iS88clYwHNQBB5UYUdJNgDzfihJ9ITIR3BUMB7XsoBIjShJA3lGXALgrGA5q2UElRsROAJwVDAd1YAFFjIhj/awVDAd1YAHViED1btwiQvZuXO8VDAd1QwC6n8fIMzJ9HoOzguGglh3Up8+Uc1QwHNQBB/XlVBGuCoaD4lQOI+dK+X6qAhwU5zLhXB04KE7mw8lqcFCczYqzNeGgOJ0bpyvDQYv5fobuow+X+s4tZl70lONA22i1sG8Ywvn6cFATaC/fnT89tBBGo7nUM2SyTS6oDC6Evf2LoSkFU67W9pFqgG9Y8ZZ/bwRAncmKoNBpv69jpKpq39C4vYQdzG/+2QtAVQT9v057Ilk1ATQ5QUHfssj1OagP/LMWgIq8eopwwYW4ToAv/Kt2sjghp2nj1PbrkgtxFIBP/LMUQNbt1yUX4jgB4N+yAExsv664EMcJAP8W+Te1/briQtwmwDf+tza1lWX9Hj5ZXTLZxsnt1wUXUvXd0ze7YrIN+K9/RzPdxrntV9eFMAHg33kBnOm/eujG5INeETNP39/UCfH4W/dnRmwMaltT82ZVv3F1q9p0dVf2Uk7w7yf/UqcYn3r9SpfwuKA80dxHTk09Nj2GPa0dO2sXiazfpDHptKE+qC/w7w//ASWt7dwU+bKBidzUp8n6dftNU6vKZcG/H/wH9WyvpqKICUD9qD/1FpZn4ca3MNSP+k1fxNCFR9aLMArKkftFDOpH/QAAAAAAAADhL7ksTNas2NYCAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "scene-asset-00000000-0000-4000-8000-000000000028",
+      "mimeType": "audio/wav",
+      "duration": 0.18,
+      "bytes": 5804,
+      "sha256": "84978576bad5e197adca8c37e4807af47bf8c52880352105cdc7d9a481ae2e3a",
+      "dataBase64": "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"
+    },
+    {
+      "id": "scene-asset-00000000-0000-4000-8000-000000000030",
+      "mimeType": "image/png",
+      "width": 192,
+      "height": 64,
+      "bytes": 1299,
+      "sha256": "5328d5dc16e17e53f973de76ffe5a5be715c3dbd5e4d41f39d41a2b8f309438c",
+      "dataBase64": "iVBORw0KGgoAAAANSUhEUgAAAMAAAABACAYAAABMbHjfAAAE2klEQVR42u1dT0hUQRx+R6UiyMKQhQ79MSmUQKO1DCrasMwykQ4ZBIEKYWAgUWEHz7FBx06CgeClWxpEHQqhg4c6BHWJkDxEdAk6BPHyJ0xsj5n3Zt+b92Z+4/fBDy13fvObb+b7Zt/b3dkgAAAAAAAAAAAAAAAAAAAAAADAJBobdpR277o00dVxb/5C5XmYJSgH5aKcYBZwHgdbR6tZF70qKDcUDAd1kn/KXzn+ZEX0e/n8m3Bs+FM4cf1rODn6LVVQW8pBuURe6iPXsXihYDhoofzXLv7Bsy/D8WufUy96VVBOyp2bCLxRMBy0cP5F3cMDb40v/GhQH2IcUDAc1Dr/gm/KnffiFyHGYWw+2CsYDmqFf+JB8JKHaOPELPrNPBc+KBgOaod/emoozKao2kUIU6IaNraC4aDW+BfXWLRLyvqZm/sZLn/4Ha7+ClMFtaUcstzUp7hG27gKhoNa5V+IKPo0c/r29/Dj6p/UCz8alItyRp+eiv5FPSfK01Xxd/rdewXDQe3yLziI5ja5+GtFEO2nVgC1i19bBNwVDAe1y79MACQ404tfRFTMov8tm1pKqnnyWsFw0GL4VwlDVr+K73dffoSPZl+s/1TVmPQYyi2rX1Z7agFwUjAcNH/+44Qhq1/Vd8/AnXD/sbH1n1keI6s/rvbAZwXDQfPnP25edAUwt7i8vrBF0L/TPKZeAZCwAy8UDAe1xr/qb53tYxMuC+Df2mGvYDioVf5VY7ty8dmSywIWayfgrmA4qF3+W5o7y6ox1MO/CQPSrf+/Zw7cFQwHteyga6BaswrAVOjUX1s7ewXDQS076BqIa936s9x21rktndS/9LqRs4LhoJYdNMaIXLkJkVQ7awXDQR1wUIURuXIbWuuuIWcFw0EtO6jCiFTjL+KFyGj/iS88clYwHNQBB5UYUdJNgDzfihJ9ITIR3BUMB7XsoBIjShJA3lGXALgrGA5q2UElRsROAJwVDAd1YAFFjIhj/awVDAd1YAHViED1btwiQvZuXO8VDAd1QwC6n8fIMzJ9HoOzguGglh3Up8+Uc1QwHNQBB/XlVBGuCoaD4lQOI+dK+X6qAhwU5zLhXB04KE7mw8lqcFCczYqzNeGgOJ0bpyvDQYv5fobuow+X+s4tZl70lONA22i1sG8Ywvn6cFATaC/fnT89tBBGo7nUM2SyTS6oDC6Evf2LoSkFU67W9pFqgG9Y8ZZ/bwRAncmKoNBpv69jpKpq39C4vYQdzG/+2QtAVQT9v057Ilk1ATQ5QUHfssj1OagP/LMWgIq8eopwwYW4ToAv/Kt2sjghp2nj1PbrkgtxFIBP/LMUQNbt1yUX4jgB4N+yAExsv664EMcJAP8W+Te1/briQtwmwDf+tza1lWX9Hj5ZXTLZxsnt1wUXUvXd0ze7YrIN+K9/RzPdxrntV9eFMAHg33kBnOm/eujG5INeETNP39/UCfH4W/dnRmwMaltT82ZVv3F1q9p0dVf2Uk7w7yf/UqcYn3r9SpfwuKA80dxHTk09Nj2GPa0dO2sXiazfpDHptKE+qC/w7w//ASWt7dwU+bKBidzUp8n6dftNU6vKZcG/H/wH9WyvpqKICUD9qD/1FpZn4ca3MNSP+k1fxNCFR9aLMArKkftFDOpH/QAAAAAAAADhL7ksTNas2NYCAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "scene-asset-00000000-0000-4000-8000-000000000064",
+      "mimeType": "audio/wav",
+      "duration": 0.18,
+      "bytes": 5804,
+      "sha256": "84978576bad5e197adca8c37e4807af47bf8c52880352105cdc7d9a481ae2e3a",
+      "dataBase64": "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"
+    }
+  ],
+  "behavior": {
+    "variables": [
+      {
+        "id": "scene-value-00000000-0000-4000-8000-000000000023",
+        "name": "조작 안내",
+        "type": "text",
+        "initial": "빛나는 표식을 찾아가 보세요."
+      },
+      {
+        "id": "scene-value-00000000-0000-4000-8000-000000000021",
+        "name": "획득 점수",
+        "type": "number",
+        "initial": 0,
+        "minimum": 0,
+        "maximum": 10000,
+        "step": 1
+      },
+      {
+        "id": "scene-value-00000000-0000-4000-8000-000000000061",
+        "name": "조작 안내",
+        "type": "text",
+        "initial": "상대에게 가까이 가서 J 키로 공격하세요."
+      },
+      {
+        "id": "scene-value-00000000-0000-4000-8000-000000000057",
+        "name": "나의 체력",
+        "type": "number",
+        "initial": 5,
+        "minimum": 0,
+        "maximum": 5,
+        "step": 1
+      },
+      {
+        "id": "scene-value-00000000-0000-4000-8000-000000000053",
+        "name": "상대 체력",
+        "type": "number",
+        "initial": 3,
+        "minimum": 0,
+        "maximum": 3,
+        "step": 1
+      }
+    ]
+  }
+}

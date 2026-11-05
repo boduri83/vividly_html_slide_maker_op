@@ -1,0 +1,7 @@
+Selected Lucide icons from lucide-static 1.66.0
+Source: https://github.com/lucide-icons/lucide
+Published package: https://registry.npmjs.org/lucide-static/-/lucide-static-1.66.0.tgz
+Licenses: ISC and MIT for Feather-derived icons. Original full notices are in LICENSE.txt.
+Original SVG bytes are retained in originals/.
+Structured editable path data retains original icon geometry; primitive normalization is recorded in provenance.json.
+Rebuild using scripts/build-icon-catalog.py with the pinned original archive.

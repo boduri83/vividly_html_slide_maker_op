@@ -1,0 +1,5 @@
+# Preserve source and historical evidence byte hashes across checkout.
+* -text
+*.png binary
+*.jpg binary
+*.ico binary

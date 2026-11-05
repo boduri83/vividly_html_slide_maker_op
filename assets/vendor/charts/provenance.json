@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "package": "chart.js",
+  "version": "4.6.1",
+  "license": "MIT",
+  "sourceRepository": "https://github.com/boduri83/Chart.js",
+  "inspectedForkCommit": "71d44219e79e3ac41e6f9dc907022eebf574868d",
+  "sourceNote": "User fork source/package version inspected at pinned HEAD. Fork excludes dist builds. Reused official published npm build of the same version; npm gitHead is separately recorded, not claimed equal to the fork commit.",
+  "sourcePackageUrl": "https://registry.npmjs.org/chart.js/-/chart.js-4.6.1.tgz",
+  "packageIntegrity": "sha512-hJyniucsFmq//EvXYvJ6c6mahPoI3kaxdjVH8awTaJ/fDNWeSqqqArixMJWkWNN6fcYvPU3HneSANFNYtRi61g==",
+  "packageSha256": "9345dacdf4bb4c5d40321f4b9aafab6fe676d37a534fc0bc2d17c4c4e29c4f00",
+  "packageGitHead": "76d8cf895a7485dc838c90ef37e2bc9d9e388fcb",
+  "originalDist": {
+    "path": "assets/vendor/charts/chart.umd.min.js",
+    "bytes": 210082,
+    "sha256": "87364cc2b2a76a6684929e7d6b80b18a897794db38400caff1fcf1791c6925d2"
+  },
+  "generatedModule": {
+    "path": "src/chart-vendor.js",
+    "bytes": 212530,
+    "sha256": "97157e1f95f3c3bd1a9006893616341e78fdc7037d3394e469a6f4326bc412cd"
+  },
+  "bundledDependencies": [
+    {
+      "package": "@kurkle/color",
+      "version": "0.3.2",
+      "license": "MIT",
+      "sourcePackageUrl": "https://registry.npmjs.org/@kurkle/color/-/color-0.3.2.tgz",
+      "packageIntegrity": "sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==",
+      "packageSha256": "af9eaac0ecbb472fe2093d2a4525629f96541f4e6422c031d9c86d4dc8fc7511",
+      "licenseFile": "assets/vendor/charts/KURKLE-COLOR-LICENSE.md"
+    }
+  ],
+  "generator": "scripts/build-chart-vendor.py"
+}

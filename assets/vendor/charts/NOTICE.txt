@@ -1,0 +1,6 @@
+Chart.js 4.6.1
+MIT license: see LICENSE.md.
+User fork: https://github.com/boduri83/Chart.js at 71d44219e79e3ac41e6f9dc907022eebf574868d
+Official npm distribution: https://registry.npmjs.org/chart.js/-/chart.js-4.6.1.tgz
+Includes @kurkle/color 0.3.2 by Jukka Kurkela, MIT: see KURKLE-COLOR-LICENSE.md.
+Original minified UMD bytes retained. Generated installer only removes sourceMappingURL and wraps ordinary JavaScript to permit app CSP and standalone HTML use.

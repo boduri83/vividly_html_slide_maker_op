@@ -1,0 +1,22 @@
+/** Owned JSON-RPC child for tests. No model, file tool, network or real account is used. */
+import readline from'node:readline';import fs from'node:fs';
+const mode=process.argv[2]||'tools',trace=process.argv[3],threadId='owned-thread',turnId='owned-turn',write=value=>process.stdout.write(JSON.stringify(value)+'\n');
+process.stdout.on('error',()=>process.exit(1));let stage=0;
+function reply(id,result){write({id,result});}
+function event(method,params){write({method,params});}
+function finish(decision={kind:'message',tool:null,argumentsJson:null,text:'검토할 변경을 준비했습니다. 한글🙂',commands:null,summary:null}){event('item/completed',{threadId,turnId,item:{type:'agentMessage',id:'answer',text:typeof decision==='string'?decision:JSON.stringify(decision)}});event('turn/completed',{threadId,turn:{id:turnId,status:'completed',error:null}});}
+function decisionTool(name,args){finish(name==='propose_commands'?{kind:'tool',tool:name,argumentsJson:null,text:null,commands:JSON.parse(args.commandsJson).map(c=>({id:c.id,paramsJson:JSON.stringify(c.params)})),summary:args.summary}:{kind:'tool',tool:name,argumentsJson:JSON.stringify(args),text:null,commands:null,summary:null});}
+const commands=[{id:'text.set_content',params:{elementId:'element-title-001',paragraphs:['Codex와 함께 만든 제목']}}];
+const allTools=[['read_document_summary',{}],['read_slide',{slideId:'slide-001',offset:0,limit:10}],['read_selection',{offset:0,limit:10}],['find_commands',{query:'text.set_content',limit:1}],['propose_commands',{commandsJson:JSON.stringify(commands),summary:'선택한 제목을 정리합니다.'}]];
+function tool(name,args,id){write({id,method:'item/tool/call',params:{threadId,turnId,callId:'server-call-'+id,namespace:null,tool:name,arguments:args}});}
+const lines=readline.createInterface({input:process.stdin});lines.on('line',line=>{let value;try{value=JSON.parse(line);}catch{return;}if(trace)fs.appendFileSync(trace,JSON.stringify(value)+'\n');
+ if(value.method==='initialize'){reply(value.id,{userAgent:'codex_cli_rs/0.156.1'});return;}
+ if(value.method==='initialized')return;
+ if(value.method==='account/read'){if(mode==='metadataHang')return;reply(value.id,{account:mode==='notlogged'?null:{type:mode==='apikey'?'apiKey':mode==='bedrock'?'amazonBedrock':mode==='externalTokens'?'chatgptAuthTokens':'chatgpt',email:'PRIVATE-ACCOUNT@example.invalid',planType:'test'},requiresOpenaiAuth:true});return;}
+ if(value.method==='model/list'){reply(value.id,{data:[{id:'catalog-owned-default',model:'catalog-owned-default',displayName:'Owned default',isDefault:mode!=='noDefault'},{id:'catalog-owned-second',model:'catalog-owned-second',displayName:'Owned second',isDefault:false}],nextCursor:null});return;}
+ if(value.method==='config/read'){reply(value.id,{config:{allowed:false}});return;}
+ if(value.method==='mcpServerStatus/list'){reply(value.id,{data:[],nextCursor:null});return;}
+ if(value.method==='thread/start'){reply(value.id,{thread:{id:threadId,ephemeral:true},instructionSources:mode==='instructions'?['PRIVATE-INSTRUCTION-PATH']:[]});return;}
+ if(value.method==='turn/interrupt'){reply(value.id,{});event('turn/completed',{threadId,turn:{id:turnId,status:'interrupted'}});return;}
+ if(value.method==='turn/start'){reply(value.id,{turn:{id:turnId,status:'inProgress'}});setTimeout(()=>{if(mode==='exit'){process.exit(1);return;}if(mode==='badjson'){process.stdout.write('bad JSON\n');return;}if(mode==='hang')return;if(mode==='builtin'){event('item/started',{threadId,turnId,item:{type:'commandExecution',id:'forbidden'}});return;}if(mode==='illegal'){tool('shell',{command:'forbidden'},77);return;}if(mode==='failed'){event('turn/completed',{threadId,turn:{id:turnId,status:'failed',error:{message:'PRIVATE-SERVER-ERROR'}}});return;}if(mode==='malformedDecision'){finish('not a JSON decision');return;}if(mode==='unknownDecision'){decisionTool('shell',{command:'forbidden'});return;}if(mode==='wrongArguments'){decisionTool('read_selection',{offset:-1,limit:1});return;}if(mode==='extraDecision'){finish({kind:'message',tool:null,argumentsJson:null,text:'private decision',extra:true});return;}if(mode==='repeatDecisions'){decisionTool('read_document_summary',{});return;}if(mode==='allTools'){const call=allTools[stage++];if(call)decisionTool(...call);else finish();return;}if(mode==='final'){finish();return;}if(stage++===0){decisionTool('read_document_summary',{});return;}if(stage===2){decisionTool('propose_commands',{commandsJson:JSON.stringify(commands),summary:'선택한 제목을 정리합니다.'});return;}finish();},0);return;}
+});

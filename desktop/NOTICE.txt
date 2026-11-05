@@ -1,0 +1,11 @@
+Copyright (c) 2026 boduri83
+
+Original Vividly source files in this directory are subject to the terms of
+the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed
+with a file, You can obtain one at https://mozilla.org/MPL/2.0/.
+See LICENSE in this directory and ../NOTICE.md for source availability.
+
+mcp-adapter.bundle.cjs combines Vividly code with third-party components.
+Those components retain their original licenses; see
+../assets/vendor/THIRD-PARTY-NOTICES.txt. The unbundled adapter source and
+build scripts are provided with the application; see ../NOTICE.md.

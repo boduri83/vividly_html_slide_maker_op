@@ -1,0 +1,45 @@
+name: 기능 제안
+description: 실제 자료를 만드는 흐름에서 필요한 개선을 알려주세요.
+title: "[제안] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **이 제안과 첨부 파일은 공개됩니다.**
+        실제 고객 자료·API 키·토큰·개인 정보 대신 가상의 예제를 사용해 주세요.
+        [사용·지원 안내](https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/SUPPORT.md)
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 어떤 자료나 작업을 만들고 있나요?
+      placeholder: "예: 캠페인 성과 보고서에서 여러 차트를 같은 스타일로 바꾸고 싶습니다."
+    validations:
+      required: true
+  - type: textarea
+    id: obstacle
+    attributes:
+      label: 현재 어디에서 막히거나 불편한가요?
+      description: 지금 사용하는 방법이 있다면 함께 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: 원하는 동작
+      description: 사람이 화면에서 어떤 순서로 작업할 수 있으면 좋을지 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: optional_example
+    attributes:
+      label: 참고 자료·추가 설명 (선택)
+      description: 첨부는 필수가 아닙니다. 공개 가능한 링크나 민감한 정보를 가린 화면만 올려 주세요.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_information
+    attributes:
+      label: 공개 정보 확인
+      options:
+        - label: 공개 Issue임을 확인했고, 민감한 정보와 비공개 원본 문서를 포함하지 않았습니다.
+          required: true

@@ -1,0 +1,18 @@
+{
+  "provenance": "Original Vividly examples: supersampled geometric drawing and synthesized two-note tone, generated with Python standard library; no external assets.",
+  "files": [
+    {
+      "path": "assets\\examples\\scene\\vividly-movement-atlas.png",
+      "bytes": 1299,
+      "sha256": "5328d5dc16e17e53f973de76ffe5a5be715c3dbd5e4d41f39d41a2b8f309438c",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "assets\\examples\\scene\\vividly-feedback.wav",
+      "bytes": 5804,
+      "sha256": "84978576bad5e197adca8c37e4807af47bf8c52880352105cdc7d9a481ae2e3a",
+      "duration": 0.18
+    }
+  ]
+}

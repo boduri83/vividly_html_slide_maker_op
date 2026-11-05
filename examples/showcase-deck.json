@@ -1,0 +1,5476 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.15-authoring.1",
+  "id": "document-vividly-first-deck",
+  "title": "Vividly · Signal to Spectacle",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "first-cover",
+      "background": "#090a18",
+      "elements": [
+        {
+          "id": "cover-gradient",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720
+          },
+          "shape": "rectangle",
+          "fill": "#090a18",
+          "stroke": {
+            "color": "#090a18",
+            "width": 0
+          },
+          "name": "cover-gradient",
+          "semanticRole": "decorative",
+          "style": {
+            "gradient": {
+              "type": "linear",
+              "angle": 125,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#070b1a"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#19122f"
+                },
+                {
+                  "offset": 1,
+                  "color": "#090b1d"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "cover-aura",
+          "type": "shape",
+          "geometry": {
+            "x": 722,
+            "y": 55,
+            "width": 510,
+            "height": 510
+          },
+          "shape": "ellipse",
+          "fill": "#4431c8",
+          "stroke": {
+            "color": "#4431c8",
+            "width": 0
+          },
+          "name": "cover-aura",
+          "semanticRole": "decorative",
+          "style": {
+            "blur": 22,
+            "radius": 255,
+            "gradient": {
+              "type": "radial",
+              "angle": 0,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#7061ff80"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#6a29d516"
+                },
+                {
+                  "offset": 1,
+                  "color": "#28144b00"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "cover-star-0",
+          "type": "shape",
+          "geometry": {
+            "x": 780,
+            "y": 86,
+            "width": 4,
+            "height": 4
+          },
+          "shape": "ellipse",
+          "fill": "#c8baff",
+          "stroke": {
+            "color": "#c8baff",
+            "width": 0
+          },
+          "name": "cover-star-0",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.35,
+            "radius": 2
+          }
+        },
+        {
+          "id": "cover-star-1",
+          "type": "shape",
+          "geometry": {
+            "x": 917,
+            "y": 165,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "cover-star-1",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.48,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-star-2",
+          "type": "shape",
+          "geometry": {
+            "x": 1054,
+            "y": 244,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#c8baff",
+          "stroke": {
+            "color": "#c8baff",
+            "width": 0
+          },
+          "name": "cover-star-2",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.61,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-star-3",
+          "type": "shape",
+          "geometry": {
+            "x": 1191,
+            "y": 323,
+            "width": 4,
+            "height": 4
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "cover-star-3",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.74,
+            "radius": 2
+          }
+        },
+        {
+          "id": "cover-star-4",
+          "type": "shape",
+          "geometry": {
+            "x": 898,
+            "y": 402,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#c8baff",
+          "stroke": {
+            "color": "#c8baff",
+            "width": 0
+          },
+          "name": "cover-star-4",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.35,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-star-5",
+          "type": "shape",
+          "geometry": {
+            "x": 1035,
+            "y": 481,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "cover-star-5",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.48,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-star-6",
+          "type": "shape",
+          "geometry": {
+            "x": 1172,
+            "y": 105,
+            "width": 4,
+            "height": 4
+          },
+          "shape": "ellipse",
+          "fill": "#c8baff",
+          "stroke": {
+            "color": "#c8baff",
+            "width": 0
+          },
+          "name": "cover-star-6",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.61,
+            "radius": 2
+          }
+        },
+        {
+          "id": "cover-star-7",
+          "type": "shape",
+          "geometry": {
+            "x": 879,
+            "y": 184,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "cover-star-7",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.74,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-star-8",
+          "type": "shape",
+          "geometry": {
+            "x": 1016,
+            "y": 263,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#c8baff",
+          "stroke": {
+            "color": "#c8baff",
+            "width": 0
+          },
+          "name": "cover-star-8",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.35,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-star-9",
+          "type": "shape",
+          "geometry": {
+            "x": 1153,
+            "y": 342,
+            "width": 4,
+            "height": 4
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "cover-star-9",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.48,
+            "radius": 2
+          }
+        },
+        {
+          "id": "cover-star-10",
+          "type": "shape",
+          "geometry": {
+            "x": 860,
+            "y": 421,
+            "width": 2,
+            "height": 2
+          },
+          "shape": "ellipse",
+          "fill": "#c8baff",
+          "stroke": {
+            "color": "#c8baff",
+            "width": 0
+          },
+          "name": "cover-star-10",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.61,
+            "radius": 1
+          }
+        },
+        {
+          "id": "cover-orbit-back",
+          "type": "svg",
+          "geometry": {
+            "x": 690,
+            "y": 158,
+            "width": 530,
+            "height": 230
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 530,
+              "height": 230
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 21.2 115 C 21.2 -11.5 508.79999999999995 -11.5 508.79999999999995 115 C 508.79999999999995 241.5 21.2 241.5 21.2 115 Z",
+                "fill": "none",
+                "stroke": "#8073e6",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": -24
+        },
+        {
+          "id": "cover-sphere",
+          "type": "shape",
+          "geometry": {
+            "x": 819,
+            "y": 146,
+            "width": 326,
+            "height": 326
+          },
+          "shape": "ellipse",
+          "fill": "#8060ff",
+          "stroke": {
+            "color": "#8060ff",
+            "width": 0
+          },
+          "name": "cover-sphere",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 163,
+            "gradient": {
+              "type": "radial",
+              "angle": 130,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#e8deff"
+                },
+                {
+                  "offset": 0.3333333333333333,
+                  "color": "#a58bff"
+                },
+                {
+                  "offset": 0.6666666666666666,
+                  "color": "#5a43bd"
+                },
+                {
+                  "offset": 1,
+                  "color": "#14152f"
+                }
+              ]
+            },
+            "shadow": {
+              "x": -12,
+              "y": 14,
+              "blur": 75,
+              "spread": 2,
+              "color": "#6355ed55"
+            }
+          }
+        },
+        {
+          "id": "cover-sphere-shade",
+          "type": "shape",
+          "geometry": {
+            "x": 840,
+            "y": 172,
+            "width": 274,
+            "height": 274
+          },
+          "shape": "ellipse",
+          "fill": "#352966",
+          "stroke": {
+            "color": "#352966",
+            "width": 0
+          },
+          "name": "cover-sphere-shade",
+          "semanticRole": "decorative",
+          "style": {
+            "opacity": 0.85,
+            "radius": 137,
+            "gradient": {
+              "type": "linear",
+              "angle": 115,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#c6bcff20"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#27253f00"
+                },
+                {
+                  "offset": 1,
+                  "color": "#15132dba"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "cover-orbit-front",
+          "type": "svg",
+          "geometry": {
+            "x": 718,
+            "y": 225,
+            "width": 495,
+            "height": 176
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 495,
+              "height": 176
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 19.8 88 C 19.8 -8.8 475.2 -8.8 475.2 88 C 475.2 184.8 19.8 184.8 19.8 88 Z",
+                "fill": "none",
+                "stroke": "#51f4ee",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": -24
+        },
+        {
+          "id": "first-cover-logo",
+          "type": "svg",
+          "geometry": {
+            "x": 905,
+            "y": 228,
+            "width": 151,
+            "height": 151
+          },
+          "name": "Vividly V 심벌 · 드래그해 이동",
+          "svg": {
+            "viewBox": {
+              "width": 151,
+              "height": 151
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 19 30 L 75 128 L 131 30",
+                "fill": "none",
+                "stroke": "#ffffff",
+                "strokeWidth": 19,
+                "strokeLinecap": "round",
+                "strokeLinejoin": "round"
+              },
+              {
+                "kind": "circle",
+                "cx": 137,
+                "cy": 16,
+                "r": 10,
+                "fill": "#51f4ee"
+              }
+            ],
+            "title": "Vividly V 심벌 · 드래그해 이동"
+          },
+          "semanticRole": "decorative"
+        },
+        {
+          "id": "first-cover-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "BORVIS STUDIO PRESENTS  /  AN EDITABLE HTML EXPERIENCE"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "BORVIS STUDIO PRESENTS  /  AN EDITABLE HTML EXPERIENCE",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "first-cover-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "first-cover-title",
+          "type": "text",
+          "geometry": {
+            "x": 62,
+            "y": 132,
+            "width": 735,
+            "height": 240
+          },
+          "text": {
+            "paragraphs": [
+              "PRESENT",
+              "VIVIDLY."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 107,
+              "lineHeight": 0.96,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "표지 큰 제목 · 두 번 눌러 수정",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "cover-subtitle",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 402,
+            "width": 706,
+            "height": 48
+          },
+          "text": {
+            "paragraphs": [
+              "슬라이드를 넘어, 하나의 경험으로."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 29,
+              "lineHeight": 1.22,
+              "color": "#c3c7ed",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "슬라이드를 넘어, 하나의 경험으로.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "cover-body",
+          "type": "text",
+          "geometry": {
+            "x": 68,
+            "y": 467,
+            "width": 650,
+            "height": 70
+          },
+          "text": {
+            "paragraphs": [
+              "직접 배치한 글자와 도형에",
+              "깊이와 움직임, 선택의 순간을 더하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.4,
+              "color": "#a2aacb",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "직접 배치한 글자와 도형에 깊이와 움직임, 선택의 순간을 더하세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-next",
+          "type": "shape",
+          "geometry": {
+            "x": 68,
+            "y": 583,
+            "width": 270,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "경험 시작하기  ↗"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "경험 시작하기  ↗",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#51f4ee35"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "cover-next-note",
+          "type": "text",
+          "geometry": {
+            "x": 363,
+            "y": 597,
+            "width": 390,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "7개의 장면 · 모두 직접 편집 가능"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 15,
+              "lineHeight": 1.22,
+              "color": "#a8afd4",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "7개의 장면 · 모두 직접 편집 가능",
+          "semanticRole": "body"
+        },
+        {
+          "id": "cover-art-label",
+          "type": "text",
+          "geometry": {
+            "x": 845,
+            "y": 514,
+            "width": 350,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "SIGNAL → SPECTACLE"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#beb9fa",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "SIGNAL → SPECTACLE",
+          "semanticRole": "body"
+        },
+        {
+          "id": "cover-cross",
+          "type": "svg",
+          "geometry": {
+            "x": 1185,
+            "y": 527,
+            "width": 28.6,
+            "height": 28.6
+          },
+          "name": "빛의 십자",
+          "svg": {
+            "viewBox": {
+              "width": 28.6,
+              "height": 28.6
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 14.3 0 L 14.3 28.6 M 0 14.3 L 28.6 14.3",
+                "fill": "none",
+                "stroke": "#beadff",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "빛의 십자"
+          },
+          "semanticRole": "decorative"
+        },
+        {
+          "id": "first-cover-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#2b2e49",
+          "stroke": {
+            "color": "#2b2e49",
+            "width": 0
+          },
+          "name": "first-cover-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "first-cover-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "01 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "01 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "01 · PRESENT VIVIDLY.",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "cover-sphere-float",
+          "targetId": "cover-sphere",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 10500,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 4,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 0.5,
+              "x": 8,
+              "y": -13,
+              "scale": 1.025,
+              "rotate": 3,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "cover-orbit-front-float",
+          "targetId": "cover-orbit-front",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 12500,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 4,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 0.5,
+              "x": 8,
+              "y": -9,
+              "scale": 1.025,
+              "rotate": 3,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "first-cover-title-entrance",
+          "targetId": "first-cover-title",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 1100,
+          "delay": 90,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "cover-subtitle-entrance",
+          "targetId": "cover-subtitle",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 310,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "cover-body-entrance",
+          "targetId": "cover-body",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 430,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "first-cover-next-entrance",
+          "targetId": "first-cover-next",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 560,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        }
+      ],
+      "interactions": [
+        {
+          "id": "first-cover-next-go",
+          "sourceId": "first-cover-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-results"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "first-results",
+      "background": "#f0f1eb",
+      "elements": [
+        {
+          "id": "first-results-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "01 / LIVE DATA   —   숫자를 고치면, 표현도 바뀝니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#50576a",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "01 / LIVE DATA   —   숫자를 고치면, 표현도 바뀝니다.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#121623",
+          "stroke": {
+            "color": "#121623",
+            "width": 0
+          },
+          "name": "first-results-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "results-title",
+          "type": "text",
+          "geometry": {
+            "x": 62,
+            "y": 107,
+            "width": 820,
+            "height": 137
+          },
+          "text": {
+            "paragraphs": [
+              "데이터에도",
+              "장면이 필요하니까."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 54,
+              "lineHeight": 1.16,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "데이터에도 장면이 필요하니까.",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "results-chart-card",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 286,
+            "width": 768,
+            "height": 321
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 0
+          },
+          "name": "results-chart-card",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 20,
+            "shadow": {
+              "x": 0,
+              "y": 12,
+              "blur": 38,
+              "spread": 0,
+              "color": "#1b273511"
+            }
+          }
+        },
+        {
+          "id": "results-chart-caption",
+          "type": "text",
+          "geometry": {
+            "x": 90,
+            "y": 307,
+            "width": 420,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "콘텐츠 반응 추이"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "콘텐츠 반응 추이",
+          "semanticRole": "body"
+        },
+        {
+          "id": "results-chart-unit",
+          "type": "text",
+          "geometry": {
+            "x": 580,
+            "y": 310,
+            "width": 230,
+            "height": 23
+          },
+          "text": {
+            "paragraphs": [
+              "DEMO DATA  /  단위: 건"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#6e7481",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "DEMO DATA  /  단위: 건",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-chart",
+          "type": "chart",
+          "geometry": {
+            "x": 90,
+            "y": 352,
+            "width": 710,
+            "height": 224
+          },
+          "name": "월별 반응 차트 · 두 번 눌러 데이터 편집",
+          "chart": {
+            "kind": "bar",
+            "categories": [
+              "1월",
+              "2월",
+              "3월",
+              "4월"
+            ],
+            "series": [
+              {
+                "id": "first-results-series",
+                "name": "콘텐츠 반응",
+                "color": "#7255ee",
+                "values": [
+                  120,
+                  165,
+                  210,
+                  280
+                ]
+              }
+            ],
+            "showLegend": false,
+            "axes": {
+              "direction": "vertical",
+              "minimum": 0,
+              "maximum": 320,
+              "step": 80,
+              "showGrid": true,
+              "showCategoryLabels": true,
+              "categoryTitle": "",
+              "valueTitle": ""
+            },
+            "labels": {
+              "show": true,
+              "decimals": 0,
+              "prefix": "",
+              "suffix": "",
+              "grouping": true
+            },
+            "presentation": {
+              "animated": true,
+              "duration": 1400,
+              "showTooltip": true,
+              "legendPosition": "bottom",
+              "stacked": false,
+              "smooth": false,
+              "fill": false
+            }
+          },
+          "semanticRole": "body"
+        },
+        {
+          "id": "results-kpi-card",
+          "type": "shape",
+          "geometry": {
+            "x": 860,
+            "y": 108,
+            "width": 356,
+            "height": 499
+          },
+          "shape": "rectangle",
+          "fill": "#d8ff68",
+          "stroke": {
+            "color": "#d8ff68",
+            "width": 0
+          },
+          "name": "results-kpi-card",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 24
+          }
+        },
+        {
+          "id": "results-kpi-overline",
+          "type": "text",
+          "geometry": {
+            "x": 887,
+            "y": 139,
+            "width": 300,
+            "height": 23
+          },
+          "text": {
+            "paragraphs": [
+              "THE SIGNAL IS RISING"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#384322",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "THE SIGNAL IS RISING",
+          "semanticRole": "body"
+        },
+        {
+          "id": "results-kpi",
+          "type": "text",
+          "geometry": {
+            "x": 882,
+            "y": 196,
+            "width": 310,
+            "height": 126
+          },
+          "text": {
+            "paragraphs": [
+              "2.3×"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 99,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "2.3×",
+          "semanticRole": "body"
+        },
+        {
+          "id": "results-kpi-caption",
+          "type": "text",
+          "geometry": {
+            "x": 890,
+            "y": 340,
+            "width": 290,
+            "height": 77
+          },
+          "text": {
+            "paragraphs": [
+              "1월 대비 4월",
+              "데모 반응 지표"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 26,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "1월 대비 4월 데모 반응 지표",
+          "semanticRole": "body"
+        },
+        {
+          "id": "results-kpi-rule",
+          "type": "shape",
+          "geometry": {
+            "x": 889,
+            "y": 443,
+            "width": 270,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#7f9750",
+          "stroke": {
+            "color": "#7f9750",
+            "width": 0
+          },
+          "name": "results-kpi-rule",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "results-kpi-fine",
+          "type": "text",
+          "geometry": {
+            "x": 890,
+            "y": 467,
+            "width": 285,
+            "height": 78
+          },
+          "text": {
+            "paragraphs": [
+              "실제 성과가 아닌 예시입니다.",
+              "내 수치와 메시지로 바꾸세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.6,
+              "color": "#46512f",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "실제 성과가 아닌 예시입니다. 내 수치와 메시지로 바꾸세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "results-edit-hint",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 625,
+            "width": 760,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "차트를 두 번 눌러 2월의 165를 190으로 바꾸어 보세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#606776",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "차트를 두 번 눌러 2월의 165를 190으로 바꾸어 보세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-next",
+          "type": "shape",
+          "geometry": {
+            "x": 935,
+            "y": 600,
+            "width": 280,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#121623",
+          "stroke": {
+            "color": "#121623",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "CSS 아트워크 보기  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "CSS 아트워크 보기  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#12162335"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "first-results-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#d8dad4",
+          "stroke": {
+            "color": "#d8dad4",
+            "width": 0
+          },
+          "name": "first-results-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "first-results-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#687080",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "02 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#687080",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "02 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "02 · 데이터가 이야기가 되는 순간",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "results-title-entrance",
+          "targetId": "results-title",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 40,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "results-chart-card-entrance",
+          "targetId": "results-chart-card",
+          "preset": "zoomIn",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 190,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "results-kpi-card-entrance",
+          "targetId": "results-kpi-card",
+          "preset": "slideInRight",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 270,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        }
+      ],
+      "interactions": [
+        {
+          "id": "first-results-next-go",
+          "sourceId": "first-results-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "showcase-design"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "showcase-design",
+      "background": "#090a18",
+      "elements": [
+        {
+          "id": "lab-background",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720
+          },
+          "shape": "rectangle",
+          "fill": "#090a18",
+          "stroke": {
+            "color": "#090a18",
+            "width": 0
+          },
+          "name": "lab-background",
+          "semanticRole": "decorative",
+          "style": {
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#0b0c20"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#19122e"
+                },
+                {
+                  "offset": 1,
+                  "color": "#070b20"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "showcase-design-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "02 / CSS DESIGN LAB   —   한 장 안에, 다른 차원의 깊이"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "02 / CSS DESIGN LAB   —   한 장 안에, 다른 차원의 깊이",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-design-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "showcase-design-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "lab-title",
+          "type": "text",
+          "geometry": {
+            "x": 62,
+            "y": 123,
+            "width": 590,
+            "height": 168
+          },
+          "text": {
+            "paragraphs": [
+              "FLAT IS",
+              "A CHOICE."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 72,
+              "lineHeight": 1.04,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "FLAT IS A CHOICE.",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "lab-korean",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 325,
+            "width": 590,
+            "height": 49
+          },
+          "text": {
+            "paragraphs": [
+              "깊이는 당신이 만듭니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 32,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "깊이는 당신이 만듭니다.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "lab-copy",
+          "type": "text",
+          "geometry": {
+            "x": 68,
+            "y": 399,
+            "width": 595,
+            "height": 112
+          },
+          "text": {
+            "paragraphs": [
+              "그라데이션, 글로우, 반투명 레이어.",
+              "이미지 한 장이 아니라,",
+              "하나씩 선택하고 바꾸는 디자인입니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.5,
+              "color": "#aab2d5",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "그라데이션, 글로우, 반투명 레이어. 이미지 한 장이 아니라, 하나씩 선택하고 바꾸는 디자인입니다.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "lab-tag-0",
+          "type": "shape",
+          "geometry": {
+            "x": 67,
+            "y": 539,
+            "width": 114,
+            "height": 30
+          },
+          "shape": "rectangle",
+          "fill": "#252344",
+          "stroke": {
+            "color": "#252344",
+            "width": 0
+          },
+          "name": "lab-tag-0",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 15
+          }
+        },
+        {
+          "id": "lab-tag-label-0",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 546,
+            "width": 114,
+            "height": 19
+          },
+          "text": {
+            "paragraphs": [
+              "GRADIENT"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 11,
+              "lineHeight": 1.22,
+              "color": "#b9b3ed",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "GRADIENT",
+          "semanticRole": "body"
+        },
+        {
+          "id": "lab-tag-1",
+          "type": "shape",
+          "geometry": {
+            "x": 193,
+            "y": 539,
+            "width": 114,
+            "height": 30
+          },
+          "shape": "rectangle",
+          "fill": "#252344",
+          "stroke": {
+            "color": "#252344",
+            "width": 0
+          },
+          "name": "lab-tag-1",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 15
+          }
+        },
+        {
+          "id": "lab-tag-label-1",
+          "type": "text",
+          "geometry": {
+            "x": 193,
+            "y": 546,
+            "width": 114,
+            "height": 19
+          },
+          "text": {
+            "paragraphs": [
+              "GLOW"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 11,
+              "lineHeight": 1.22,
+              "color": "#b9b3ed",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "GLOW",
+          "semanticRole": "body"
+        },
+        {
+          "id": "lab-tag-2",
+          "type": "shape",
+          "geometry": {
+            "x": 319,
+            "y": 539,
+            "width": 114,
+            "height": 30
+          },
+          "shape": "rectangle",
+          "fill": "#252344",
+          "stroke": {
+            "color": "#252344",
+            "width": 0
+          },
+          "name": "lab-tag-2",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 15
+          }
+        },
+        {
+          "id": "lab-tag-label-2",
+          "type": "text",
+          "geometry": {
+            "x": 319,
+            "y": 546,
+            "width": 114,
+            "height": 19
+          },
+          "text": {
+            "paragraphs": [
+              "GLASS"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 11,
+              "lineHeight": 1.22,
+              "color": "#b9b3ed",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "GLASS",
+          "semanticRole": "body"
+        },
+        {
+          "id": "lab-tag-3",
+          "type": "shape",
+          "geometry": {
+            "x": 445,
+            "y": 539,
+            "width": 114,
+            "height": 30
+          },
+          "shape": "rectangle",
+          "fill": "#252344",
+          "stroke": {
+            "color": "#252344",
+            "width": 0
+          },
+          "name": "lab-tag-3",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 15
+          }
+        },
+        {
+          "id": "lab-tag-label-3",
+          "type": "text",
+          "geometry": {
+            "x": 445,
+            "y": 546,
+            "width": 114,
+            "height": 19
+          },
+          "text": {
+            "paragraphs": [
+              "VECTOR"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 11,
+              "lineHeight": 1.22,
+              "color": "#b9b3ed",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VECTOR",
+          "semanticRole": "body"
+        },
+        {
+          "id": "lab-pink-aura",
+          "type": "shape",
+          "geometry": {
+            "x": 759,
+            "y": 111,
+            "width": 355,
+            "height": 355
+          },
+          "shape": "ellipse",
+          "fill": "#e560ff",
+          "stroke": {
+            "color": "#e560ff",
+            "width": 0
+          },
+          "name": "lab-pink-aura",
+          "semanticRole": "decorative",
+          "style": {
+            "blur": 20,
+            "radius": 177.5,
+            "gradient": {
+              "type": "radial",
+              "angle": 0,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#c95afb88"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#c45afa22"
+                },
+                {
+                  "offset": 1,
+                  "color": "#c45afa00"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "lab-cyan-aura",
+          "type": "shape",
+          "geometry": {
+            "x": 953,
+            "y": 347,
+            "width": 230,
+            "height": 230
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "lab-cyan-aura",
+          "semanticRole": "decorative",
+          "style": {
+            "blur": 14,
+            "radius": 115,
+            "gradient": {
+              "type": "radial",
+              "angle": 0,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#51f4ee77"
+                },
+                {
+                  "offset": 1,
+                  "color": "#51f4ee00"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "lab-orbit-1",
+          "type": "svg",
+          "geometry": {
+            "x": 702,
+            "y": 183,
+            "width": 486,
+            "height": 239
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 486,
+              "height": 239
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 19.44 119.5 C 19.44 -11.950000000000001 466.56 -11.950000000000001 466.56 119.5 C 466.56 250.95000000000002 19.44 250.95000000000002 19.44 119.5 Z",
+                "fill": "none",
+                "stroke": "#625dba",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": -28
+        },
+        {
+          "id": "lab-orbit-2",
+          "type": "svg",
+          "geometry": {
+            "x": 754,
+            "y": 137,
+            "width": 410,
+            "height": 342
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 410,
+              "height": 342
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 16.4 171 C 16.4 -17.1 393.59999999999997 -17.1 393.59999999999997 171 C 393.59999999999997 359.1 16.4 359.1 16.4 171 Z",
+                "fill": "none",
+                "stroke": "#54b6c0",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": 30
+        },
+        {
+          "id": "lab-back-card",
+          "type": "shape",
+          "geometry": {
+            "x": 809,
+            "y": 157,
+            "width": 295,
+            "height": 326
+          },
+          "shape": "rectangle",
+          "fill": "#4a3a80",
+          "stroke": {
+            "color": "#4a3a80",
+            "width": 0
+          },
+          "name": "lab-back-card",
+          "semanticRole": "decorative",
+          "rotation": 12,
+          "style": {
+            "radius": 26,
+            "gradient": {
+              "type": "linear",
+              "angle": 143,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#7f69ce"
+                },
+                {
+                  "offset": 1,
+                  "color": "#343259"
+                }
+              ]
+            },
+            "shadow": {
+              "x": 0,
+              "y": 22,
+              "blur": 45,
+              "spread": 0,
+              "color": "#00000070"
+            }
+          }
+        },
+        {
+          "id": "lab-glass-card",
+          "type": "shape",
+          "geometry": {
+            "x": 750,
+            "y": 243,
+            "width": 360,
+            "height": 265
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff12",
+          "stroke": {
+            "color": "#e0d9ff66",
+            "width": 1.4
+          },
+          "name": "lab-glass-card",
+          "semanticRole": "decorative",
+          "rotation": -7,
+          "style": {
+            "backdropBlur": 18,
+            "radius": 26,
+            "shadow": {
+              "x": 0,
+              "y": 20,
+              "blur": 50,
+              "spread": 0,
+              "color": "#03041550"
+            }
+          }
+        },
+        {
+          "id": "lab-art-number",
+          "type": "text",
+          "geometry": {
+            "x": 785,
+            "y": 279,
+            "width": 260,
+            "height": 130
+          },
+          "text": {
+            "paragraphs": [
+              "Aa"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 104,
+              "lineHeight": 1.22,
+              "color": "#eee8ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "Aa",
+          "semanticRole": "body",
+          "rotation": -7
+        },
+        {
+          "id": "lab-chip",
+          "type": "shape",
+          "geometry": {
+            "x": 960,
+            "y": 439,
+            "width": 217,
+            "height": 69
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "lab-chip",
+          "semanticRole": "decorative",
+          "rotation": 7,
+          "style": {
+            "radius": 17,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 34,
+              "spread": 0,
+              "color": "#51f4ee30"
+            }
+          }
+        },
+        {
+          "id": "lab-chip-label",
+          "type": "text",
+          "geometry": {
+            "x": 977,
+            "y": 462,
+            "width": 180,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "100% EDITABLE"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 15,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "100% EDITABLE",
+          "semanticRole": "body",
+          "rotation": 7
+        },
+        {
+          "id": "lab-plus-a",
+          "type": "svg",
+          "geometry": {
+            "x": 1170,
+            "y": 151,
+            "width": 30.799999999999997,
+            "height": 30.799999999999997
+          },
+          "name": "빛의 십자",
+          "svg": {
+            "viewBox": {
+              "width": 30.799999999999997,
+              "height": 30.799999999999997
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 15.399999999999999 0 L 15.399999999999999 30.799999999999997 M 0 15.399999999999999 L 30.799999999999997 15.399999999999999",
+                "fill": "none",
+                "stroke": "#51f4ee",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "빛의 십자"
+          },
+          "semanticRole": "decorative"
+        },
+        {
+          "id": "lab-plus-b",
+          "type": "svg",
+          "geometry": {
+            "x": 735,
+            "y": 539,
+            "width": 15.399999999999999,
+            "height": 15.399999999999999
+          },
+          "name": "빛의 십자",
+          "svg": {
+            "viewBox": {
+              "width": 15.399999999999999,
+              "height": 15.399999999999999
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 7.699999999999999 0 L 7.699999999999999 15.399999999999999 M 0 7.699999999999999 L 15.399999999999999 7.699999999999999",
+                "fill": "none",
+                "stroke": "#a287ff",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "빛의 십자"
+          },
+          "semanticRole": "decorative"
+        },
+        {
+          "id": "lab-dot",
+          "type": "shape",
+          "geometry": {
+            "x": 1157,
+            "y": 351,
+            "width": 14,
+            "height": 14
+          },
+          "shape": "ellipse",
+          "fill": "#d8ff68",
+          "stroke": {
+            "color": "#d8ff68",
+            "width": 0
+          },
+          "name": "lab-dot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 7
+          }
+        },
+        {
+          "id": "lab-next",
+          "type": "shape",
+          "geometry": {
+            "x": 68,
+            "y": 595,
+            "width": 270,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#8060ff",
+          "stroke": {
+            "color": "#8060ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "클릭하는 이야기  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "클릭하는 이야기  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#8060ff35"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "showcase-design-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#2b2e49",
+          "stroke": {
+            "color": "#2b2e49",
+            "width": 0
+          },
+          "name": "showcase-design-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "showcase-design-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-design-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "03 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "03 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "03 · CSS DESIGN LAB",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "lab-title-entrance",
+          "targetId": "lab-title",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 50,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "lab-back-card-entrance",
+          "targetId": "lab-back-card",
+          "preset": "slideInRight",
+          "start": "withPrevious",
+          "duration": 1100,
+          "delay": 50,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "lab-glass-card-float",
+          "targetId": "lab-glass-card",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 11000,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 4,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 0.5,
+              "x": 8,
+              "y": -10,
+              "scale": 1.025,
+              "rotate": 3,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "lab-chip-float",
+          "targetId": "lab-chip",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 9000,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 4,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 0.5,
+              "x": 8,
+              "y": -8,
+              "scale": 1.025,
+              "rotate": 3,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        }
+      ],
+      "interactions": [
+        {
+          "id": "lab-next-go",
+          "sourceId": "lab-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "showcase-choice"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "showcase-choice",
+      "background": "#090a18",
+      "elements": [
+        {
+          "id": "showcase-choice-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "03 / CHOOSE YOUR SIGNAL   —   발표도, 대화처럼"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "03 / CHOOSE YOUR SIGNAL   —   발표도, 대화처럼",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-choice-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "showcase-choice-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "choice-title",
+          "type": "text",
+          "geometry": {
+            "x": 62,
+            "y": 114,
+            "width": 1000,
+            "height": 139
+          },
+          "text": {
+            "paragraphs": [
+              "보여주는 데서,",
+              "함께 고르는 경험으로."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 52,
+              "lineHeight": 1.18,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "보여주는 데서, 함께 고르는 경험으로.",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "choice-intro",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 281,
+            "width": 1050,
+            "height": 36
+          },
+          "text": {
+            "paragraphs": [
+              "아래 버튼을 눌러 보세요. 같은 장면에서 메시지가 달라집니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.22,
+              "color": "#a2aacb",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "아래 버튼을 눌러 보세요. 같은 장면에서 메시지가 달라집니다.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "choice-surface",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 351,
+            "width": 1152,
+            "height": 224
+          },
+          "shape": "rectangle",
+          "fill": "#171b35",
+          "stroke": {
+            "color": "#171b35",
+            "width": 0
+          },
+          "name": "choice-surface",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 24,
+            "gradient": {
+              "type": "linear",
+              "angle": 125,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#1e2043"
+                },
+                {
+                  "offset": 1,
+                  "color": "#121b2c"
+                }
+              ]
+            },
+            "shadow": {
+              "x": 0,
+              "y": 16,
+              "blur": 45,
+              "spread": 0,
+              "color": "#00000033"
+            }
+          }
+        },
+        {
+          "id": "choice-clarity",
+          "type": "shape",
+          "geometry": {
+            "x": 91,
+            "y": 383,
+            "width": 166,
+            "height": 56
+          },
+          "shape": "rectangle",
+          "fill": "#282a47",
+          "stroke": {
+            "color": "#282a47",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "선명하게"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "선명하게",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#282a4735"
+            }
+          },
+          "component": {
+            "kind": "button"
+          },
+          "states": [
+            {
+              "id": "choice-clarity-active",
+              "name": "선택됨",
+              "style": {
+                "fill": "#51f4ee",
+                "color": "#121623",
+                "shadow": {
+                  "x": 0,
+                  "y": 0,
+                  "blur": 24,
+                  "color": "#51f4ee65"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "choice-energy",
+          "type": "shape",
+          "geometry": {
+            "x": 271,
+            "y": 383,
+            "width": 166,
+            "height": 56
+          },
+          "shape": "rectangle",
+          "fill": "#282a47",
+          "stroke": {
+            "color": "#282a47",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "대담하게"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "대담하게",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#282a4735"
+            }
+          },
+          "component": {
+            "kind": "button"
+          },
+          "states": [
+            {
+              "id": "choice-energy-active",
+              "name": "선택됨",
+              "style": {
+                "fill": "#8060ff",
+                "color": "#121623",
+                "shadow": {
+                  "x": 0,
+                  "y": 0,
+                  "blur": 24,
+                  "color": "#8060ff65"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "choice-warmth",
+          "type": "shape",
+          "geometry": {
+            "x": 451,
+            "y": 383,
+            "width": 166,
+            "height": 56
+          },
+          "shape": "rectangle",
+          "fill": "#282a47",
+          "stroke": {
+            "color": "#282a47",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "따뜻하게"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "따뜻하게",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#282a4735"
+            }
+          },
+          "component": {
+            "kind": "button"
+          },
+          "states": [
+            {
+              "id": "choice-warmth-active",
+              "name": "선택됨",
+              "style": {
+                "fill": "#d8ff68",
+                "color": "#121623",
+                "shadow": {
+                  "x": 0,
+                  "y": 0,
+                  "blur": 24,
+                  "color": "#d8ff6865"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "choice-selection",
+          "type": "text",
+          "geometry": {
+            "x": 94,
+            "y": 468,
+            "width": 590,
+            "height": 45
+          },
+          "text": {
+            "paragraphs": [
+              "CLEAR / 선명한 한 문장"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "CLEAR / 선명한 한 문장",
+          "semanticRole": "body",
+          "binding": {
+            "variableId": "showcase-tone",
+            "values": [
+              {
+                "value": "clarity",
+                "text": "CLEAR / 선명한 한 문장"
+              },
+              {
+                "value": "energy",
+                "text": "BOLD / 강렬한 첫인상"
+              },
+              {
+                "value": "warmth",
+                "text": "HUMAN / 공감하는 이야기"
+              }
+            ],
+            "format": "text"
+          }
+        },
+        {
+          "id": "choice-detail",
+          "type": "text",
+          "geometry": {
+            "x": 95,
+            "y": 524,
+            "width": 790,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "복잡한 생각을 정리해, 핵심에 시선을 모읍니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#a2aacb",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "복잡한 생각을 정리해, 핵심에 시선을 모읍니다.",
+          "semanticRole": "body",
+          "binding": {
+            "variableId": "showcase-tone",
+            "values": [
+              {
+                "value": "clarity",
+                "text": "복잡한 생각을 정리해, 핵심에 시선을 모읍니다."
+              },
+              {
+                "value": "energy",
+                "text": "큰 타이포와 과감한 색으로, 메시지의 에너지를 전합니다."
+              },
+              {
+                "value": "warmth",
+                "text": "익숙한 말과 부드러운 흐름으로, 사람의 마음을 움직입니다."
+              }
+            ],
+            "format": "text"
+          }
+        },
+        {
+          "id": "choice-art-orb",
+          "type": "shape",
+          "geometry": {
+            "x": 972,
+            "y": 373,
+            "width": 127,
+            "height": 127
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "choice-art-orb",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 63.5,
+            "gradient": {
+              "type": "linear",
+              "angle": 145,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#e4ffad"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#51f4ee"
+                },
+                {
+                  "offset": 1,
+                  "color": "#6958ec"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "choice-art-ring",
+          "type": "svg",
+          "geometry": {
+            "x": 926,
+            "y": 388,
+            "width": 220,
+            "height": 97
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 220,
+              "height": 97
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 8.8 48.5 C 8.8 -4.8500000000000005 211.2 -4.8500000000000005 211.2 48.5 C 211.2 101.85000000000001 8.8 101.85000000000001 8.8 48.5 Z",
+                "fill": "none",
+                "stroke": "#a4a0eb",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": -24
+        },
+        {
+          "id": "choice-next",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 595,
+            "width": 335,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "반응하는 장면 직접 체험  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "반응하는 장면 직접 체험  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#51f4ee35"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "showcase-choice-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#2b2e49",
+          "stroke": {
+            "color": "#2b2e49",
+            "width": 0
+          },
+          "name": "showcase-choice-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "showcase-choice-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-choice-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "04 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "04 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "04 · 선택에 반응하는 이야기",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "choice-art-orb-float",
+          "targetId": "choice-art-orb",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 8500,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 4,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 0.5,
+              "x": 8,
+              "y": -8,
+              "scale": 1.025,
+              "rotate": 3,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "choice-title-entrance",
+          "targetId": "choice-title",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 60,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "choice-surface-entrance",
+          "targetId": "choice-surface",
+          "preset": "zoomIn",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 180,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        }
+      ],
+      "interactions": [
+        {
+          "id": "choice-clarity-select",
+          "sourceId": "choice-clarity",
+          "event": "click",
+          "actions": [
+            {
+              "type": "setVariable",
+              "variableId": "showcase-tone",
+              "value": "clarity"
+            },
+            {
+              "type": "setState",
+              "targetId": "choice-clarity",
+              "stateId": "choice-clarity-active"
+            },
+            {
+              "type": "resetState",
+              "targetId": "choice-energy"
+            },
+            {
+              "type": "resetState",
+              "targetId": "choice-warmth"
+            }
+          ]
+        },
+        {
+          "id": "choice-energy-select",
+          "sourceId": "choice-energy",
+          "event": "click",
+          "actions": [
+            {
+              "type": "setVariable",
+              "variableId": "showcase-tone",
+              "value": "energy"
+            },
+            {
+              "type": "resetState",
+              "targetId": "choice-clarity"
+            },
+            {
+              "type": "setState",
+              "targetId": "choice-energy",
+              "stateId": "choice-energy-active"
+            },
+            {
+              "type": "resetState",
+              "targetId": "choice-warmth"
+            }
+          ]
+        },
+        {
+          "id": "choice-warmth-select",
+          "sourceId": "choice-warmth",
+          "event": "click",
+          "actions": [
+            {
+              "type": "setVariable",
+              "variableId": "showcase-tone",
+              "value": "warmth"
+            },
+            {
+              "type": "resetState",
+              "targetId": "choice-clarity"
+            },
+            {
+              "type": "resetState",
+              "targetId": "choice-energy"
+            },
+            {
+              "type": "setState",
+              "targetId": "choice-warmth",
+              "stateId": "choice-warmth-active"
+            }
+          ]
+        },
+        {
+          "id": "choice-next-go",
+          "sourceId": "choice-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "showcase-play"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "showcase-play",
+      "background": "#0a1520",
+      "elements": [
+        {
+          "id": "play-background",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720
+          },
+          "shape": "rectangle",
+          "fill": "#0a1520",
+          "stroke": {
+            "color": "#0a1520",
+            "width": 0
+          },
+          "name": "play-background",
+          "semanticRole": "decorative",
+          "style": {
+            "gradient": {
+              "type": "linear",
+              "angle": 100,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#07151d"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#122737"
+                },
+                {
+                  "offset": 1,
+                  "color": "#08151f"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "showcase-play-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "04 / PLAY THE IDEA   —   스크린 위의 관객을, 참여자로"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "04 / PLAY THE IDEA   —   스크린 위의 관객을, 참여자로",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-play-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "showcase-play-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "play-title",
+          "type": "text",
+          "geometry": {
+            "x": 62,
+            "y": 106,
+            "width": 1150,
+            "height": 99
+          },
+          "text": {
+            "paragraphs": [
+              "PLAY THE IDEA."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 78,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "PLAY THE IDEA.",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "play-caption",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 229,
+            "width": 1100,
+            "height": 35
+          },
+          "text": {
+            "paragraphs": [
+              "단계 버튼 또는 숫자 키 1 · 2 · 3을 눌러 신호를 이동하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.22,
+              "color": "#a9c6cd",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "단계 버튼 또는 숫자 키 1 · 2 · 3을 눌러 신호를 이동하세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "play-track",
+          "type": "shape",
+          "geometry": {
+            "x": 122,
+            "y": 363,
+            "width": 992,
+            "height": 3
+          },
+          "shape": "rectangle",
+          "fill": "#31555d",
+          "stroke": {
+            "color": "#31555d",
+            "width": 0
+          },
+          "name": "play-track",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "play-node-0",
+          "type": "shape",
+          "geometry": {
+            "x": 183,
+            "y": 344,
+            "width": 43,
+            "height": 43
+          },
+          "shape": "ellipse",
+          "fill": "#0c1d28",
+          "stroke": {
+            "color": "#4e6d76",
+            "width": 2
+          },
+          "name": "play-node-0",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 21.5
+          }
+        },
+        {
+          "id": "play-node-caption-0",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 418,
+            "width": 242,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "01 / IDEA"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#89a8b4",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "01 / IDEA",
+          "semanticRole": "body"
+        },
+        {
+          "id": "play-node-1",
+          "type": "shape",
+          "geometry": {
+            "x": 584,
+            "y": 344,
+            "width": 43,
+            "height": 43
+          },
+          "shape": "ellipse",
+          "fill": "#0c1d28",
+          "stroke": {
+            "color": "#4e6d76",
+            "width": 2
+          },
+          "name": "play-node-1",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 21.5
+          }
+        },
+        {
+          "id": "play-node-caption-1",
+          "type": "text",
+          "geometry": {
+            "x": 485,
+            "y": 418,
+            "width": 242,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "02 / DESIGN"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#89a8b4",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "02 / DESIGN",
+          "semanticRole": "body"
+        },
+        {
+          "id": "play-node-2",
+          "type": "shape",
+          "geometry": {
+            "x": 985,
+            "y": 344,
+            "width": 43,
+            "height": 43
+          },
+          "shape": "ellipse",
+          "fill": "#0c1d28",
+          "stroke": {
+            "color": "#4e6d76",
+            "width": 2
+          },
+          "name": "play-node-2",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 21.5
+          }
+        },
+        {
+          "id": "play-node-caption-2",
+          "type": "text",
+          "geometry": {
+            "x": 886,
+            "y": 418,
+            "width": 242,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "03 / EXPERIENCE"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#89a8b4",
+              "align": "center",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "03 / EXPERIENCE",
+          "semanticRole": "body"
+        },
+        {
+          "id": "play-signal",
+          "type": "shape",
+          "geometry": {
+            "x": 183,
+            "y": 344,
+            "width": 43,
+            "height": 43
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "반응하는 신호 · 상태의 위치를 직접 수정",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 21.5,
+            "shadow": {
+              "x": 0,
+              "y": 0,
+              "blur": 40,
+              "spread": 5,
+              "color": "#51f4ee80"
+            }
+          },
+          "states": [
+            {
+              "id": "signal-state-idea",
+              "name": "아이디어",
+              "style": {
+                "fill": "#51f4ee",
+                "scale": 1,
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "id": "signal-state-design",
+              "name": "디자인",
+              "style": {
+                "fill": "#8060ff",
+                "scale": 1.3,
+                "x": 401,
+                "y": 0
+              }
+            },
+            {
+              "id": "signal-state-experience",
+              "name": "경험",
+              "style": {
+                "fill": "#d8ff68",
+                "scale": 1.5,
+                "x": 802,
+                "y": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "play-status",
+          "type": "text",
+          "geometry": {
+            "x": 66,
+            "y": 475,
+            "width": 1000,
+            "height": 49
+          },
+          "text": {
+            "paragraphs": [
+              "아이디어가 빛나는 순간."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 34,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "아이디어가 빛나는 순간.",
+          "semanticRole": "body",
+          "binding": {
+            "variableId": "showcase-phase",
+            "values": [
+              {
+                "value": "idea",
+                "text": "아이디어가 빛나는 순간."
+              },
+              {
+                "value": "design",
+                "text": "생각에 색과 움직임을 더합니다."
+              },
+              {
+                "value": "experience",
+                "text": "이제, 보는 사람이 이야기에 참여합니다."
+              }
+            ],
+            "format": "text"
+          }
+        },
+        {
+          "id": "play-step-1",
+          "type": "shape",
+          "geometry": {
+            "x": 67,
+            "y": 550,
+            "width": 145,
+            "height": 51
+          },
+          "shape": "rectangle",
+          "fill": "#163340",
+          "stroke": {
+            "color": "#163340",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "1  아이디어"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "1  아이디어",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#16334035"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "play-step-2",
+          "type": "shape",
+          "geometry": {
+            "x": 228,
+            "y": 550,
+            "width": 145,
+            "height": 51
+          },
+          "shape": "rectangle",
+          "fill": "#163340",
+          "stroke": {
+            "color": "#163340",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "2  디자인"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "2  디자인",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#16334035"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "play-step-3",
+          "type": "shape",
+          "geometry": {
+            "x": 389,
+            "y": 550,
+            "width": 145,
+            "height": 51
+          },
+          "shape": "rectangle",
+          "fill": "#163340",
+          "stroke": {
+            "color": "#163340",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "3  경험"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "3  경험",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#16334035"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "play-next",
+          "type": "shape",
+          "geometry": {
+            "x": 922,
+            "y": 594,
+            "width": 294,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#d8ff68",
+          "stroke": {
+            "color": "#d8ff68",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "장면을 설계하는 방법  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "장면을 설계하는 방법  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#d8ff6835"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "showcase-play-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#2b2e49",
+          "stroke": {
+            "color": "#2b2e49",
+            "width": 0
+          },
+          "name": "showcase-play-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "showcase-play-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-play-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "05 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "05 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "05 · PLAY THE IDEA",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "play-title-entrance",
+          "targetId": "play-title",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 30,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "play-track-entrance",
+          "targetId": "play-track",
+          "preset": "fadeIn",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 180,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "play-caption-entrance",
+          "targetId": "play-caption",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 160,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "play-signal-entrance",
+          "targetId": "play-signal",
+          "preset": "zoomIn",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 380,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        }
+      ],
+      "interactions": [
+        {
+          "id": "play-step-1-click",
+          "sourceId": "play-step-1",
+          "event": "click",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "play-signal",
+              "stateId": "signal-state-idea"
+            },
+            {
+              "type": "setVariable",
+              "variableId": "showcase-phase",
+              "value": "idea"
+            }
+          ]
+        },
+        {
+          "id": "play-step-1-key",
+          "sourceId": "play-step-1",
+          "event": "key",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "play-signal",
+              "stateId": "signal-state-idea"
+            },
+            {
+              "type": "setVariable",
+              "variableId": "showcase-phase",
+              "value": "idea"
+            }
+          ],
+          "trigger": {
+            "key": "1",
+            "once": false
+          }
+        },
+        {
+          "id": "play-step-2-click",
+          "sourceId": "play-step-2",
+          "event": "click",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "play-signal",
+              "stateId": "signal-state-design"
+            },
+            {
+              "type": "setVariable",
+              "variableId": "showcase-phase",
+              "value": "design"
+            }
+          ]
+        },
+        {
+          "id": "play-step-2-key",
+          "sourceId": "play-step-2",
+          "event": "key",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "play-signal",
+              "stateId": "signal-state-design"
+            },
+            {
+              "type": "setVariable",
+              "variableId": "showcase-phase",
+              "value": "design"
+            }
+          ],
+          "trigger": {
+            "key": "2",
+            "once": false
+          }
+        },
+        {
+          "id": "play-step-3-click",
+          "sourceId": "play-step-3",
+          "event": "click",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "play-signal",
+              "stateId": "signal-state-experience"
+            },
+            {
+              "type": "setVariable",
+              "variableId": "showcase-phase",
+              "value": "experience"
+            }
+          ]
+        },
+        {
+          "id": "play-step-3-key",
+          "sourceId": "play-step-3",
+          "event": "key",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "play-signal",
+              "stateId": "signal-state-experience"
+            },
+            {
+              "type": "setVariable",
+              "variableId": "showcase-phase",
+              "value": "experience"
+            }
+          ],
+          "trigger": {
+            "key": "3",
+            "once": false
+          }
+        },
+        {
+          "id": "play-next-go",
+          "sourceId": "play-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "showcase-story"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "showcase-story",
+      "background": "#f0f1eb",
+      "elements": [
+        {
+          "id": "showcase-story-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "05 / DESIGN THE STORY   —   예쁘게, 그리고 명확하게"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#50576a",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "05 / DESIGN THE STORY   —   예쁘게, 그리고 명확하게",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-story-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#121623",
+          "stroke": {
+            "color": "#121623",
+            "width": 0
+          },
+          "name": "showcase-story-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "story-lime-surface",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 97,
+            "width": 510,
+            "height": 555
+          },
+          "shape": "rectangle",
+          "fill": "#d8ff68",
+          "stroke": {
+            "color": "#d8ff68",
+            "width": 0
+          },
+          "name": "story-lime-surface",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "story-left-title",
+          "type": "text",
+          "geometry": {
+            "x": 61,
+            "y": 144,
+            "width": 430,
+            "height": 259
+          },
+          "text": {
+            "paragraphs": [
+              "BE BOLD.",
+              "STAY",
+              "CLEAR."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 76,
+              "lineHeight": 1.02,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "BE BOLD. STAY CLEAR.",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "story-left-copy",
+          "type": "text",
+          "geometry": {
+            "x": 65,
+            "y": 460,
+            "width": 400,
+            "height": 100
+          },
+          "text": {
+            "paragraphs": [
+              "화려함은 시선을 붙잡고,",
+              "명확함은 메시지를 남깁니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 24,
+              "lineHeight": 1.5,
+              "color": "#394a20",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "화려함은 시선을 붙잡고, 명확함은 메시지를 남깁니다.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-index-0",
+          "type": "text",
+          "geometry": {
+            "x": 556,
+            "y": 143,
+            "width": 54,
+            "height": 48
+          },
+          "text": {
+            "paragraphs": [
+              "01"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 35,
+              "lineHeight": 1.22,
+              "color": "#7360bf",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "01",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-head-0",
+          "type": "text",
+          "geometry": {
+            "x": 625,
+            "y": 144,
+            "width": 575,
+            "height": 47
+          },
+          "text": {
+            "paragraphs": [
+              "한 장, 하나의 메시지."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 29,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "한 장, 하나의 메시지.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-body-0",
+          "type": "text",
+          "geometry": {
+            "x": 626,
+            "y": 207,
+            "width": 565,
+            "height": 56
+          },
+          "text": {
+            "paragraphs": [
+              "큰 제목과 여백으로 핵심에 먼저 시선을 모으세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.5,
+              "color": "#656b76",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "큰 제목과 여백으로 핵심에 먼저 시선을 모으세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-rule-0",
+          "type": "shape",
+          "geometry": {
+            "x": 558,
+            "y": 275,
+            "width": 658,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#d9dcd4",
+          "stroke": {
+            "color": "#d9dcd4",
+            "width": 0
+          },
+          "name": "story-rule-0",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "story-index-1",
+          "type": "text",
+          "geometry": {
+            "x": 556,
+            "y": 298,
+            "width": 54,
+            "height": 48
+          },
+          "text": {
+            "paragraphs": [
+              "02"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 35,
+              "lineHeight": 1.22,
+              "color": "#7360bf",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "02",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-head-1",
+          "type": "text",
+          "geometry": {
+            "x": 625,
+            "y": 299,
+            "width": 575,
+            "height": 47
+          },
+          "text": {
+            "paragraphs": [
+              "움직임에는 이유를."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 29,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "움직임에는 이유를.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-body-1",
+          "type": "text",
+          "geometry": {
+            "x": 626,
+            "y": 362,
+            "width": 565,
+            "height": 56
+          },
+          "text": {
+            "paragraphs": [
+              "중요한 순서와 관계를 모션으로 설명하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.5,
+              "color": "#656b76",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "중요한 순서와 관계를 모션으로 설명하세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-rule-1",
+          "type": "shape",
+          "geometry": {
+            "x": 558,
+            "y": 430,
+            "width": 658,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#d9dcd4",
+          "stroke": {
+            "color": "#d9dcd4",
+            "width": 0
+          },
+          "name": "story-rule-1",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "story-index-2",
+          "type": "text",
+          "geometry": {
+            "x": 556,
+            "y": 453,
+            "width": 54,
+            "height": 48
+          },
+          "text": {
+            "paragraphs": [
+              "03"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 35,
+              "lineHeight": 1.22,
+              "color": "#7360bf",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "03",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-head-2",
+          "type": "text",
+          "geometry": {
+            "x": 625,
+            "y": 454,
+            "width": 575,
+            "height": 47
+          },
+          "text": {
+            "paragraphs": [
+              "관객에게 선택권을."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 29,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "관객에게 선택권을.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-body-2",
+          "type": "text",
+          "geometry": {
+            "x": 626,
+            "y": 517,
+            "width": 565,
+            "height": 56
+          },
+          "text": {
+            "paragraphs": [
+              "클릭·질문·갈림길을 통해 자기 이야기를 찾게 하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.5,
+              "color": "#656b76",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "클릭·질문·갈림길을 통해 자기 이야기를 찾게 하세요.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "story-next",
+          "type": "shape",
+          "geometry": {
+            "x": 910,
+            "y": 599,
+            "width": 306,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#121623",
+          "stroke": {
+            "color": "#121623",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "내 이야기로 바꿔보기  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "내 이야기로 바꿔보기  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#12162335"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "showcase-story-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#d8dad4",
+          "stroke": {
+            "color": "#d8dad4",
+            "width": 0
+          },
+          "name": "showcase-story-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "showcase-story-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#687080",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "showcase-story-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "06 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#687080",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "06 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "06 · DESIGN THE STORY",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "story-head-0-entrance",
+          "targetId": "story-head-0",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 200,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "story-body-0-entrance",
+          "targetId": "story-body-0",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 310,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "story-head-1-entrance",
+          "targetId": "story-head-1",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 370,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "story-body-1-entrance",
+          "targetId": "story-body-1",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 480,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "story-head-2-entrance",
+          "targetId": "story-head-2",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 540,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "story-body-2-entrance",
+          "targetId": "story-body-2",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 650,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "story-left-title-entrance",
+          "targetId": "story-left-title",
+          "preset": "slideInLeft",
+          "start": "withPrevious",
+          "duration": 1000,
+          "delay": 40,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        }
+      ],
+      "interactions": [
+        {
+          "id": "story-next-go",
+          "sourceId": "story-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-actions"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "first-actions",
+      "background": "#090a18",
+      "elements": [
+        {
+          "id": "actions-background",
+          "type": "shape",
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720
+          },
+          "shape": "rectangle",
+          "fill": "#090a18",
+          "stroke": {
+            "color": "#090a18",
+            "width": 0
+          },
+          "name": "actions-background",
+          "semanticRole": "decorative",
+          "style": {
+            "gradient": {
+              "type": "linear",
+              "angle": 125,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#131435"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#321c65"
+                },
+                {
+                  "offset": 1,
+                  "color": "#080e27"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "actions-glow",
+          "type": "shape",
+          "geometry": {
+            "x": 822,
+            "y": 38,
+            "width": 498,
+            "height": 498
+          },
+          "shape": "ellipse",
+          "fill": "#8060ff",
+          "stroke": {
+            "color": "#8060ff",
+            "width": 0
+          },
+          "name": "actions-glow",
+          "semanticRole": "decorative",
+          "style": {
+            "blur": 16,
+            "radius": 249,
+            "gradient": {
+              "type": "radial",
+              "angle": 0,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#ae68ff77"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#8551f311"
+                },
+                {
+                  "offset": 1,
+                  "color": "#624ee900"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "actions-orbit-one",
+          "type": "svg",
+          "geometry": {
+            "x": 711,
+            "y": 191,
+            "width": 600,
+            "height": 223
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 600,
+              "height": 223
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 24 111.5 C 24 -11.15 576 -11.15 576 111.5 C 576 234.15 24 234.15 24 111.5 Z",
+                "fill": "none",
+                "stroke": "#b29de3",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": -24
+        },
+        {
+          "id": "actions-orbit-two",
+          "type": "svg",
+          "geometry": {
+            "x": 750,
+            "y": 69,
+            "width": 455,
+            "height": 456
+          },
+          "name": "편집 가능한 궤도",
+          "svg": {
+            "viewBox": {
+              "width": 455,
+              "height": 456
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 18.2 228 C 18.2 -22.8 436.8 -22.8 436.8 228 C 436.8 478.8 18.2 478.8 18.2 228 Z",
+                "fill": "none",
+                "stroke": "#4ee5df",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "편집 가능한 궤도"
+          },
+          "semanticRole": "decorative",
+          "rotation": 25
+        },
+        {
+          "id": "actions-sun",
+          "type": "shape",
+          "geometry": {
+            "x": 897,
+            "y": 180,
+            "width": 237,
+            "height": 237
+          },
+          "shape": "ellipse",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "actions-sun",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 118.5,
+            "gradient": {
+              "type": "linear",
+              "angle": 130,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#ddff99"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#60f4df"
+                },
+                {
+                  "offset": 1,
+                  "color": "#6c55f4"
+                }
+              ]
+            },
+            "shadow": {
+              "x": 0,
+              "y": 0,
+              "blur": 70,
+              "spread": 1,
+              "color": "#5bf0df45"
+            }
+          }
+        },
+        {
+          "id": "first-actions-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 43,
+            "width": 1000,
+            "height": 25
+          },
+          "text": {
+            "paragraphs": [
+              "06 / YOUR NEXT STORY   —   이제, 당신의 차례입니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "06 / YOUR NEXT STORY   —   이제, 당신의 차례입니다.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-topdot",
+          "type": "shape",
+          "geometry": {
+            "x": 1204,
+            "y": 48,
+            "width": 10,
+            "height": 10
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "name": "first-actions-topdot",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 5
+          }
+        },
+        {
+          "id": "first-actions-title",
+          "type": "text",
+          "geometry": {
+            "x": 62,
+            "y": 135,
+            "width": 785,
+            "height": 196
+          },
+          "text": {
+            "paragraphs": [
+              "MAKE IT",
+              "YOURS."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 91,
+              "lineHeight": 1.02,
+              "color": "#f5f6ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "MAKE IT YOURS.",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "actions-subtitle",
+          "type": "text",
+          "geometry": {
+            "x": 67,
+            "y": 374,
+            "width": 860,
+            "height": 52
+          },
+          "text": {
+            "paragraphs": [
+              "이 예제를, 당신의 이야기로."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 34,
+              "lineHeight": 1.22,
+              "color": "#51f4ee",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "이 예제를, 당신의 이야기로.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "actions-copy",
+          "type": "text",
+          "geometry": {
+            "x": 68,
+            "y": 449,
+            "width": 900,
+            "height": 80
+          },
+          "text": {
+            "paragraphs": [
+              "편집 화면에서 제목을 두 번 누르세요.",
+              "도형 · 차트 · 색 · 모션 · 클릭 동작까지, 모두 내 손으로."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.5,
+              "color": "#b9b8d9",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "편집 화면에서 제목을 두 번 누르세요. 도형 · 차트 · 색 · 모션 · 클릭 동작까지, 모두 내 손으로.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-back",
+          "type": "shape",
+          "geometry": {
+            "x": 68,
+            "y": 582,
+            "width": 320,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#51f4ee",
+          "stroke": {
+            "color": "#51f4ee",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "처음부터 다시 경험하기  ↗"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#121623",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "처음부터 다시 경험하기  ↗",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#51f4ee35"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "actions-chart-jump",
+          "type": "shape",
+          "geometry": {
+            "x": 412,
+            "y": 582,
+            "width": 230,
+            "height": 54
+          },
+          "shape": "rectangle",
+          "fill": "#3d326b",
+          "stroke": {
+            "color": "#3d326b",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "차트 장면으로  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#f5f6ff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "차트 장면으로  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 12,
+            "shadow": {
+              "x": 0,
+              "y": 10,
+              "blur": 26,
+              "spread": 0,
+              "color": "#3d326b35"
+            }
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "actions-credit",
+          "type": "text",
+          "geometry": {
+            "x": 760,
+            "y": 608,
+            "width": 455,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "Borvis Studio · 기획·제작: 보들이"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#adacd1",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "Borvis Studio · 기획·제작: 보들이",
+          "semanticRole": "body"
+        },
+        {
+          "id": "actions-orbit-caption",
+          "type": "text",
+          "geometry": {
+            "x": 863,
+            "y": 473,
+            "width": 340,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "PRESENT VIVIDLY."
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#d5cff0",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "PRESENT VIVIDLY.",
+          "semanticRole": "body"
+        },
+        {
+          "id": "actions-cross",
+          "type": "svg",
+          "geometry": {
+            "x": 1160,
+            "y": 547,
+            "width": 28.6,
+            "height": 28.6
+          },
+          "name": "빛의 십자",
+          "svg": {
+            "viewBox": {
+              "width": 28.6,
+              "height": 28.6
+            },
+            "shapes": [
+              {
+                "kind": "path",
+                "d": "M 14.3 0 L 14.3 28.6 M 0 14.3 L 28.6 14.3",
+                "fill": "none",
+                "stroke": "#51f4ee",
+                "strokeWidth": 1.3
+              }
+            ],
+            "title": "빛의 십자"
+          },
+          "semanticRole": "decorative"
+        },
+        {
+          "id": "first-actions-footer-line",
+          "type": "shape",
+          "geometry": {
+            "x": 64,
+            "y": 666,
+            "width": 1152,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#2b2e49",
+          "stroke": {
+            "color": "#2b2e49",
+            "width": 0
+          },
+          "name": "first-actions-footer-line",
+          "semanticRole": "decorative",
+          "style": {}
+        },
+        {
+          "id": "first-actions-footer-brand",
+          "type": "text",
+          "geometry": {
+            "x": 64,
+            "y": 681,
+            "width": 450,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY  /  BORVIS STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 12,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "VIVIDLY  /  BORVIS STUDIO",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-footer-count",
+          "type": "text",
+          "geometry": {
+            "x": 1112,
+            "y": 680,
+            "width": 104,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "07 — 07"
+            ],
+            "textStyle": {
+              "fontFamily": "Arial",
+              "fontSize": 13,
+              "lineHeight": 1.22,
+              "color": "#7e87ad",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "07 — 07",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "07 · 이제 당신의 이야기",
+      "notes": "Vividly의 수동 편집 기능으로 만든 원본 예제입니다. 모든 글자·도형·벡터·차트는 개별 수정할 수 있습니다. 수치는 가상의 데모 데이터이며 실제 성과를 주장하지 않습니다.",
+      "motions": [
+        {
+          "id": "actions-sun-float",
+          "targetId": "actions-sun",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 12000,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 4,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 0.5,
+              "x": 8,
+              "y": -12,
+              "scale": 1.025,
+              "rotate": 3,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "first-actions-title-entrance",
+          "targetId": "first-actions-title",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 1100,
+          "delay": 70,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "actions-subtitle-entrance",
+          "targetId": "actions-subtitle",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 250,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "actions-copy-entrance",
+          "targetId": "actions-copy",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 420,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        },
+        {
+          "id": "first-actions-back-entrance",
+          "targetId": "first-actions-back",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 550,
+          "easing": "ease-out",
+          "iterations": 1,
+          "at": 0
+        }
+      ],
+      "interactions": [
+        {
+          "id": "first-actions-back-go",
+          "sourceId": "first-actions-back",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-cover"
+            }
+          ]
+        },
+        {
+          "id": "actions-chart-jump-go",
+          "sourceId": "actions-chart-jump",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-results"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 550,
+        "easing": "ease-in-out",
+        "navigation": "sequential"
+      }
+    }
+  ],
+  "assets": [],
+  "theme": {
+    "colors": {
+      "primary": "#8060ff",
+      "secondary": "#51f4ee",
+      "background": "#090a18",
+      "text": "#f5f6ff"
+    },
+    "fontFamily": "Malgun Gothic",
+    "headingFontFamily": "Arial",
+    "spacing": {
+      "xs": 8,
+      "sm": 16,
+      "md": 24,
+      "lg": 40,
+      "xl": 64
+    }
+  },
+  "variables": [
+    {
+      "id": "showcase-tone",
+      "name": "이야기의 톤",
+      "initialValue": "clarity",
+      "options": [
+        {
+          "value": "clarity",
+          "label": "선명하게"
+        },
+        {
+          "value": "energy",
+          "label": "대담하게"
+        },
+        {
+          "value": "warmth",
+          "label": "따뜻하게"
+        }
+      ]
+    },
+    {
+      "id": "showcase-phase",
+      "name": "생각이 경험이 되는 과정",
+      "initialValue": "idea",
+      "options": [
+        {
+          "value": "idea",
+          "label": "아이디어"
+        },
+        {
+          "value": "design",
+          "label": "디자인"
+        },
+        {
+          "value": "experience",
+          "label": "경험"
+        }
+      ]
+    }
+  ]
+}

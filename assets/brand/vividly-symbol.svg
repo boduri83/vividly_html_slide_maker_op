@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Vividly">
+  <defs>
+    <linearGradient id="vividly-tile" x1="92" y1="32" x2="417" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#315bff"/>
+      <stop offset="1" stop-color="#1747df"/>
+    </linearGradient>
+    <linearGradient id="vividly-right" x1="379" y1="112" x2="252" y2="415" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".46" stop-color="#cfd7ff"/>
+      <stop offset="1" stop-color="#8f77ed"/>
+    </linearGradient>
+    <linearGradient id="vividly-edge" x1="424" y1="120" x2="286" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c39aff"/>
+      <stop offset="1" stop-color="#7759e8"/>
+    </linearGradient>
+    <linearGradient id="vividly-left" x1="107" y1="106" x2="283" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".36" stop-color="#edfcff"/>
+      <stop offset=".78" stop-color="#a4edff"/>
+      <stop offset="1" stop-color="#69daff"/>
+    </linearGradient>
+    <linearGradient id="vividly-fold" x1="92" y1="119" x2="240" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4be4ff"/>
+      <stop offset="1" stop-color="#15b9ed"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#vividly-tile)"/>
+  <path d="M353 117 C356 108 362 104 373 104 L425 100 C437 99 441 108 435 121 L301 407 C295 420 285 427 272 427 L231 427 Z" fill="url(#vividly-right)"/>
+  <path d="M425 100 C437 99 441 108 435 121 L301 407 C296 419 285 427 272 427 L258 427 C271 424 278 415 284 402 L418 116 C422 107 424 102 425 100 Z" fill="url(#vividly-edge)"/>
+  <path d="M88 105 C80 105 77 112 82 124 L207 404 C214 420 225 427 241 427 L257 427 C242 425 235 419 229 405 L109 124 C104 113 96 106 88 105 Z" fill="url(#vividly-fold)"/>
+  <path d="M88 105 C99 105 105 111 110 122 L229 400 C236 417 246 427 261 427 L272 427 C285 427 295 420 301 407 L309 389 C298 403 289 399 282 383 L177 123 C173 112 167 107 156 107 Z" fill="url(#vividly-left)"/>
+</svg>

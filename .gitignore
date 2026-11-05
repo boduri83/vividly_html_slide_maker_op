@@ -1,0 +1,24 @@
+# Dependencies and generated output
+node_modules/
+/artifacts/
+/dist/
+coverage/
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.~lock.*#
+
+# Local research, profiles and credentials
+/evidence/
+/spikes/
+/config/
+/.codex/
+.env
+.env.*
+*.local.json
+*.pem
+*.key
+*.pfx
+*.p12

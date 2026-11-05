@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#315bff">
+  <meta name="description" content="Vividly를 받고, 첫 예제를 직접 수정하고, HTML로 저장해 발표하는 짧은 시작 안내입니다. AI 연결 없이 시작하세요.">
+  <title>첫 자료 만들기 — Vividly</title>
+  <link rel="icon" href="assets/brand/vividly-icon-32.png"><link rel="stylesheet" href="styles.css"><script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Vividly 홈"><img src="assets/brand/vividly-logo-light.svg" width="154" height="44" alt="Vividly — Present Vividly."></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">메뉴 <span aria-hidden="true">☰</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="주 메뉴"><a href="index.html#make">만들 수 있는 것</a><a href="index.html#preview">결과물 미리보기</a><a href="start.html" aria-current="page">처음 사용하기</a><a class="nav-download" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">Windows 베타 받기 <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main id="main" class="document-main section-wrap">
+    <p class="breadcrumb"><a href="index.html">Vividly</a><span aria-hidden="true">/</span>첫 사용 안내</p>
+    <header class="page-intro"><p class="eyebrow">5분 시작 안내</p><h1>첫 자료,<br>한 번 만들어볼까요?</h1><p class="lead">예제의 제목을 내 이야기로 바꾸고,<br>직접 저장한 뒤 발표까지 이어가세요.</p><p class="subtle">Windows 64비트용 공개 베타입니다. 기본 편집·저장·발표에는 AI 계정이나 API 키가 필요하지 않습니다.</p></header>
+    <div class="guide-layout">
+      <nav class="side-index" aria-label="시작 안내 목차"><p>처음부터 차례대로</p><a href="#install">1. 앱 실행</a><a href="#example">2. 예제 열기</a><a href="#edit">3. 직접 편집</a><a href="#save">4. 저장·재열기</a><a href="#present">5. 발표·공유</a><a href="#feedback">문제가 생겼다면</a></nav>
+      <div class="document-body">
+        <section class="guide-step" id="install" aria-labelledby="install-title">
+          <h2 id="install-title"><span>01</span>설치하고, Vividly를 여세요.</h2>
+          <p><strong>Windows 설치 파일</strong>을 실행하고 안내에 따라 설치합니다. 현재 사용자 계정에 설치되며, 완료 후 시작 메뉴에서 <strong>Vividly</strong>를 여세요. 바탕 화면 바로가기는 선택할 수 있습니다.</p>
+          <div class="guide-actions"><a class="button button-primary" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">Windows용 설치 <span aria-hidden="true">↓</span></a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Windows-x64.zip">설치 없이 ZIP으로 사용</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/tag/v0.24.0-beta.5">릴리스 안내·파일 해시</a></div>
+          <p class="note">개발자 서명이 없는 베타이므로 Windows에서 경고가 표시될 수 있습니다. 공식 릴리스의 파일명·버전·해시를 확인하세요. 일반 앱 실행에 Node.js·개발 서버·별도 브라우저 설치는 필요하지 않습니다.</p>
+        <p>ZIP을 선택했다면 압축을 모두 새 폴더에 풀고 Vividly.exe를 실행하세요. 설치형은 Windows의 <strong>설치된 앱</strong>에서 제거할 수 있으며, 작성한 문서·복구본·개인 설정은 보존합니다.</p></section>
+        <section class="guide-step" id="example" aria-labelledby="example-title">
+          <h2 id="example-title"><span>02</span>7장 쇼케이스를 열어보세요.</h2>
+          <p>첫 실행에서는 7장 쇼케이스가 열립니다. 네온 그래픽·모션·차트·선택 버튼·키보드 동작까지 모두 앱의 편집 가능한 개체로 구성했습니다. 다시 받고 싶다면 아래 HTML을 내려받고 Vividly에서 <span class="key-sequence"><kbd>Ctrl</kbd>+<kbd>O</kbd></span>를 누르고 받은 파일을 선택하세요. 화면에 보이는 글자와 도형을 그대로 편집할 수 있습니다.</p>
+          <div class="guide-actions"><a class="button button-primary" href="examples/first-deck.html" download="Vividly-Signal-to-Spectacle.html">편집용 예제 HTML 받기 <span aria-hidden="true">↓</span></a><a href="examples/first-deck.html" target="_blank" rel="noopener">브라우저에서 먼저 보기 <span aria-hidden="true">↗</span></a></div>
+          <p class="note soft">빈 화면에서 시작하고 싶다면 앱의 <strong>새 자료</strong>에서 시작하세요. 처음에는 예제를 한 번 바꿔보는 것만으로도 편집과 발표 흐름을 익힐 수 있습니다.</p>
+        </section>
+        <section class="guide-step" id="edit" aria-labelledby="edit-title">
+          <h2 id="edit-title"><span>03</span>제목과 개체를 내 자료로 바꾸세요.</h2>
+          <ol><li><strong>제목을 두 번 누르고</strong> 원하는 문장으로 바꿉니다. 편집을 마치면 <kbd>Esc</kbd>를 누르세요.</li><li>도형을 선택해 <strong>드래그로 이동</strong>하고 모서리 핸들로 크기를 조절합니다. 홈 메뉴에서 채우기·테두리·글자색을 바꿔보세요.</li><li>한 번 되돌려 보고 싶다면 <span class="key-sequence"><kbd>Ctrl</kbd>+<kbd>Z</kbd></span>, 다시 반영하려면 <span class="key-sequence"><kbd>Ctrl</kbd>+<kbd>Y</kbd></span>를 누릅니다.</li></ol>
+          <p>연결된 컴포넌트는 묶음으로 움직입니다. 안쪽 글자나 도형만 바꾸려면 <strong>레이어</strong>에서 개체를 따로 선택하세요. 예제에 있는 버튼과 모션도 발표에서 확인할 수 있습니다.</p>
+        </section>
+        <section class="guide-step" id="save" aria-labelledby="save-title">
+          <h2 id="save-title"><span>04</span>다른 이름으로 저장하고 다시 여세요.</h2>
+          <p><span class="key-sequence"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd></span>로 <strong>내 첫 자료.html</strong>처럼 새 이름을 붙여 저장합니다. 이어서 <span class="key-sequence"><kbd>Ctrl</kbd>+<kbd>O</kbd></span>로 그 파일을 다시 열어 방금 바꾼 내용을 확인하세요.</p>
+          <p>다시 연 자료의 글자와 개체도 추가로 수정할 수 있습니다. 이후에는 <span class="key-sequence"><kbd>Ctrl</kbd>+<kbd>S</kbd></span>로 저장하세요.</p>
+          <div class="note soft"><p>저장 실패가 표시되면 앱을 닫기 전에 다른 이름·다른 폴더로 저장해 보세요. HTML 열기·저장 한도는 <strong>100MiB</strong>이며 동반 소스도 포함됩니다. 원본 파일과 복구 데이터를 먼저 지우지 마세요.</p></div>
+        </section>
+        <section class="guide-step" id="present" aria-labelledby="present-title">
+          <h2 id="present-title"><span>05</span>발표하고, HTML을 열어보세요.</h2>
+          <p>앱의 <strong>슬라이드 쇼</strong>를 누릅니다. 차례로 7장을 넘기며 등장·궤도 모션을 보세요. 선택 화면에서 버튼을 눌러 문구를 바꾸고, PLAY 화면에서는 1·2·3 키나 체크포인트 버튼으로 신호를 이동시켜 보세요. <kbd>Esc</kbd>로 발표를 마칩니다.</p>
+          <p>저장한 HTML은 브라우저에서도 발표할 수 있습니다. 편집을 이어가려면 Vividly에서 다시 열면 됩니다.</p>
+          <div class="note"><p><strong>공유 전 확인:</strong> 편집용 HTML에는 화면 내용 외에 편집 데이터·저자 초기값·발표 메모·사용하지 않는 자산이 남을 수 있습니다. 민감한 내용이 없는지 확인하고, 필요한 경우 내보내기의 노트 포함 여부를 확인하세요. <a href="privacy.html#sharing">HTML 공유와 데이터 안내</a></p></div>
+        </section>
+        <section class="guide-end" id="feedback" aria-labelledby="feedback-title">
+          <h2 id="feedback-title">막힌 지점을 알려주세요.</h2><p>사용한 버전, Windows 환경, 재현 순서와 기대한 결과를 적어주세요. 원본 자료를 첨부하지 않고 가상의 내용으로 설명해도 됩니다.</p>
+          <div class="plain-links"><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=feedback.yml&amp;version=0.24.0-beta.5">첫 사용 후기 <span aria-hidden="true">↗</span></a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=bug_report.yml">오류 제보 <span aria-hidden="true">↗</span></a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=feature_request.yml">기능 제안 <span aria-hidden="true">↗</span></a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/SUPPORT.md">사용·지원 안내</a></div>
+          <p class="note soft">GitHub Issues는 공개되며 제보에 GitHub 로그인이 필요합니다. API 키·비밀번호·고객 정보·개인 경로·민감한 원본 문서는 올리지 마세요. <a href="privacy.html#contact">공개 문의 안내</a></p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer section-wrap"><div><a class="footer-brand" href="index.html">Vividly<span>Present Vividly.</span></a><p>직접 만들고 함께 다듬는 HTML 프레젠테이션.</p><p>Borvis Studio · 기획·제작: 보들이</p></div><nav aria-label="하단 메뉴"><a href="index.html#preview">결과물 미리보기</a><a href="privacy.html">개인정보 안내</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues">지원·피드백</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op">소스 · MPL-2.0</a><a href="https://github.com/boduri83">보들이 GitHub</a></nav></footer>
+</body>
+</html>

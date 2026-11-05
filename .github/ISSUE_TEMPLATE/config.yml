@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 사용·지원 안내
+    url: https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/SUPPORT.md
+    about: 문제 해결과 문의 방법을 먼저 확인하세요. Issues는 공개됩니다.
+  - name: 개인정보·데이터 안내
+    url: https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/PRIVACY.md
+    about: 로컬 보관·외부 전송·삭제 범위를 확인하세요.
+  - name: 보들이 GitHub
+    url: https://github.com/boduri83
+    about: 보들이의 공개 GitHub 계정(boduri83)입니다.

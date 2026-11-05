@@ -1,0 +1,1596 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.15-authoring.1",
+  "id": "document-vividly-first-deck",
+  "title": "Vividly로 만드는 첫 자료",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "first-cover",
+      "background": "#0b142d",
+      "elements": [
+        {
+          "id": "first-cover-accent",
+          "type": "shape",
+          "geometry": {
+            "x": 76,
+            "y": 66,
+            "width": 5,
+            "height": 30
+          },
+          "shape": "rectangle",
+          "fill": "#16d6e6",
+          "stroke": {
+            "color": "#16d6e6",
+            "width": 0
+          },
+          "name": "청록 포인트",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 2
+          }
+        },
+        {
+          "id": "first-cover-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 95,
+            "y": 68,
+            "width": 680,
+            "height": 29
+          },
+          "text": {
+            "paragraphs": [
+              "PRESENT VIVIDLY.  /  MY FIRST DECK"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#16d6e6",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "첫 자료 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-title",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 157,
+            "width": 700,
+            "height": 171
+          },
+          "text": {
+            "paragraphs": [
+              "Vividly로 만드는",
+              "첫 번째 자료"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 54,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "표지 제목 · 두 번 눌러 수정",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "first-cover-tagline",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 353,
+            "width": 675,
+            "height": 45
+          },
+          "text": {
+            "paragraphs": [
+              "아이디어를, 선명하게 전하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 27,
+              "lineHeight": 1.22,
+              "color": "#a8baff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "표지 메시지",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-body",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 416,
+            "width": 675,
+            "height": 82
+          },
+          "text": {
+            "paragraphs": [
+              "글자를 고치고, 도형을 움직이고.",
+              "완성한 자료를 HTML로 공유하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "시작 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-next",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 536,
+            "width": 266,
+            "height": 62
+          },
+          "shape": "rectangle",
+          "fill": "#4355ff",
+          "stroke": {
+            "color": "#4355ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "성과 살펴보기  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "성과 살펴보기  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 14
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "first-cover-button-help",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 612,
+            "width": 660,
+            "height": 29
+          },
+          "text": {
+            "paragraphs": [
+              "발표 모드에서 이 버튼을 눌러 보세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#8798bd",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "버튼 사용 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-panel",
+          "type": "shape",
+          "geometry": {
+            "x": 844,
+            "y": 119,
+            "width": 364,
+            "height": 493
+          },
+          "shape": "rectangle",
+          "fill": "#172440",
+          "stroke": {
+            "color": "#172440",
+            "width": 0
+          },
+          "name": "브랜드 카드 · 이동과 크기 변경 연습",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 28
+          }
+        },
+        {
+          "id": "first-cover-panel-accent",
+          "type": "shape",
+          "geometry": {
+            "x": 1136,
+            "y": 141,
+            "width": 48,
+            "height": 6
+          },
+          "shape": "rectangle",
+          "fill": "#7b61ff",
+          "stroke": {
+            "color": "#7b61ff",
+            "width": 0
+          },
+          "name": "보라 포인트",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 3
+          }
+        },
+        {
+          "id": "first-cover-logo",
+          "type": "svg",
+          "geometry": {
+            "x": 957,
+            "y": 170,
+            "width": 138,
+            "height": 138
+          },
+          "name": "직접 그린 V 심벌",
+          "svg": {
+            "viewBox": {
+              "width": 200,
+              "height": 200
+            },
+            "shapes": [
+              {
+                "kind": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 200,
+                "height": 200,
+                "rx": 42,
+                "fill": "#4355ff"
+              },
+              {
+                "kind": "path",
+                "d": "M 46 52 L 100 153 L 155 52",
+                "fill": "none",
+                "stroke": "#ffffff",
+                "strokeWidth": 18,
+                "strokeLinecap": "round",
+                "strokeLinejoin": "round"
+              },
+              {
+                "kind": "circle",
+                "cx": 163,
+                "cy": 34,
+                "r": 12,
+                "fill": "#16d6e6"
+              }
+            ],
+            "title": "Vividly V 심벌"
+          },
+          "semanticRole": "decorative"
+        },
+        {
+          "id": "first-cover-card-title",
+          "type": "text",
+          "geometry": {
+            "x": 873,
+            "y": 347,
+            "width": 308,
+            "height": 38
+          },
+          "text": {
+            "paragraphs": [
+              "하나의 파일, 새로운 표현."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "브랜드 카드 제목",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-dot-1",
+          "type": "shape",
+          "geometry": {
+            "x": 878,
+            "y": 419,
+            "width": 8,
+            "height": 8
+          },
+          "shape": "rectangle",
+          "fill": "#16d6e6",
+          "stroke": {
+            "color": "#16d6e6",
+            "width": 0
+          },
+          "name": "청록 점",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 4
+          }
+        },
+        {
+          "id": "first-cover-feature-1",
+          "type": "text",
+          "geometry": {
+            "x": 901,
+            "y": 409,
+            "width": 270,
+            "height": 35
+          },
+          "text": {
+            "paragraphs": [
+              "편집 가능한 글자와 도형"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "편집 가능한 글자",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-dot-2",
+          "type": "shape",
+          "geometry": {
+            "x": 878,
+            "y": 469,
+            "width": 8,
+            "height": 8
+          },
+          "shape": "rectangle",
+          "fill": "#8190ff",
+          "stroke": {
+            "color": "#8190ff",
+            "width": 0
+          },
+          "name": "파랑 점",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 4
+          }
+        },
+        {
+          "id": "first-cover-feature-2",
+          "type": "text",
+          "geometry": {
+            "x": 901,
+            "y": 459,
+            "width": 270,
+            "height": 35
+          },
+          "text": {
+            "paragraphs": [
+              "값을 바꾸면 살아나는 차트"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "살아 있는 차트",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-dot-3",
+          "type": "shape",
+          "geometry": {
+            "x": 878,
+            "y": 519,
+            "width": 8,
+            "height": 8
+          },
+          "shape": "rectangle",
+          "fill": "#7b61ff",
+          "stroke": {
+            "color": "#7b61ff",
+            "width": 0
+          },
+          "name": "보라 점",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 4
+          }
+        },
+        {
+          "id": "first-cover-feature-3",
+          "type": "text",
+          "geometry": {
+            "x": 901,
+            "y": 509,
+            "width": 270,
+            "height": 35
+          },
+          "text": {
+            "paragraphs": [
+              "클릭으로 이어지는 발표"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "클릭하는 발표",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-brand",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 671,
+            "width": 900,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "Vividly  /  Present Vividly."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#8798bd",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "브랜드 바닥글",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-cover-page",
+          "type": "text",
+          "geometry": {
+            "x": 1110,
+            "y": 671,
+            "width": 98,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "01 / 03"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#8798bd",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "슬라이드 번호",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "01 · Vividly로 만드는 첫 자료",
+      "notes": "첫 실행 연습용 자료입니다. 큰 제목을 두 번 눌러 우리 팀의 제목으로 바꾸세요. 모든 글자·도형·벡터는 개별 편집 가능한 개체입니다. 발표 모드에서는 성과 살펴보기 버튼으로 다음 장에 이동합니다.",
+      "interactions": [
+        {
+          "id": "first-cover-go-chart",
+          "sourceId": "first-cover-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-results"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 240,
+        "easing": "ease",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "first-results",
+      "background": "#f4f7ff",
+      "elements": [
+        {
+          "id": "first-results-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 48,
+            "width": 1100,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "02  /  실제 값으로 바꿔 보세요"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#4355ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "성과 장 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-title",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 97,
+            "width": 1130,
+            "height": 72
+          },
+          "text": {
+            "paragraphs": [
+              "성과는 숫자로, 메시지는 또렷하게."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 42,
+              "lineHeight": 1.22,
+              "color": "#172542",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "성과 장 제목",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "first-results-body",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 185,
+            "width": 1120,
+            "height": 43
+          },
+          "text": {
+            "paragraphs": [
+              "예시 수치입니다. 차트를 선택하고 값을 바꿔 나만의 보고서를 만드세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.22,
+              "color": "#6b7892",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "차트 편집 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-chart-card",
+          "type": "shape",
+          "geometry": {
+            "x": 72,
+            "y": 259,
+            "width": 775,
+            "height": 344
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 0
+          },
+          "name": "차트 배경 카드",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "first-results-chart-heading",
+          "type": "text",
+          "geometry": {
+            "x": 99,
+            "y": 280,
+            "width": 510,
+            "height": 37
+          },
+          "text": {
+            "paragraphs": [
+              "월별 캠페인 반응"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.22,
+              "color": "#172542",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "차트 제목",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-chart-unit",
+          "type": "text",
+          "geometry": {
+            "x": 590,
+            "y": 286,
+            "width": 227,
+            "height": 27
+          },
+          "text": {
+            "paragraphs": [
+              "예시 데이터 · 단위: 건"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#6b7892",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "예시 데이터 표시",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-chart",
+          "type": "chart",
+          "geometry": {
+            "x": 96,
+            "y": 327,
+            "width": 724,
+            "height": 247
+          },
+          "name": "월별 캠페인 반응 · 두 번 눌러 값 편집",
+          "chart": {
+            "kind": "bar",
+            "categories": [
+              "1월",
+              "2월",
+              "3월",
+              "4월"
+            ],
+            "series": [
+              {
+                "id": "first-results-series",
+                "name": "콘텐츠 반응",
+                "color": "#4355ff",
+                "values": [
+                  120,
+                  165,
+                  210,
+                  280
+                ]
+              }
+            ],
+            "showLegend": false,
+            "axes": {
+              "direction": "vertical",
+              "minimum": 0,
+              "maximum": 320,
+              "step": 80,
+              "showGrid": true,
+              "showCategoryLabels": true,
+              "categoryTitle": "",
+              "valueTitle": ""
+            },
+            "labels": {
+              "show": true,
+              "decimals": 0,
+              "prefix": "",
+              "suffix": "",
+              "grouping": true
+            },
+            "presentation": {
+              "animated": true,
+              "duration": 650,
+              "showTooltip": true,
+              "legendPosition": "bottom",
+              "stacked": false,
+              "smooth": false,
+              "fill": false
+            }
+          },
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-message-card",
+          "type": "shape",
+          "geometry": {
+            "x": 879,
+            "y": 259,
+            "width": 329,
+            "height": 344
+          },
+          "shape": "rectangle",
+          "fill": "#142341",
+          "stroke": {
+            "color": "#142341",
+            "width": 0
+          },
+          "name": "핵심 메시지 카드",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "first-results-message-label",
+          "type": "text",
+          "geometry": {
+            "x": 905,
+            "y": 286,
+            "width": 275,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "핵심 메시지"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#a2b4d8",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "핵심 메시지 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-metric",
+          "type": "text",
+          "geometry": {
+            "x": 903,
+            "y": 344,
+            "width": 281,
+            "height": 84
+          },
+          "text": {
+            "paragraphs": [
+              "+133%"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 56,
+              "lineHeight": 1.22,
+              "color": "#16d6e6",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "핵심 수치 · 직접 수정",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "first-results-metric-label",
+          "type": "text",
+          "geometry": {
+            "x": 907,
+            "y": 431,
+            "width": 273,
+            "height": 34
+          },
+          "text": {
+            "paragraphs": [
+              "1월 대비 4월 반응 수"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "핵심 수치 설명",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-message",
+          "type": "text",
+          "geometry": {
+            "x": 907,
+            "y": 497,
+            "width": 273,
+            "height": 69
+          },
+          "text": {
+            "paragraphs": [
+              "수치의 변화에",
+              "우리 팀의 이야기를 담으세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "메시지 · 직접 수정",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-edit-tip",
+          "type": "text",
+          "geometry": {
+            "x": 77,
+            "y": 626,
+            "width": 820,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "차트 두 번 누르기 → 값 편집 → 데이터 적용"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.22,
+              "color": "#6b7892",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "차트 수정 요령",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-next",
+          "type": "shape",
+          "geometry": {
+            "x": 940,
+            "y": 619,
+            "width": 268,
+            "height": 51
+          },
+          "shape": "rectangle",
+          "fill": "#4355ff",
+          "stroke": {
+            "color": "#4355ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "다음 행동 정하기  →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "다음 행동 정하기  →",
+          "semanticRole": "body",
+          "style": {
+            "radius": 14
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "first-results-brand",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 671,
+            "width": 900,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "Vividly  /  Present Vividly."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#7c89a4",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "브랜드 바닥글",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-results-page",
+          "type": "text",
+          "geometry": {
+            "x": 1110,
+            "y": 671,
+            "width": 98,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "02 / 03"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#7c89a4",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "슬라이드 번호",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "02 · 성과 차트 직접 편집",
+      "notes": "차트의 수치는 실제 성과가 아닌 예시입니다. 차트를 두 번 누르고 데이터 표에서 2월의 165를 190으로 바꾼 뒤 데이터 적용을 누르세요. 오른쪽 핵심 메시지는 별도의 텍스트이므로 필요에 따라 직접 고칩니다. 실제 수치·기간·단위로 바꿔 사용하세요.",
+      "interactions": [
+        {
+          "id": "first-results-go-actions",
+          "sourceId": "first-results-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-actions"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 240,
+        "easing": "ease",
+        "navigation": "sequential"
+      }
+    },
+    {
+      "id": "first-actions",
+      "background": "#0b142d",
+      "elements": [
+        {
+          "id": "first-actions-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 52,
+            "width": 1100,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "03  /  다음 행동"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#16d6e6",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "다음 행동 장 안내",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-title",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 112,
+            "width": 1110,
+            "height": 143
+          },
+          "text": {
+            "paragraphs": [
+              "한 장의 아이디어를,",
+              "다음 행동으로."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 48,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "다음 행동 장 제목",
+          "semanticRole": "heading"
+        },
+        {
+          "id": "first-actions-card-1-background",
+          "type": "shape",
+          "geometry": {
+            "x": 76,
+            "y": 303,
+            "width": 348,
+            "height": 235
+          },
+          "shape": "rectangle",
+          "fill": "#18294b",
+          "stroke": {
+            "color": "#18294b",
+            "width": 0
+          },
+          "name": "메시지 다듬기 카드",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "first-actions-card-1-accent",
+          "type": "shape",
+          "geometry": {
+            "x": 101,
+            "y": 329,
+            "width": 36,
+            "height": 5
+          },
+          "shape": "rectangle",
+          "fill": "#4355ff",
+          "stroke": {
+            "color": "#4355ff",
+            "width": 0
+          },
+          "name": "메시지 다듬기 포인트",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 2
+          }
+        },
+        {
+          "id": "first-actions-card-1-number",
+          "type": "text",
+          "geometry": {
+            "x": 343,
+            "y": 325,
+            "width": 50,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "01"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#92a4cc",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "메시지 다듬기 번호",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-1-title",
+          "type": "text",
+          "geometry": {
+            "x": 101,
+            "y": 376,
+            "width": 298,
+            "height": 42
+          },
+          "text": {
+            "paragraphs": [
+              "메시지 다듬기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 26,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "메시지 다듬기 제목",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-1-body",
+          "type": "text",
+          "geometry": {
+            "x": 101,
+            "y": 448,
+            "width": 298,
+            "height": 65
+          },
+          "text": {
+            "paragraphs": [
+              "제목을 우리 팀의",
+              "목표 한 문장으로 바꾸세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "메시지 다듬기 내용",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-2-background",
+          "type": "shape",
+          "geometry": {
+            "x": 456,
+            "y": 303,
+            "width": 348,
+            "height": 235
+          },
+          "shape": "rectangle",
+          "fill": "#202750",
+          "stroke": {
+            "color": "#202750",
+            "width": 0
+          },
+          "name": "근거 채우기 카드",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "first-actions-card-2-accent",
+          "type": "shape",
+          "geometry": {
+            "x": 481,
+            "y": 329,
+            "width": 36,
+            "height": 5
+          },
+          "shape": "rectangle",
+          "fill": "#16d6e6",
+          "stroke": {
+            "color": "#16d6e6",
+            "width": 0
+          },
+          "name": "근거 채우기 포인트",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 2
+          }
+        },
+        {
+          "id": "first-actions-card-2-number",
+          "type": "text",
+          "geometry": {
+            "x": 723,
+            "y": 325,
+            "width": 50,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "02"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#92a4cc",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "근거 채우기 번호",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-2-title",
+          "type": "text",
+          "geometry": {
+            "x": 481,
+            "y": 376,
+            "width": 298,
+            "height": 42
+          },
+          "text": {
+            "paragraphs": [
+              "근거 채우기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 26,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "근거 채우기 제목",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-2-body",
+          "type": "text",
+          "geometry": {
+            "x": 481,
+            "y": 448,
+            "width": 298,
+            "height": 65
+          },
+          "text": {
+            "paragraphs": [
+              "차트는 실제 값으로,",
+              "도형은 내 이야기에 맞게."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "근거 채우기 내용",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-3-background",
+          "type": "shape",
+          "geometry": {
+            "x": 836,
+            "y": 303,
+            "width": 348,
+            "height": 235
+          },
+          "shape": "rectangle",
+          "fill": "#262147",
+          "stroke": {
+            "color": "#262147",
+            "width": 0
+          },
+          "name": "공유하고 실행하기 카드",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "first-actions-card-3-accent",
+          "type": "shape",
+          "geometry": {
+            "x": 861,
+            "y": 329,
+            "width": 36,
+            "height": 5
+          },
+          "shape": "rectangle",
+          "fill": "#7b61ff",
+          "stroke": {
+            "color": "#7b61ff",
+            "width": 0
+          },
+          "name": "공유하고 실행하기 포인트",
+          "semanticRole": "decorative",
+          "style": {
+            "radius": 2
+          }
+        },
+        {
+          "id": "first-actions-card-3-number",
+          "type": "text",
+          "geometry": {
+            "x": 1103,
+            "y": 325,
+            "width": 50,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "03"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.22,
+              "color": "#92a4cc",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "공유하고 실행하기 번호",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-3-title",
+          "type": "text",
+          "geometry": {
+            "x": 861,
+            "y": 376,
+            "width": 298,
+            "height": 42
+          },
+          "text": {
+            "paragraphs": [
+              "공유하고 실행하기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 26,
+              "lineHeight": 1.22,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "공유하고 실행하기 제목",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-card-3-body",
+          "type": "text",
+          "geometry": {
+            "x": 861,
+            "y": 448,
+            "width": 298,
+            "height": 65
+          },
+          "text": {
+            "paragraphs": [
+              "HTML로 저장하고,",
+              "다음 회의에서 발표하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.22,
+              "color": "#c1ccec",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "공유하고 실행하기 내용",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-takeaway",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 577,
+            "width": 1110,
+            "height": 34
+          },
+          "text": {
+            "paragraphs": [
+              "지금 해볼 일   제목 1개 · 숫자 1개를 바꾸고 저장하기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.22,
+              "color": "#16d6e6",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "지금 해볼 일",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-back",
+          "type": "shape",
+          "geometry": {
+            "x": 907,
+            "y": 622,
+            "width": 301,
+            "height": 50
+          },
+          "shape": "rectangle",
+          "fill": "#7b61ff",
+          "stroke": {
+            "color": "#7b61ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "처음으로 돌아가기  ↶"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "처음으로 돌아가기  ↶",
+          "semanticRole": "body",
+          "style": {
+            "radius": 14
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "first-actions-brand",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 671,
+            "width": 900,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "Vividly  /  Present Vividly."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#8798bd",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "브랜드 바닥글",
+          "semanticRole": "body"
+        },
+        {
+          "id": "first-actions-page",
+          "type": "text",
+          "geometry": {
+            "x": 1110,
+            "y": 671,
+            "width": 98,
+            "height": 24
+          },
+          "text": {
+            "paragraphs": [
+              "03 / 03"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 14,
+              "lineHeight": 1.22,
+              "color": "#8798bd",
+              "align": "right",
+              "verticalAlign": "top",
+              "bold": false
+            }
+          },
+          "name": "슬라이드 번호",
+          "semanticRole": "body"
+        }
+      ],
+      "name": "03 · 다음 행동과 공유",
+      "notes": "각 카드의 제목과 본문을 우리 팀의 다음 행동으로 바꾸세요. Ctrl+S로 HTML을 저장하고 Ctrl+O로 다시 열어 개체별로 수정할 수 있습니다. 저장한 HTML은 브라우저에서도 발표할 수 있습니다. 앱의 수동 편집에는 AI 로그인이나 API 키가 필요하지 않습니다.",
+      "interactions": [
+        {
+          "id": "first-actions-go-cover",
+          "sourceId": "first-actions-back",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "first-cover"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 240,
+        "easing": "ease",
+        "navigation": "sequential"
+      }
+    }
+  ],
+  "assets": [],
+  "theme": {
+    "colors": {
+      "primary": "#4355ff",
+      "secondary": "#16d6e6",
+      "background": "#f4f7ff",
+      "text": "#172542"
+    },
+    "fontFamily": "Malgun Gothic",
+    "headingFontFamily": "Malgun Gothic",
+    "spacing": {
+      "xs": 8,
+      "sm": 16,
+      "md": 24,
+      "lg": 40,
+      "xl": 64
+    }
+  }
+}

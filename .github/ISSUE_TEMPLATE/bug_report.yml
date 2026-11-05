@@ -1,0 +1,77 @@
+name: 오류 제보
+description: 편집·저장·재열기·발표 중 발생한 문제를 알려주세요.
+title: "[오류] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보해 주셔서 감사합니다. **이 Issue와 첨부 파일은 공개됩니다.**
+        원본 문서 첨부는 필수가 아닙니다. 새 자료와 가상의 내용으로 재현해 주세요.
+        API 키·토큰·비밀번호·실제 고객 정보·개인 경로를 올리지 마세요.
+        [사용·지원 안내](https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/SUPPORT.md) · [개인정보 안내](https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/PRIVACY.md)
+  - type: input
+    id: version
+    attributes:
+      label: Vividly 버전
+      placeholder: "예: 0.24.0-desktop.5 / v0.24.0-beta.5"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 운영체제와 화면 배율
+      description: Windows 버전과 배율을 적어 주세요. 독립 HTML 문제라면 브라우저 이름·버전도 적어 주세요.
+      placeholder: "예: Windows 11 x64, 150% / Edge 버전"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서
+      description: 원본 문서 대신 공개 가능한 작은 예제로 설명해 주세요.
+      placeholder: |
+        1. 새 자료를 만듭니다.
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 동작
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과
+      description: 오류 문구나 저장·편집에 미친 영향을 적어 주세요. 민감한 정보는 가려 주세요.
+    validations:
+      required: true
+  - type: dropdown
+    id: agent_usage
+    attributes:
+      label: 문제가 발생할 때 사용한 에이전트 연결
+      options:
+        - 사용하지 않음
+        - 앱 아바타 · Codex
+        - 앱 아바타 · OpenAI 또는 호환 API
+        - 외부 MCP 호스트
+        - 여러 방식 사용
+        - 잘 모르겠음
+    validations:
+      required: true
+  - type: textarea
+    id: optional_evidence
+    attributes:
+      label: 추가 설명·스크린샷·오류 문구 (선택)
+      description: 필요한 부분만 첨부하세요. 이름·이메일·파일 경로·API 주소·키·토큰·바탕화면의 개인 정보를 가려 주세요. 원본 문서는 요구하지 않습니다.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_information
+    attributes:
+      label: 공개 정보 확인
+      options:
+        - label: 공개 Issue임을 확인했고, 민감한 정보와 비공개 원본 문서를 포함하지 않았습니다.
+          required: true

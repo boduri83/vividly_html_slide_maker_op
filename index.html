@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vividly · 프레젠테이션 편집기</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/src/design-studio-ui.css">
+  <link rel="stylesheet" href="/src/behavior-studio-ui.css">
+  <link rel="stylesheet" href="/src/scene-studio-ui.css">
+  <link rel="stylesheet" href="/src/avatar-ui.css">
+  <link rel="stylesheet" href="/src/data-connector-ui.css">
+  <link rel="stylesheet" href="/src/agent-io-permissions-ui.css">
+  <link rel="stylesheet" href="/src/reuse-library-ui.css">
+  <link rel="stylesheet" href="/src/responsive-ui.css">
+  <link rel="stylesheet" href="/src/component-library-ui.css">
+  <link rel="stylesheet" href="/src/web-authoring-ui.css">
+  <link rel="icon" href="/assets/brand/vividly.ico">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="app-header">
+      <div class="brand"><img class="brand-mark" src="/assets/brand/vividly-mark.png" width="36" height="36" alt=""><span class="brand-wordmark"><span class="brand-name">Vividly</span><span class="brand-slogan">Present Vividly.</span></span><span class="prototype-badge">실험판</span></div>
+      <div class="document-heading"><label class="sr-only" for="document-title">자료 제목</label><input id="document-title" value="새 프레젠테이션" maxlength="160"><span id="dirty-indicator">불러오는 중…</span><span id="desktop-file-name" hidden>아직 저장하지 않은 자료</span></div>
+      <nav class="file-actions" aria-label="파일과 발표">
+        <button id="avatar-toggle" class="quiet-button" aria-pressed="false" aria-controls="vividly-avatar">에이전트</button>
+        <button id="new-button" class="quiet-button">새 자료</button>
+        <button id="open-button" class="quiet-button"><span aria-hidden="true">↥</span> HTML 열기</button>
+        <button id="save-button" class="secondary-button"><span aria-hidden="true">↓</span> HTML 내려받기</button>
+        <button id="save-as-button" class="quiet-button" title="다른 이름으로 저장 (Ctrl+Shift+S)" hidden>다른 이름으로 저장</button>
+        <button id="present-button" class="primary-button"><span aria-hidden="true">▷</span> 발표</button>
+      </nav>
+      <input id="open-file" type="file" accept=".html,.htm,.json,text/html,application/json" hidden>
+      <input id="image-file" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+    </header>
+
+    <div class="toolbar" role="toolbar" aria-label="편집 도구">
+      <div class="toolbar-group history-tools"><button id="undo-button" title="실행 취소 (Ctrl+Z)" aria-label="실행 취소">↶</button><button id="redo-button" title="다시 실행 (Ctrl+Y)" aria-label="다시 실행">↷</button></div>
+      <span class="toolbar-divider"></span>
+      <div class="toolbar-group"><button id="add-text"><span class="tool-glyph">T</span> 텍스트</button><button id="add-shape"><span class="tool-glyph">□</span> 도형</button><button id="add-ellipse"><span class="tool-glyph">○</span> 타원</button><button id="add-image"><span class="tool-glyph">▧</span> 이미지</button></div>
+      <span class="toolbar-divider"></span>
+      <div class="toolbar-group"><button id="duplicate-element" disabled>복제</button><button id="delete-element" disabled>삭제</button></div>
+      <span class="toolbar-divider"></span>
+      <span class="toolbar-note" id="mode-hint">개체를 선택해 이동하고, 텍스트는 두 번 눌러 편집하세요.</span>
+    </div>
+
+    <main class="editor-layout">
+      <aside class="slides-panel" aria-label="슬라이드 목록">
+        <div class="panel-title"><h1>슬라이드 <span id="slide-count">3</span></h1><button id="add-slide" class="small-icon-button" aria-label="슬라이드 추가" title="슬라이드 추가">＋</button></div>
+        <div id="slide-list" class="slide-list"></div>
+        <div class="slide-actions" hidden><button id="duplicate-slide">슬라이드 복제</button><button id="delete-slide">삭제</button></div>
+        <div class="slide-order" hidden><button id="slide-up" aria-label="슬라이드 위로 이동">↑ 위로</button><button id="slide-down" aria-label="슬라이드 아래로 이동">↓ 아래로</button></div>
+      </aside>
+
+      <section class="workspace" aria-label="슬라이드 편집">
+        <div class="workspace-heading"><div><span class="eyebrow">편집 화면</span><span id="current-slide-label">슬라이드 1</span></div><div class="zoom-control"><label for="zoom-select">확대</label><select id="zoom-select"><option value="fit">화면에 맞춤</option><option value="50">50%</option><option value="100">100%</option><option value="150">150%</option></select><span id="zoom-value">—</span></div></div>
+        <div id="stage-viewport" class="stage-viewport">
+          <div id="stage-holder" class="stage-holder"><div id="stage" class="stage" tabindex="0" aria-label="슬라이드 캔버스"><div id="slide-content"></div><div id="selection-overlay" hidden></div><div id="text-editor" hidden></div></div></div>
+        </div>
+        <div class="workspace-footer"><span id="canvas-summary">1280 × 720</span><span>텍스트 두 번 누르기 · Esc 편집 종료 · Delete 개체 삭제</span></div>
+      </section>
+
+      <aside class="properties-panel" aria-label="개체 속성">
+        <div class="panel-title"><h2>속성</h2><span id="selection-kind" class="subtle-tag">선택 없음</span></div>
+        <div id="empty-selection" class="empty-selection"><span aria-hidden="true">↖</span><strong>개체를 선택하세요</strong><p>위치와 크기, 글자와 색을<br>여기에서 조절할 수 있습니다.</p></div>
+        <div id="property-controls" hidden>
+          <section class="property-section"><h3>위치와 크기 <small>px</small></h3><div class="property-grid"><label>X<input id="property-x" type="number" step="1"></label><label>Y<input id="property-y" type="number" step="1"></label><label>너비<input id="property-width" type="number" min="1" step="1"></label><label>높이<input id="property-height" type="number" min="1" step="1"></label></div></section>
+          <section id="text-properties" class="property-section"><h3>텍스트</h3><label class="stacked-label">글꼴<input id="property-font-family" type="text" maxlength="256" value="Malgun Gothic" aria-label="설치 글꼴 검색"></label><div class="property-grid"><label>글자 크기<input id="property-font-size" type="number" min="8" max="240"></label><label>글자 색<input id="property-text-color" type="color" value="#182037"></label></div><div class="text-style-row"><button id="property-bold" aria-pressed="false" title="굵게">B</button><label class="sr-only" for="property-align">텍스트 정렬</label><select id="property-align"><option value="left">왼쪽 정렬</option><option value="center">가운데 정렬</option><option value="right">오른쪽 정렬</option></select></div><div class="property-grid text-spacing"><label>줄 간격 (배수)<input id="property-line-height" type="number" min="0.1" step="0.1"></label><label>세로 정렬<select id="property-vertical-align"><option value="top">위쪽</option><option value="middle">가운데</option><option value="bottom">아래쪽</option></select></label></div></section>
+          <section id="shape-properties" class="property-section"><h3>도형</h3><label class="stacked-label">도형 종류<select id="property-shape"><option value="rectangle">직사각형</option><option value="ellipse">타원</option></select></label><div class="property-grid"><label>채우기<input id="property-fill" type="color" value="#2563eb"></label><label>테두리 색<input id="property-stroke" type="color" value="#1d4ed8"></label><label>선 굵기 (px)<input id="property-stroke-width" type="number" min="0" step="0.5"></label></div></section>
+          <section id="image-properties" class="property-section" hidden><h3>이미지</h3><label class="stacked-label">이미지 맞춤<select id="property-image-fit"><option value="contain">전체 보이기</option><option value="cover">상자 채우기</option></select></label><label class="stacked-label">대체 텍스트<textarea id="property-image-alt" rows="3" maxlength="65536" aria-describedby="image-alt-help"></textarea></label><p id="image-alt-help" class="property-help">이미지 내용을 설명합니다. 화면의 캡션으로 표시되지는 않습니다.</p></section>
+          <section class="property-section"><h3>배치</h3><div class="order-buttons"><button id="element-back">뒤로 보내기</button><button id="element-front">앞으로 가져오기</button></div></section>
+        </div>
+        <section id="slide-properties" class="property-section"><h3>슬라이드</h3><label class="stacked-label">배경색<input id="property-slide-background" type="color" value="#ffffff"></label></section>
+        <div class="file-note"><span class="note-dot"></span><p id="file-note-copy">HTML에 내용과 이미지를 담습니다.<br>내려받은 파일은 다시 열어 편집할 수 있습니다.</p></div>
+      </aside>
+    </main>
+    <footer class="status-bar"><span id="status-message" role="status" aria-live="polite">예제 자료를 불러옵니다.</span><span id="history-summary">실행 취소 0</span></footer>
+  </div>
+  <section id="presentation" class="presentation-shell" hidden aria-label="발표 화면"><span id="live-mode" class="live-mode">발표</span><div id="presentation-content"></div><div class="presentation-controls"><button id="live-prev" aria-label="이전 슬라이드">←</button><span id="live-counter"></span><button id="live-next" aria-label="다음 슬라이드">→</button><span id="live-step"></span><button id="live-pause" aria-pressed="false">일시정지</button><button id="live-reset">처음으로</button><input id="live-seek" type="range" min="0" max="1" value="0" step="1" aria-label="현재 단계 재생 위치"><details id="scene-live-tools" class="scene-live-tools" hidden><summary>진행·소리</summary><div class="scene-live-menu"><button id="scene-progress-save">진행 저장…</button><button id="scene-progress-load">진행 불러오기…</button><button id="scene-audio-enable">소리 켜기</button><button id="scene-audio-mute" aria-pressed="false">음소거</button><p id="scene-live-status" role="status">진행은 작성 자료와 별도 JSON에 저장됩니다.</p></div></details><button id="end-presentation">편집으로 돌아가기 <kbd>Esc</kbd></button></div></section>
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "package": "lucide-static",
+  "version": "1.66.0",
+  "sourceRepository": "https://github.com/lucide-icons/lucide",
+  "sourcePackageUrl": "https://registry.npmjs.org/lucide-static/-/lucide-static-1.66.0.tgz",
+  "packageIntegrity": "sha512-j8Bjf/f21PtlD8p0wx1lRxyOrs98WZ1QEImkWmfskuJ8mOCwTN7Dwc6EHUzJDSzh79aB+Bo7SWcoTCM2zEjnJg==",
+  "packageSha256": "6a1debc19076123ece73f6729a9643ac90aab9c9db15f7c16debf72a9a02a82a",
+  "license": "ISC; selected Feather-derived icons additionally MIT (see original LICENSE)",
+  "licenseReference": "https://lucide.dev/license",
+  "catalogCount": 60,
+  "categories": 6,
+  "generator": "scripts/build-icon-catalog.py",
+  "gitCommit": null,
+  "gitCommitNote": "Published package did not provide gitHead; no source commit is inferred.",
+  "files": [
+    {
+      "id": "briefcase-business",
+      "path": "assets/vendor/icons/originals/briefcase-business.svg",
+      "packageEntry": "package/icons/briefcase-business.svg",
+      "bytes": 477,
+      "sha256": "c63ebb2d08fef5f66afa51c8c5b6b50dbaa0634e88574fc782a198377b991f2a",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "building-2",
+      "path": "assets/vendor/icons/originals/building-2.svg",
+      "packageEntry": "package/icons/building-2.svg",
+      "bytes": 522,
+      "sha256": "1351b6df413b505b589e0e0dcf986f4cf3b996295c92362a92821e90b871b1c7",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "handshake",
+      "path": "assets/vendor/icons/originals/handshake.svg",
+      "packageEntry": "package/icons/handshake.svg",
+      "bytes": 585,
+      "sha256": "72fec530f691bdbf42c36795e33bfd22f525a2c9a7101754169787ff1a7da58e",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "presentation",
+      "path": "assets/vendor/icons/originals/presentation.svg",
+      "packageEntry": "package/icons/presentation.svg",
+      "bytes": 399,
+      "sha256": "4e9db5f8322c98e57c7f981dc968535fdbbd53d852463041ca4ec7364cd0351b",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "clipboard-check",
+      "path": "assets/vendor/icons/originals/clipboard-check.svg",
+      "packageEntry": "package/icons/clipboard-check.svg",
+      "bytes": 469,
+      "sha256": "084298ded916ebf3bd765b24447bfd4d8c7967bdce1571035b30ef9ec755c247",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "calendar-days",
+      "path": "assets/vendor/icons/originals/calendar-days.svg",
+      "packageEntry": "package/icons/calendar-days.svg",
+      "bytes": 567,
+      "sha256": "cb15f23f233ed832009813a5d418873fcd605a60377d7d6329aee525d4db51d8",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "clock",
+      "path": "assets/vendor/icons/originals/clock.svg",
+      "packageEntry": "package/icons/clock.svg",
+      "bytes": 347,
+      "sha256": "b90eaf98b9e9a0fe3afafaf4be9645a93f16ebe57473c84fd02de89389655191",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "goal",
+      "path": "assets/vendor/icons/originals/goal.svg",
+      "packageEntry": "package/icons/goal.svg",
+      "bytes": 413,
+      "sha256": "4d1e5e9c924c4af14d578da05feec70a5b3cfffc5261167dd9d168485d4feaa7",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "flag",
+      "path": "assets/vendor/icons/originals/flag.svg",
+      "packageEntry": "package/icons/flag.svg",
+      "bytes": 445,
+      "sha256": "6683ddbdd8a193dcb855eec30f8aaea623aa2b33432e608ff43ca61393f52669",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "trophy",
+      "path": "assets/vendor/icons/originals/trophy.svg",
+      "packageEntry": "package/icons/trophy.svg",
+      "bytes": 631,
+      "sha256": "e35c25c988768e9e2fbc06e648fe49d676734867ff85340dc647be709187ecb1",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "chart-column",
+      "path": "assets/vendor/icons/originals/chart-column.svg",
+      "packageEntry": "package/icons/chart-column.svg",
+      "bytes": 403,
+      "sha256": "bb77e0467b6181cf9c1cc5d9ffbf4ba6c86c13a2458c8c00bd9cb6fa45fd3cae",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "chart-line",
+      "path": "assets/vendor/icons/originals/chart-line.svg",
+      "packageEntry": "package/icons/chart-line.svg",
+      "bytes": 362,
+      "sha256": "2a2143f5a0d3276a93b92c1e25816ca5126c3d78d94827490063bb8f5efc44f8",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "chart-pie",
+      "path": "assets/vendor/icons/originals/chart-pie.svg",
+      "packageEntry": "package/icons/chart-pie.svg",
+      "bytes": 451,
+      "sha256": "808b9be7a5a595af4e29729a4ca005086da62b8347c841b2e6eb9c321f2e0122",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "trending-up",
+      "path": "assets/vendor/icons/originals/trending-up.svg",
+      "packageEntry": "package/icons/trending-up.svg",
+      "bytes": 353,
+      "sha256": "6d91b60bc5941db33993fc13c839fcf4407a96910c5eec93ea54eb55bafd30ce",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "percent",
+      "path": "assets/vendor/icons/originals/percent.svg",
+      "packageEntry": "package/icons/percent.svg",
+      "bytes": 407,
+      "sha256": "bb0e87150ff551cf4f3fc449528a1a70e7fd354e362973eb299fc9f61dc6b7c0",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "database",
+      "path": "assets/vendor/icons/originals/database.svg",
+      "packageEntry": "package/icons/database.svg",
+      "bytes": 408,
+      "sha256": "bc4edbaaea7f39131cfcd05dda9f34725c7c3b61eea0f2cd8c4ef2912df6db65",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "gauge",
+      "path": "assets/vendor/icons/originals/gauge.svg",
+      "packageEntry": "package/icons/gauge.svg",
+      "bytes": 354,
+      "sha256": "4e277a50cb4be29e544e17760828bbded07faf72ccc1188c0875c8575178360d",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "target",
+      "path": "assets/vendor/icons/originals/target.svg",
+      "packageEntry": "package/icons/target.svg",
+      "bytes": 391,
+      "sha256": "07c7c81f2e2a13a3a76b280a48246079e5f1191737d92105ad9d2eebb7232f20",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "calculator",
+      "path": "assets/vendor/icons/originals/calculator.svg",
+      "packageEntry": "package/icons/calculator.svg",
+      "bytes": 604,
+      "sha256": "12497b9d3d855f82a4ccf1021924e1e3d974f3d4aee3aeb66cd365ca4b0990af",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "table-2",
+      "path": "assets/vendor/icons/originals/table-2.svg",
+      "packageEntry": "package/icons/table-2.svg",
+      "bytes": 385,
+      "sha256": "06dc13cb4f33d654978d88eb73ad04d747916f51eb03e472abf3e9632d46acec",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "users",
+      "path": "assets/vendor/icons/originals/users.svg",
+      "packageEntry": "package/icons/users.svg",
+      "bytes": 459,
+      "sha256": "4465a8282a15897fcf70ee4ac7a752db10664051335d2c0967c9a7a903f13904",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "user-round",
+      "path": "assets/vendor/icons/originals/user-round.svg",
+      "packageEntry": "package/icons/user-round.svg",
+      "bytes": 360,
+      "sha256": "011b29453d6392abbb8b175201d667c4f15df84812b694ef4e15e6491cda32fc",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "user-round-check",
+      "path": "assets/vendor/icons/originals/user-round-check.svg",
+      "packageEntry": "package/icons/user-round-check.svg",
+      "bytes": 399,
+      "sha256": "92aebcdefdb70dfc2303f9ffe6e0fe6b4979f400e071b1ede3e96da665c119df",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "contact-round",
+      "path": "assets/vendor/icons/originals/contact-round.svg",
+      "packageEntry": "package/icons/contact-round.svg",
+      "bytes": 465,
+      "sha256": "aa33e03609d0725ab6c67793f7d5ff15163b1173f3e742ecd0281b4d07a26dde",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "message-circle",
+      "path": "assets/vendor/icons/originals/message-circle.svg",
+      "packageEntry": "package/icons/message-circle.svg",
+      "bytes": 432,
+      "sha256": "0b117a4634a20094a912f36475d0caa4744e536de601a04833e143d566a7f92b",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "messages-square",
+      "path": "assets/vendor/icons/originals/messages-square.svg",
+      "packageEntry": "package/icons/messages-square.svg",
+      "bytes": 543,
+      "sha256": "c3098bb5ff11ed2ca9a4e46d08e02cb097a17f3f369a8696cb4dcb523418cde2",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "mail",
+      "path": "assets/vendor/icons/originals/mail.svg",
+      "packageEntry": "package/icons/mail.svg",
+      "bytes": 391,
+      "sha256": "9ce7bc56ddf19948676402e16759ce9c1f2ace5bd89c7d7634933125e551fe69",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "phone",
+      "path": "assets/vendor/icons/originals/phone.svg",
+      "packageEntry": "package/icons/phone.svg",
+      "bytes": 513,
+      "sha256": "0b122bf9de674c94de7fa39101dd6c5753504e5b62e8bcd60f41a38cf89b719a",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "video",
+      "path": "assets/vendor/icons/originals/video.svg",
+      "packageEntry": "package/icons/video.svg",
+      "bytes": 426,
+      "sha256": "4113cbdebc0d8c7a9bb21f44ef70956bfcf799d041e2ee737a7f174bb3046675",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "megaphone",
+      "path": "assets/vendor/icons/originals/megaphone.svg",
+      "packageEntry": "package/icons/megaphone.svg",
+      "bytes": 511,
+      "sha256": "7a305aef1c73e12ffe3d114cf73e5629b91f4a83506191510987143ca53bdb84",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "lightbulb",
+      "path": "assets/vendor/icons/originals/lightbulb.svg",
+      "packageEntry": "package/icons/lightbulb.svg",
+      "bytes": 451,
+      "sha256": "577f218522a42d2af453450c5af6e17dad37060af9da1e6c1eee72ecd81fa00d",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "palette",
+      "path": "assets/vendor/icons/originals/palette.svg",
+      "packageEntry": "package/icons/palette.svg",
+      "bytes": 649,
+      "sha256": "fae62350370df7a045ed664621cc58e7eb3043a88bdaf42bac0ca2f3040def30",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "pen-tool",
+      "path": "assets/vendor/icons/originals/pen-tool.svg",
+      "packageEntry": "package/icons/pen-tool.svg",
+      "bytes": 669,
+      "sha256": "a78bde5adecc4b08d981e0bdcaa81b056509eda9f1bd63d779ecbf497ac62b7b",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "paintbrush",
+      "path": "assets/vendor/icons/originals/paintbrush.svg",
+      "packageEntry": "package/icons/paintbrush.svg",
+      "bytes": 704,
+      "sha256": "00062a9383c2f081978289796ba8490d98ec820fc261eebb5d23fc9717dfbb74",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "image",
+      "path": "assets/vendor/icons/originals/image.svg",
+      "packageEntry": "package/icons/image.svg",
+      "bytes": 434,
+      "sha256": "c4078fd954a98256124c9749b6f9a6a48621e8dcec07ec78236b3ecc26b819c3",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "shapes",
+      "path": "assets/vendor/icons/originals/shapes.svg",
+      "packageEntry": "package/icons/shapes.svg",
+      "bytes": 482,
+      "sha256": "96fb3df529d8c4927b916a7f75e3d0e73eb3affc0c858c454a99ee738d0d25ac",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "wand-sparkles",
+      "path": "assets/vendor/icons/originals/wand-sparkles.svg",
+      "packageEntry": "package/icons/wand-sparkles.svg",
+      "bytes": 613,
+      "sha256": "45461a6167b99f6773cd960fb00c3e5561754dea8be8c7fc921735c76bba2e21",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "sparkles",
+      "path": "assets/vendor/icons/originals/sparkles.svg",
+      "packageEntry": "package/icons/sparkles.svg",
+      "bytes": 646,
+      "sha256": "4dd096584e2b7b9349ec94b104918eddc5a8e687e22ff272c6f2a6ba31813933",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "layers",
+      "path": "assets/vendor/icons/originals/layers.svg",
+      "packageEntry": "package/icons/layers.svg",
+      "bytes": 587,
+      "sha256": "b6693d9e1f7f0858e95f7eb3c01150819a7a80e92e973d6b3b79bfde7fec96d5",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "layout-dashboard",
+      "path": "assets/vendor/icons/originals/layout-dashboard.svg",
+      "packageEntry": "package/icons/layout-dashboard.svg",
+      "bytes": 503,
+      "sha256": "04b48e62fd2667d1ecf879d32c40e53413db303795bf9b55f824372d7263437a",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "monitor",
+      "path": "assets/vendor/icons/originals/monitor.svg",
+      "packageEntry": "package/icons/monitor.svg",
+      "bytes": 424,
+      "sha256": "e268f29d5d23e55cf3631abdb91b363178c91bddc1a6ba73d65f0a4d9182979e",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "laptop",
+      "path": "assets/vendor/icons/originals/laptop.svg",
+      "packageEntry": "package/icons/laptop.svg",
+      "bytes": 482,
+      "sha256": "4df77a239be31dafce53fb43e13bea0861823833bdd3e9f11ca2a3164867e02a",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "smartphone",
+      "path": "assets/vendor/icons/originals/smartphone.svg",
+      "packageEntry": "package/icons/smartphone.svg",
+      "bytes": 375,
+      "sha256": "f9c52d2a5c665e5d862e085e83b123a52d1b3662bbfdc041a0a7b77e0856f0e4",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "tablet",
+      "path": "assets/vendor/icons/originals/tablet.svg",
+      "packageEntry": "package/icons/tablet.svg",
+      "bytes": 391,
+      "sha256": "2b57e328daffe00e4c7d1530d9761002e2a32d6ca6949a3f1b21d02ed8f0ce52",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "cloud",
+      "path": "assets/vendor/icons/originals/cloud.svg",
+      "packageEntry": "package/icons/cloud.svg",
+      "bytes": 351,
+      "sha256": "46c8957071345aca5f9b621529893341a2ea20fe00d27702b32a125432472158",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "globe",
+      "path": "assets/vendor/icons/originals/globe.svg",
+      "packageEntry": "package/icons/globe.svg",
+      "bytes": 407,
+      "sha256": "a2917fe24ca4aefed772c875dd95bbe07dbd146c2ef6501f5dd3032e0c4cb001",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "wifi",
+      "path": "assets/vendor/icons/originals/wifi.svg",
+      "packageEntry": "package/icons/wifi.svg",
+      "bytes": 432,
+      "sha256": "463c00603f50caa383a975fbc4e72a8c60ffcab7f76bf581857ea2fb81eddbe7",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "code-xml",
+      "path": "assets/vendor/icons/originals/code-xml.svg",
+      "packageEntry": "package/icons/code-xml.svg",
+      "bytes": 373,
+      "sha256": "50dccc0b5236e739126323110be8eaf2611be471e2d0c83adde384aa6cacf8ec",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "shield-check",
+      "path": "assets/vendor/icons/originals/shield-check.svg",
+      "packageEntry": "package/icons/shield-check.svg",
+      "bytes": 498,
+      "sha256": "618ad09c689bbaa4eed347793083255fee2c0547d8531db4767e4264577fd65a",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "lock-keyhole",
+      "path": "assets/vendor/icons/originals/lock-keyhole.svg",
+      "packageEntry": "package/icons/lock-keyhole.svg",
+      "bytes": 420,
+      "sha256": "cf61c4b0d3a685a4f887dfd105468b7772c30d20c55e11bc665abce3290e3557",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "check",
+      "path": "assets/vendor/icons/originals/check.svg",
+      "packageEntry": "package/icons/check.svg",
+      "bytes": 315,
+      "sha256": "7bb664a727396418e1ddc4f7126dad52a7e686e3293251080787296a0d8aa278",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "circle-check",
+      "path": "assets/vendor/icons/originals/circle-check.svg",
+      "packageEntry": "package/icons/circle-check.svg",
+      "bytes": 361,
+      "sha256": "8060d78fab415a2a84470a845ee29d59f02b8f5361e2a238f8d1cdbf99d2955c",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "circle-alert",
+      "path": "assets/vendor/icons/originals/circle-alert.svg",
+      "packageEntry": "package/icons/circle-alert.svg",
+      "bytes": 415,
+      "sha256": "0d9e1ce02e17b59fa0a469109af33bef465f2e9520fc2c2a14b5f46bc008ec8f",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "triangle-alert",
+      "path": "assets/vendor/icons/originals/triangle-alert.svg",
+      "packageEntry": "package/icons/triangle-alert.svg",
+      "bytes": 430,
+      "sha256": "456054288ade09e5d0b77d80b75cfb5733bbf32e3eb09a78522e6a6a09def275",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "info",
+      "path": "assets/vendor/icons/originals/info.svg",
+      "packageEntry": "package/icons/info.svg",
+      "bytes": 369,
+      "sha256": "3374d0b5169cf1a6b2454907cbd51448e7e5fde4db68ecf03461fc908bb3b008",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "circle-question-mark",
+      "path": "assets/vendor/icons/originals/circle-question-mark.svg",
+      "packageEntry": "package/icons/circle-question-mark.svg",
+      "bytes": 413,
+      "sha256": "11450e7cfe83416546a62a8179c36c37817140114d0b911d8f054c13fccd219c",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "heart",
+      "path": "assets/vendor/icons/originals/heart.svg",
+      "packageEntry": "package/icons/heart.svg",
+      "bytes": 449,
+      "sha256": "83c7729fe7b2a701fa855ef91353d05bc0ac57f8e8e5a39e0930b9c4139d45d0",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "star",
+      "path": "assets/vendor/icons/originals/star.svg",
+      "packageEntry": "package/icons/star.svg",
+      "bytes": 663,
+      "sha256": "3772fe68c01f245c817bde473c17735d9ec727e1df6609538f0596bf13288e58",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "zap",
+      "path": "assets/vendor/icons/originals/zap.svg",
+      "packageEntry": "package/icons/zap.svg",
+      "bytes": 464,
+      "sha256": "525b5b8a184fd52347dc1ad2a1f40bf6fd78adcf0ba8add78663053f8d8fe99e",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    },
+    {
+      "id": "rocket",
+      "path": "assets/vendor/icons/originals/rocket.svg",
+      "packageEntry": "package/icons/rocket.svg",
+      "bytes": 606,
+      "sha256": "f6eca720a80a9b3692a8c6806839b9ac7c7d57706ba9b8e6ec579e992636bcfd",
+      "conversion": "Original path geometry retained with canonical command/number and compact arc-flag separation; rect/circle/ellipse/line/polygon primitives converted exactly to path data. currentColor resolved to an editable HEX stroke; original round caps/joins retained."
+    }
+  ]
+}

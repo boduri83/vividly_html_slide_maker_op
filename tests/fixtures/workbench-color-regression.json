@@ -1,0 +1,148 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.2-workbench.1",
+  "id": "deck-color-regression",
+  "title": "Color preservation regression",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "slide-color-regression",
+      "background": "#fefefeff",
+      "elements": [
+        {
+          "id": "element-color-gradient",
+          "type": "shape",
+          "geometry": {
+            "x": 96,
+            "y": 160,
+            "width": 480,
+            "height": 300
+          },
+          "shape": "rectangle",
+          "fill": "#7a9c",
+          "stroke": {
+            "color": "#11632e",
+            "width": 2
+          },
+          "text": {
+            "paragraphs": [
+              "Gradient color preservation"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 32,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "Mixed-width gradient",
+          "style": {
+            "opacity": 0.85,
+            "radius": 24,
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#f008"
+                },
+                {
+                  "offset": 0.5,
+                  "color": "#0af"
+                },
+                {
+                  "offset": 1,
+                  "color": "#336699cc"
+                }
+              ]
+            },
+            "shadow": {
+              "x": 4,
+              "y": 10,
+              "blur": 18,
+              "spread": 0,
+              "color": "#18203780"
+            }
+          }
+        },
+        {
+          "id": "element-color-solid",
+          "type": "shape",
+          "geometry": {
+            "x": 680,
+            "y": 200,
+            "width": 440,
+            "height": 260
+          },
+          "shape": "rectangle",
+          "fill": "#5a8c",
+          "stroke": {
+            "color": "#11632e",
+            "width": 2
+          },
+          "text": {
+            "paragraphs": [
+              "Alpha fill to gradient"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 32,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "Alpha solid fill"
+        },
+        {
+          "id": "element-color-solid-long",
+          "type": "shape",
+          "geometry": {
+            "x": 680,
+            "y": 520,
+            "width": 440,
+            "height": 120
+          },
+          "shape": "rectangle",
+          "fill": "#55aa88cc",
+          "stroke": {
+            "color": "#11632e",
+            "width": 2
+          },
+          "text": {
+            "paragraphs": [
+              "Long alpha fill to gradient"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 32,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "Long alpha solid fill"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "theme": {
+    "colors": {
+      "primary": "#abc",
+      "secondary": "#1234",
+      "background": "#fefefeff",
+      "text": "#182037aa"
+    },
+    "fontFamily": "Malgun Gothic"
+  }
+}

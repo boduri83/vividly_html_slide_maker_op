@@ -1,0 +1,42 @@
+{
+  "name": "vividly",
+  "version": "0.24.0-desktop.5",
+  "private": true,
+  "license": "MPL-2.0",
+  "type": "module",
+  "description": "Vividly — Present Vividly.",
+  "productName": "Vividly",
+  "author": {"name": "Borvis Studio", "url": "https://github.com/boduri83"},
+  "producer": "보들이",
+  "slogan": "Present Vividly.",
+  "main": "desktop/main.mjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "electron .",
+    "start:web": "node server.mjs",
+    "test": "node --test tests/*.test.js",
+    "package:desktop": "node scripts/package-desktop.mjs",
+    "package:installer": "node scripts/build-windows-installer.mjs",
+    "build:export-source": "node scripts/build-export-source.mjs",
+    "build:workbench": "node scripts/build-workbench.mjs"
+  },
+  "devDependencies": {
+    "electron": "45.1.0",
+    "esbuild": "0.28.2",
+    "pe-library": "2.0.1",
+    "resedit": "3.1.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "@tiptap/core": "3.32.2",
+    "@tiptap/extension-text-style": "3.32.2",
+    "@tiptap/starter-kit": "3.32.2",
+    "css-tree": "3.2.1",
+    "matter-js": "0.20.0",
+    "moveable": "0.53.0",
+    "selecto": "1.26.3",
+    "zod": "4.6.7"
+  }
+}

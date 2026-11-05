@@ -1,0 +1,10 @@
+LibreOffice DrawingML preset shape definitions
+Source repository: https://github.com/LibreOffice/core
+Source commit: 9dea406ab7695df6325b11b0e19fdca8db4b7276
+Original: oox/source/drawingml/customshapes/presetShapeDefinitions.xml
+License: Mozilla Public License 2.0 (see LICENSE.txt).
+Original XML bytes are preserved. src/shapes.js compiles its default guides and paths.
+The original XML, source notices, runtime template, and generator are included with this repository.
+Rebuild: python scripts/build-shapes.py
+Preset XY and polar adjustment handles are compiled from the original avLst/ahLst guides.
+OOXML import/export and action-button behavior are not implied by this geometry dataset.

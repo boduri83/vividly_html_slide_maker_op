@@ -1,0 +1,47 @@
+name: 첫 사용 후기
+description: 첫 자료를 어디까지 만들었는지, 어떤 점이 좋거나 불편했는지 알려주세요.
+title: "[후기] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        사용해 주셔서 감사합니다. 이 후기는 공개됩니다. 원본 자료 첨부는 필요하지 않습니다.
+        실제 고객 정보·API 키·개인 파일 경로는 적지 마세요. 문서나 사용 기록은 자동으로 전송되지 않습니다.
+  - type: input
+    id: version
+    attributes:
+      label: 사용한 Vividly 버전
+      placeholder: "예: 0.24.0-beta.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: completed
+    attributes:
+      label: 첫 자료를 어디까지 만들어 보셨나요?
+      options:
+        - 다운로드했지만 아직 실행하지 못했어요
+        - 앱을 열고 예제를 살펴봤어요
+        - 제목이나 개체를 직접 수정했어요
+        - 저장한 HTML을 다시 열어 수정했어요
+        - 발표하거나 HTML을 공유해 봤어요
+        - 직접 쓸 자료 한 건을 완성했어요
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: 좋았던 점 또는 막힌 지점
+      description: 오류나 개선 요청이 없어도 괜찮습니다. 어떤 자료를 만들려 했는지와 사용 경험을 알려주세요.
+    validations:
+      required: true
+  - type: dropdown
+    id: return_intent
+    attributes:
+      label: 다음 자료에도 사용하고 싶으신가요? (선택)
+      options:
+        - 아직 모르겠어요
+        - 다시 사용하고 싶어요
+        - 불편한 점이 개선되면 사용하고 싶어요
+        - 현재는 다시 사용할 계획이 없어요
+    validations:
+      required: false

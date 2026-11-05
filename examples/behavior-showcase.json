@@ -1,0 +1,3317 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.13-behavior.1",
+  "id": "document-vividly-behavior-showcase",
+  "title": "Vividly · 입력과 시간, 선택에 반응하는 자료",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "behavior-roi",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "behavior-roi-item-1",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 39.6,
+            "width": 972.8,
+            "height": 57.6
+          },
+          "text": {
+            "paragraphs": [
+              "예상 수익률 계산"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 43.52,
+              "lineHeight": 1.4,
+              "color": "#263b63",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "동작 예제 제목"
+        },
+        {
+          "id": "behavior-roi-item-2",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 104.39999999999999,
+            "width": 972.8,
+            "height": 39.6
+          },
+          "text": {
+            "paragraphs": [
+              "매출과 비용을 입력하면 수익률이 바로 바뀝니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.4,
+              "color": "#667895",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": false
+            }
+          },
+          "name": "동작 예제 안내"
+        },
+        {
+          "id": "behavior-roi-item-3",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 158.4,
+            "width": 260,
+            "height": 45
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "예상 매출"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "매출 안내",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-roi-item-4",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 213.4,
+            "width": 260,
+            "height": 60
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "10000"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "매출 입력",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-roi-item-5",
+          "type": "shape",
+          "geometry": {
+            "x": 445.6,
+            "y": 158.4,
+            "width": 260,
+            "height": 45
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "예상 비용"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "비용 안내",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-roi-item-6",
+          "type": "shape",
+          "geometry": {
+            "x": 445.6,
+            "y": 213.4,
+            "width": 260,
+            "height": 60
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "6000"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "비용 입력",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-roi-item-7",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 303.4,
+            "width": 620,
+            "height": 100
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "수익률"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "수익률 표시",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-roi-guide-panel",
+          "type": "shape",
+          "geometry": {
+            "x": 842,
+            "y": 160,
+            "width": 358,
+            "height": 350
+          },
+          "shape": "rectangle",
+          "fill": "#172744",
+          "stroke": {
+            "color": "#172744",
+            "width": 0
+          },
+          "name": "동작 설명 카드",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "behavior-roi-guide-title",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 183,
+            "width": 300,
+            "height": 38
+          },
+          "text": {
+            "paragraphs": [
+              "어떻게 연결됐을까?"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.35,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "연결 설명 제목"
+        },
+        {
+          "id": "behavior-roi-guide-step-0",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 242,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "01  숫자 입력 → 이름 있는 값"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 1"
+        },
+        {
+          "id": "behavior-roi-guide-step-1",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 303,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "02  변수 참조 → 산술 계산"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 2"
+        },
+        {
+          "id": "behavior-roi-guide-step-2",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 364,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "03  계산 결과 → 숫자 표시"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 3"
+        },
+        {
+          "id": "behavior-roi-help",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 532,
+            "width": 1120,
+            "height": 58
+          },
+          "text": {
+            "paragraphs": [
+              "매출과 비용을 바꿔 보세요. 비용은 1 이상이어야 합니다. 결과를 만드는 식도 동작 도구에서 편집할 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.35,
+              "color": "#566b8e",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "직접 사용 안내"
+        },
+        {
+          "id": "behavior-roi-counter",
+          "type": "text",
+          "geometry": {
+            "x": 510,
+            "y": 608,
+            "width": 300,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "1 / 4  ·  수익률 계산"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.35,
+              "color": "#6b7d99",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 순서"
+        },
+        {
+          "id": "behavior-roi-previous",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "← 마지막 예제"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 ← 마지막 예제",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-roi-page-1",
+          "type": "shape",
+          "geometry": {
+            "x": 492,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#4f46e5",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "1"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 1",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-roi-page-2",
+          "type": "shape",
+          "geometry": {
+            "x": 569,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "2"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 2",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-roi-page-3",
+          "type": "shape",
+          "geometry": {
+            "x": 646,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "3"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 3",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-roi-page-4",
+          "type": "shape",
+          "geometry": {
+            "x": 723,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "4"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 4",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-roi-next",
+          "type": "shape",
+          "geometry": {
+            "x": 1010,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "다음 예제 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 다음 예제 →",
+          "style": {
+            "radius": 12
+          }
+        }
+      ],
+      "name": "01 수익률 계산",
+      "notes": "매출과 비용을 바꿔 보세요. 비용은 1 이상이어야 합니다. 결과를 만드는 식도 동작 도구에서 편집할 수 있습니다. 발표에서 하단의 예제 번호 또는 이전/다음 버튼으로 이동합니다. 편집기에서는 동작 도구에서 값·식·조건·단계를 수정합니다.",
+      "transition": {
+        "type": "none",
+        "duration": 0,
+        "easing": "ease",
+        "navigation": "interaction"
+      },
+      "behavior": {
+        "inputs": [
+          {
+            "id": "behavior-roi-input-1",
+            "targetId": "behavior-roi-item-4",
+            "variableId": "behavior-value-1",
+            "kind": "number",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "step": 100
+          },
+          {
+            "id": "behavior-roi-input-2",
+            "targetId": "behavior-roi-item-6",
+            "variableId": "behavior-value-2",
+            "kind": "number",
+            "minimum": 1,
+            "maximum": 1000000000,
+            "step": 1
+          }
+        ],
+        "rules": [
+          {
+            "id": "behavior-roi-previous-click",
+            "name": "← 마지막 예제로 이동",
+            "event": "click",
+            "sourceId": "behavior-roi-previous",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-schedule"
+              }
+            ]
+          },
+          {
+            "id": "behavior-roi-page-1-click",
+            "name": "1로 이동",
+            "event": "click",
+            "sourceId": "behavior-roi-page-1",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-roi"
+              }
+            ]
+          },
+          {
+            "id": "behavior-roi-page-2-click",
+            "name": "2로 이동",
+            "event": "click",
+            "sourceId": "behavior-roi-page-2",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-countdown"
+              }
+            ]
+          },
+          {
+            "id": "behavior-roi-page-3-click",
+            "name": "3로 이동",
+            "event": "click",
+            "sourceId": "behavior-roi-page-3",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-branch"
+              }
+            ]
+          },
+          {
+            "id": "behavior-roi-page-4-click",
+            "name": "4로 이동",
+            "event": "click",
+            "sourceId": "behavior-roi-page-4",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-schedule"
+              }
+            ]
+          },
+          {
+            "id": "behavior-roi-next-click",
+            "name": "다음 예제 →로 이동",
+            "event": "click",
+            "sourceId": "behavior-roi-next",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-countdown"
+              }
+            ]
+          }
+        ],
+        "machines": [],
+        "bindings": [
+          {
+            "id": "behavior-roi-binding-1",
+            "targetId": "behavior-roi-item-7",
+            "format": "number",
+            "expression": {
+              "type": "op",
+              "op": "multiply",
+              "args": [
+                {
+                  "type": "op",
+                  "op": "divide",
+                  "args": [
+                    {
+                      "type": "op",
+                      "op": "subtract",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "behavior-value-1"
+                        },
+                        {
+                          "type": "variable",
+                          "id": "behavior-value-2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-2"
+                    }
+                  ]
+                },
+                {
+                  "type": "literal",
+                  "value": 100
+                }
+              ]
+            },
+            "decimals": 1,
+            "prefix": "예상 수익률 ",
+            "suffix": "%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "behavior-countdown",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "behavior-countdown-item-1",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 39.6,
+            "width": 972.8,
+            "height": 57.6
+          },
+          "text": {
+            "paragraphs": [
+              "10초 카운트다운"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 43.52,
+              "lineHeight": 1.4,
+              "color": "#263b63",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "동작 예제 제목"
+        },
+        {
+          "id": "behavior-countdown-item-2",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 104.39999999999999,
+            "width": 972.8,
+            "height": 39.6
+          },
+          "text": {
+            "paragraphs": [
+              "시작 버튼을 누르세요. 멈춘 뒤 다시 시작할 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.4,
+              "color": "#667895",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": false
+            }
+          },
+          "name": "동작 예제 안내"
+        },
+        {
+          "id": "behavior-countdown-item-3",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 158.4,
+            "width": 620,
+            "height": 110
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "10"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "카운트다운 표시",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-countdown-item-4",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 298.4,
+            "width": 260,
+            "height": 65
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "다시 10초 시작"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "카운트다운 시작",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-countdown-item-5",
+          "type": "shape",
+          "geometry": {
+            "x": 445.6,
+            "y": 298.4,
+            "width": 260,
+            "height": 65
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "멈추기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "카운트다운 멈춤",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-countdown-guide-panel",
+          "type": "shape",
+          "geometry": {
+            "x": 842,
+            "y": 160,
+            "width": 358,
+            "height": 350
+          },
+          "shape": "rectangle",
+          "fill": "#172744",
+          "stroke": {
+            "color": "#172744",
+            "width": 0
+          },
+          "name": "동작 설명 카드",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "behavior-countdown-guide-title",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 183,
+            "width": 300,
+            "height": 38
+          },
+          "text": {
+            "paragraphs": [
+              "어떻게 연결됐을까?"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.35,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "연결 설명 제목"
+        },
+        {
+          "id": "behavior-countdown-guide-step-0",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 242,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "01  시작 버튼 → 실행 단계"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 1"
+        },
+        {
+          "id": "behavior-countdown-guide-step-1",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 303,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "02  1초 타이머 → 남은 시간"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 2"
+        },
+        {
+          "id": "behavior-countdown-guide-step-2",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 364,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "03  0초 조건 → 완료 단계"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 3"
+        },
+        {
+          "id": "behavior-countdown-help",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 532,
+            "width": 1120,
+            "height": 58
+          },
+          "text": {
+            "paragraphs": [
+              "다시 10초 시작을 누른 뒤 멈추기를 사용해 보세요. 장을 나가면 타이머가 정리되고 다시 들어오면 대기합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.35,
+              "color": "#566b8e",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "직접 사용 안내"
+        },
+        {
+          "id": "behavior-countdown-counter",
+          "type": "text",
+          "geometry": {
+            "x": 510,
+            "y": 608,
+            "width": 300,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "2 / 4  ·  카운트다운"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.35,
+              "color": "#6b7d99",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 순서"
+        },
+        {
+          "id": "behavior-countdown-previous",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "← 이전 예제"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 ← 이전 예제",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-countdown-page-1",
+          "type": "shape",
+          "geometry": {
+            "x": 492,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "1"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 1",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-countdown-page-2",
+          "type": "shape",
+          "geometry": {
+            "x": 569,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#4f46e5",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "2"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 2",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-countdown-page-3",
+          "type": "shape",
+          "geometry": {
+            "x": 646,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "3"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 3",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-countdown-page-4",
+          "type": "shape",
+          "geometry": {
+            "x": 723,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "4"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 4",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-countdown-next",
+          "type": "shape",
+          "geometry": {
+            "x": 1010,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "다음 예제 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 다음 예제 →",
+          "style": {
+            "radius": 12
+          }
+        }
+      ],
+      "name": "02 카운트다운",
+      "notes": "다시 10초 시작을 누른 뒤 멈추기를 사용해 보세요. 장을 나가면 타이머가 정리되고 다시 들어오면 대기합니다. 발표에서 하단의 예제 번호 또는 이전/다음 버튼으로 이동합니다. 편집기에서는 동작 도구에서 값·식·조건·단계를 수정합니다.",
+      "transition": {
+        "type": "none",
+        "duration": 0,
+        "easing": "ease",
+        "navigation": "interaction"
+      },
+      "behavior": {
+        "inputs": [],
+        "rules": [
+          {
+            "id": "behavior-countdown-rule-1",
+            "name": "1초마다 남은 시간 줄이기",
+            "event": "timer",
+            "trigger": {
+              "intervalMs": 1000,
+              "repeat": true,
+              "autoStart": false
+            },
+            "inState": {
+              "machineId": "behavior-countdown-machine-1",
+              "stateId": "behavior-countdown-machine-1-state-2"
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-3",
+                "value": {
+                  "type": "op",
+                  "op": "max",
+                  "args": [
+                    {
+                      "type": "literal",
+                      "value": 0
+                    },
+                    {
+                      "type": "op",
+                      "op": "subtract",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "behavior-value-3"
+                        },
+                        {
+                          "type": "literal",
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "emit",
+                "name": "behavior-countdown-rule-1-tick"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-rule-2",
+            "name": "0초가 되면 멈추기",
+            "event": "custom",
+            "trigger": {
+              "eventName": "behavior-countdown-rule-1-tick"
+            },
+            "condition": {
+              "type": "op",
+              "op": "lessOrEqual",
+              "args": [
+                {
+                  "type": "variable",
+                  "id": "behavior-value-3"
+                },
+                {
+                  "type": "literal",
+                  "value": 0
+                }
+              ]
+            },
+            "inState": {
+              "machineId": "behavior-countdown-machine-1",
+              "stateId": "behavior-countdown-machine-1-state-2"
+            },
+            "actions": [
+              {
+                "type": "timerStop",
+                "ruleId": "behavior-countdown-rule-1"
+              },
+              {
+                "type": "transition",
+                "machineId": "behavior-countdown-machine-1",
+                "stateId": "behavior-countdown-machine-1-state-4"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-rule-3",
+            "name": "카운트다운 다시 시작",
+            "event": "click",
+            "sourceId": "behavior-countdown-item-4",
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-3",
+                "value": {
+                  "type": "literal",
+                  "value": 10
+                }
+              },
+              {
+                "type": "transition",
+                "machineId": "behavior-countdown-machine-1",
+                "stateId": "behavior-countdown-machine-1-state-2"
+              },
+              {
+                "type": "timerStart",
+                "ruleId": "behavior-countdown-rule-1"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-rule-4",
+            "name": "카운트다운 멈추기",
+            "event": "click",
+            "sourceId": "behavior-countdown-item-5",
+            "inState": {
+              "machineId": "behavior-countdown-machine-1",
+              "stateId": "behavior-countdown-machine-1-state-2"
+            },
+            "actions": [
+              {
+                "type": "timerStop",
+                "ruleId": "behavior-countdown-rule-1"
+              },
+              {
+                "type": "transition",
+                "machineId": "behavior-countdown-machine-1",
+                "stateId": "behavior-countdown-machine-1-state-3"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-previous-click",
+            "name": "← 이전 예제로 이동",
+            "event": "click",
+            "sourceId": "behavior-countdown-previous",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-roi"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-page-1-click",
+            "name": "1로 이동",
+            "event": "click",
+            "sourceId": "behavior-countdown-page-1",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-roi"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-page-2-click",
+            "name": "2로 이동",
+            "event": "click",
+            "sourceId": "behavior-countdown-page-2",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-countdown"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-page-3-click",
+            "name": "3로 이동",
+            "event": "click",
+            "sourceId": "behavior-countdown-page-3",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-branch"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-page-4-click",
+            "name": "4로 이동",
+            "event": "click",
+            "sourceId": "behavior-countdown-page-4",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-schedule"
+              }
+            ]
+          },
+          {
+            "id": "behavior-countdown-next-click",
+            "name": "다음 예제 →로 이동",
+            "event": "click",
+            "sourceId": "behavior-countdown-next",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-branch"
+              }
+            ]
+          }
+        ],
+        "machines": [
+          {
+            "id": "behavior-countdown-machine-1",
+            "name": "카운트다운 단계",
+            "initialStateId": "behavior-countdown-machine-1-state-1",
+            "states": [
+              {
+                "id": "behavior-countdown-machine-1-state-1",
+                "name": "대기",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-countdown-item-5"
+                  }
+                ]
+              },
+              {
+                "id": "behavior-countdown-machine-1-state-2",
+                "name": "실행 중",
+                "enterActions": [
+                  {
+                    "type": "show",
+                    "targetId": "behavior-countdown-item-5"
+                  }
+                ]
+              },
+              {
+                "id": "behavior-countdown-machine-1-state-3",
+                "name": "멈춤",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-countdown-item-5"
+                  }
+                ]
+              },
+              {
+                "id": "behavior-countdown-machine-1-state-4",
+                "name": "완료",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-countdown-item-5"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "bindings": [
+          {
+            "id": "behavior-countdown-binding-1",
+            "targetId": "behavior-countdown-item-3",
+            "format": "number",
+            "expression": {
+              "type": "variable",
+              "id": "behavior-value-3"
+            },
+            "decimals": 0,
+            "suffix": " 초"
+          }
+        ]
+      }
+    },
+    {
+      "id": "behavior-branch",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "behavior-branch-item-1",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 39.6,
+            "width": 972.8,
+            "height": 57.6
+          },
+          "text": {
+            "paragraphs": [
+              "단계별 안내"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 43.52,
+              "lineHeight": 1.4,
+              "color": "#263b63",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "동작 예제 제목"
+        },
+        {
+          "id": "behavior-branch-item-2",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 104.39999999999999,
+            "width": 972.8,
+            "height": 39.6
+          },
+          "text": {
+            "paragraphs": [
+              "내용을 읽고 ‘확인했어요’를 누르세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.4,
+              "color": "#667895",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": false
+            }
+          },
+          "name": "동작 예제 안내"
+        },
+        {
+          "id": "behavior-branch-item-3",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 158.4,
+            "width": 620,
+            "height": 100
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "내용을 확인하고 다음 단계로 이동하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "학습 안내",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-branch-item-4",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 158.4,
+            "width": 620,
+            "height": 100
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "완료했습니다. 처음 단계로 돌아갈 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "완료 안내",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-branch-item-5",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 288.4,
+            "width": 260,
+            "height": 65
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "확인했어요"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "완료로 이동",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-branch-item-6",
+          "type": "shape",
+          "geometry": {
+            "x": 445.6,
+            "y": 288.4,
+            "width": 260,
+            "height": 65
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "다시 보기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "처음으로 이동",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-branch-guide-panel",
+          "type": "shape",
+          "geometry": {
+            "x": 842,
+            "y": 160,
+            "width": 358,
+            "height": 350
+          },
+          "shape": "rectangle",
+          "fill": "#172744",
+          "stroke": {
+            "color": "#172744",
+            "width": 0
+          },
+          "name": "동작 설명 카드",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "behavior-branch-guide-title",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 183,
+            "width": 300,
+            "height": 38
+          },
+          "text": {
+            "paragraphs": [
+              "어떻게 연결됐을까?"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.35,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "연결 설명 제목"
+        },
+        {
+          "id": "behavior-branch-guide-step-0",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 242,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "01  확인 버튼 → Boolean 값"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 1"
+        },
+        {
+          "id": "behavior-branch-guide-step-1",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 303,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "02  단계 전이 → 진입 동작"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 2"
+        },
+        {
+          "id": "behavior-branch-guide-step-2",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 364,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "03  진입 동작 → 안내 교체"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 3"
+        },
+        {
+          "id": "behavior-branch-help",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 532,
+            "width": 1120,
+            "height": 58
+          },
+          "text": {
+            "paragraphs": [
+              "확인했어요와 다시 보기를 눌러 보세요. 두 화면은 같은 페이지 안에 있고 이름 있는 단계가 보이는 내용을 결정합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.35,
+              "color": "#566b8e",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "직접 사용 안내"
+        },
+        {
+          "id": "behavior-branch-counter",
+          "type": "text",
+          "geometry": {
+            "x": 510,
+            "y": 608,
+            "width": 300,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "3 / 4  ·  단계별 안내"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.35,
+              "color": "#6b7d99",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 순서"
+        },
+        {
+          "id": "behavior-branch-previous",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "← 이전 예제"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 ← 이전 예제",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-branch-page-1",
+          "type": "shape",
+          "geometry": {
+            "x": 492,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "1"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 1",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-branch-page-2",
+          "type": "shape",
+          "geometry": {
+            "x": 569,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "2"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 2",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-branch-page-3",
+          "type": "shape",
+          "geometry": {
+            "x": 646,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#4f46e5",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "3"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 3",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-branch-page-4",
+          "type": "shape",
+          "geometry": {
+            "x": 723,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "4"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 4",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-branch-next",
+          "type": "shape",
+          "geometry": {
+            "x": 1010,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "다음 예제 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 다음 예제 →",
+          "style": {
+            "radius": 12
+          }
+        }
+      ],
+      "name": "03 단계별 안내",
+      "notes": "확인했어요와 다시 보기를 눌러 보세요. 두 화면은 같은 페이지 안에 있고 이름 있는 단계가 보이는 내용을 결정합니다. 발표에서 하단의 예제 번호 또는 이전/다음 버튼으로 이동합니다. 편집기에서는 동작 도구에서 값·식·조건·단계를 수정합니다.",
+      "transition": {
+        "type": "none",
+        "duration": 0,
+        "easing": "ease",
+        "navigation": "interaction"
+      },
+      "behavior": {
+        "inputs": [],
+        "rules": [
+          {
+            "id": "behavior-branch-rule-1",
+            "name": "학습을 확인하고 완료로",
+            "event": "click",
+            "sourceId": "behavior-branch-item-5",
+            "inState": {
+              "machineId": "behavior-branch-machine-1",
+              "stateId": "behavior-branch-machine-1-state-1"
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-4",
+                "value": {
+                  "type": "literal",
+                  "value": true
+                }
+              },
+              {
+                "type": "transition",
+                "machineId": "behavior-branch-machine-1",
+                "stateId": "behavior-branch-machine-1-state-2"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-rule-2",
+            "name": "다시 학습하기",
+            "event": "click",
+            "sourceId": "behavior-branch-item-6",
+            "inState": {
+              "machineId": "behavior-branch-machine-1",
+              "stateId": "behavior-branch-machine-1-state-2"
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-4",
+                "value": {
+                  "type": "literal",
+                  "value": false
+                }
+              },
+              {
+                "type": "transition",
+                "machineId": "behavior-branch-machine-1",
+                "stateId": "behavior-branch-machine-1-state-1"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-previous-click",
+            "name": "← 이전 예제로 이동",
+            "event": "click",
+            "sourceId": "behavior-branch-previous",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-countdown"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-page-1-click",
+            "name": "1로 이동",
+            "event": "click",
+            "sourceId": "behavior-branch-page-1",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-roi"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-page-2-click",
+            "name": "2로 이동",
+            "event": "click",
+            "sourceId": "behavior-branch-page-2",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-countdown"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-page-3-click",
+            "name": "3로 이동",
+            "event": "click",
+            "sourceId": "behavior-branch-page-3",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-branch"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-page-4-click",
+            "name": "4로 이동",
+            "event": "click",
+            "sourceId": "behavior-branch-page-4",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-schedule"
+              }
+            ]
+          },
+          {
+            "id": "behavior-branch-next-click",
+            "name": "다음 예제 →로 이동",
+            "event": "click",
+            "sourceId": "behavior-branch-next",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-schedule"
+              }
+            ]
+          }
+        ],
+        "machines": [
+          {
+            "id": "behavior-branch-machine-1",
+            "name": "학습 단계",
+            "initialStateId": "behavior-branch-machine-1-state-1",
+            "states": [
+              {
+                "id": "behavior-branch-machine-1-state-1",
+                "name": "내용 확인",
+                "enterActions": [
+                  {
+                    "type": "show",
+                    "targetId": "behavior-branch-item-3"
+                  },
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-branch-item-4"
+                  },
+                  {
+                    "type": "show",
+                    "targetId": "behavior-branch-item-5"
+                  },
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-branch-item-6"
+                  }
+                ]
+              },
+              {
+                "id": "behavior-branch-machine-1-state-2",
+                "name": "완료",
+                "enterActions": [
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-branch-item-3"
+                  },
+                  {
+                    "type": "show",
+                    "targetId": "behavior-branch-item-4"
+                  },
+                  {
+                    "type": "hide",
+                    "targetId": "behavior-branch-item-5"
+                  },
+                  {
+                    "type": "show",
+                    "targetId": "behavior-branch-item-6"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "bindings": []
+      }
+    },
+    {
+      "id": "behavior-schedule",
+      "background": "#f5f7fb",
+      "elements": [
+        {
+          "id": "behavior-schedule-item-1",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 39.6,
+            "width": 972.8,
+            "height": 57.6
+          },
+          "text": {
+            "paragraphs": [
+              "30일 일정 실험"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 43.52,
+              "lineHeight": 1.4,
+              "color": "#263b63",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "동작 예제 제목"
+        },
+        {
+          "id": "behavior-schedule-item-2",
+          "type": "text",
+          "geometry": {
+            "x": 153.6,
+            "y": 104.39999999999999,
+            "width": 972.8,
+            "height": 39.6
+          },
+          "text": {
+            "paragraphs": [
+              "연습과 휴식을 선택해 체력과 능력의 변화를 확인하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.4,
+              "color": "#667895",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": false
+            }
+          },
+          "name": "동작 예제 안내"
+        },
+        {
+          "id": "behavior-schedule-item-3",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 158.4,
+            "width": 620,
+            "height": 100
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "날짜 · 체력 · 능력"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "일정과 자원 표시",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-schedule-item-4",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 288.4,
+            "width": 260,
+            "height": 70
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "연습 · 체력 15 사용"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "연습 선택",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-schedule-item-5",
+          "type": "shape",
+          "geometry": {
+            "x": 445.6,
+            "y": 288.4,
+            "width": 260,
+            "height": 70
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "휴식 · 체력 25 회복"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "휴식 선택",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-schedule-item-6",
+          "type": "shape",
+          "geometry": {
+            "x": 153.6,
+            "y": 383.4,
+            "width": 620,
+            "height": 65
+          },
+          "shape": "rectangle",
+          "fill": "#eef2ff",
+          "stroke": {
+            "color": "#ffffff00",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "원하는 일정을 선택하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28.8,
+              "lineHeight": 1.3,
+              "color": "#263b63",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "일정 선택 안내",
+          "style": {
+            "radius": 14
+          }
+        },
+        {
+          "id": "behavior-schedule-guide-panel",
+          "type": "shape",
+          "geometry": {
+            "x": 842,
+            "y": 160,
+            "width": 358,
+            "height": 350
+          },
+          "shape": "rectangle",
+          "fill": "#172744",
+          "stroke": {
+            "color": "#172744",
+            "width": 0
+          },
+          "name": "동작 설명 카드",
+          "style": {
+            "radius": 22
+          }
+        },
+        {
+          "id": "behavior-schedule-guide-title",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 183,
+            "width": 300,
+            "height": 38
+          },
+          "text": {
+            "paragraphs": [
+              "어떻게 연결됐을까?"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.35,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "연결 설명 제목"
+        },
+        {
+          "id": "behavior-schedule-guide-step-0",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 242,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "01  체력과 날짜 → 복합 조건"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 1"
+        },
+        {
+          "id": "behavior-schedule-guide-step-1",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 303,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "02  연습 / 휴식 → 자원 변화"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 2"
+        },
+        {
+          "id": "behavior-schedule-guide-step-2",
+          "type": "text",
+          "geometry": {
+            "x": 870,
+            "y": 364,
+            "width": 300,
+            "height": 50
+          },
+          "text": {
+            "paragraphs": [
+              "03  조건 미충족 → 이유 표시"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.35,
+              "color": "#cdd8f1",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "동작 연결 설명 3"
+        },
+        {
+          "id": "behavior-schedule-help",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 532,
+            "width": 1120,
+            "height": 58
+          },
+          "text": {
+            "paragraphs": [
+              "연습으로 체력과 능력을 바꾸고 휴식으로 회복해 보세요. 30일이 지나면 일정 종료 안내가 나타납니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.35,
+              "color": "#566b8e",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "직접 사용 안내"
+        },
+        {
+          "id": "behavior-schedule-counter",
+          "type": "text",
+          "geometry": {
+            "x": 510,
+            "y": 608,
+            "width": 300,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "4 / 4  ·  일정·자원 선택"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.35,
+              "color": "#6b7d99",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 순서"
+        },
+        {
+          "id": "behavior-schedule-previous",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "← 이전 예제"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 ← 이전 예제",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-schedule-page-1",
+          "type": "shape",
+          "geometry": {
+            "x": 492,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "1"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 1",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-schedule-page-2",
+          "type": "shape",
+          "geometry": {
+            "x": 569,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "2"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 2",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-schedule-page-3",
+          "type": "shape",
+          "geometry": {
+            "x": 646,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "3"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 3",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-schedule-page-4",
+          "type": "shape",
+          "geometry": {
+            "x": 723,
+            "y": 651,
+            "width": 62,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#4f46e5",
+          "stroke": {
+            "color": "#4f46e5",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "4"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 4",
+          "style": {
+            "radius": 12
+          }
+        },
+        {
+          "id": "behavior-schedule-next",
+          "type": "shape",
+          "geometry": {
+            "x": 1010,
+            "y": 651,
+            "width": 190,
+            "height": 47
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#d8dfed",
+            "width": 1
+          },
+          "text": {
+            "paragraphs": [
+              "처음으로 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.2,
+              "color": "#34476a",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "예제 이동 처음으로 →",
+          "style": {
+            "radius": 12
+          }
+        }
+      ],
+      "name": "04 일정·자원 선택",
+      "notes": "연습으로 체력과 능력을 바꾸고 휴식으로 회복해 보세요. 30일이 지나면 일정 종료 안내가 나타납니다. 발표에서 하단의 예제 번호 또는 이전/다음 버튼으로 이동합니다. 편집기에서는 동작 도구에서 값·식·조건·단계를 수정합니다.",
+      "transition": {
+        "type": "none",
+        "duration": 0,
+        "easing": "ease",
+        "navigation": "interaction"
+      },
+      "behavior": {
+        "inputs": [],
+        "rules": [
+          {
+            "id": "behavior-schedule-rule-1",
+            "name": "조건이 맞으면 연습",
+            "event": "click",
+            "sourceId": "behavior-schedule-item-4",
+            "condition": {
+              "type": "op",
+              "op": "and",
+              "args": [
+                {
+                  "type": "op",
+                  "op": "greaterOrEqual",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-6"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "op",
+                  "op": "lessOrEqual",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-5"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 30
+                    }
+                  ]
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-6",
+                "value": {
+                  "type": "op",
+                  "op": "subtract",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-6"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 15
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "behavior-value-7",
+                "value": {
+                  "type": "op",
+                  "op": "add",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-7"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 5
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "behavior-value-5",
+                "value": {
+                  "type": "op",
+                  "op": "add",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-5"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "behavior-value-8",
+                "value": {
+                  "type": "literal",
+                  "value": "연습을 마쳤어요. 능력이 5 올랐습니다."
+                }
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-rule-2",
+            "name": "연습 조건 안내",
+            "event": "click",
+            "sourceId": "behavior-schedule-item-4",
+            "condition": {
+              "type": "op",
+              "op": "not",
+              "args": [
+                {
+                  "type": "op",
+                  "op": "and",
+                  "args": [
+                    {
+                      "type": "op",
+                      "op": "greaterOrEqual",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "behavior-value-6"
+                        },
+                        {
+                          "type": "literal",
+                          "value": 15
+                        }
+                      ]
+                    },
+                    {
+                      "type": "op",
+                      "op": "lessOrEqual",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "behavior-value-5"
+                        },
+                        {
+                          "type": "literal",
+                          "value": 30
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-8",
+                "value": {
+                  "type": "literal",
+                  "value": "체력이 부족하거나 일정이 끝났어요. 체력이 부족하면 휴식하세요."
+                }
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-rule-3",
+            "name": "휴식하고 하루 보내기",
+            "event": "click",
+            "sourceId": "behavior-schedule-item-5",
+            "condition": {
+              "type": "op",
+              "op": "lessOrEqual",
+              "args": [
+                {
+                  "type": "variable",
+                  "id": "behavior-value-5"
+                },
+                {
+                  "type": "literal",
+                  "value": 30
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-6",
+                "value": {
+                  "type": "op",
+                  "op": "min",
+                  "args": [
+                    {
+                      "type": "literal",
+                      "value": 100
+                    },
+                    {
+                      "type": "op",
+                      "op": "add",
+                      "args": [
+                        {
+                          "type": "variable",
+                          "id": "behavior-value-6"
+                        },
+                        {
+                          "type": "literal",
+                          "value": 25
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "behavior-value-5",
+                "value": {
+                  "type": "op",
+                  "op": "add",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-5"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "set",
+                "variableId": "behavior-value-8",
+                "value": {
+                  "type": "literal",
+                  "value": "충분히 쉬었어요. 체력을 회복했습니다."
+                }
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-rule-4",
+            "name": "일정 종료 안내",
+            "event": "click",
+            "sourceId": "behavior-schedule-item-5",
+            "condition": {
+              "type": "op",
+              "op": "not",
+              "args": [
+                {
+                  "type": "op",
+                  "op": "lessOrEqual",
+                  "args": [
+                    {
+                      "type": "variable",
+                      "id": "behavior-value-5"
+                    },
+                    {
+                      "type": "literal",
+                      "value": 30
+                    }
+                  ]
+                }
+              ]
+            },
+            "actions": [
+              {
+                "type": "set",
+                "variableId": "behavior-value-8",
+                "value": {
+                  "type": "literal",
+                  "value": "30일 일정이 끝났습니다. 처음부터 다시 시작할 수 있어요."
+                }
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-previous-click",
+            "name": "← 이전 예제로 이동",
+            "event": "click",
+            "sourceId": "behavior-schedule-previous",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-branch"
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-page-1-click",
+            "name": "1로 이동",
+            "event": "click",
+            "sourceId": "behavior-schedule-page-1",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-roi"
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-page-2-click",
+            "name": "2로 이동",
+            "event": "click",
+            "sourceId": "behavior-schedule-page-2",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-countdown"
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-page-3-click",
+            "name": "3로 이동",
+            "event": "click",
+            "sourceId": "behavior-schedule-page-3",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-branch"
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-page-4-click",
+            "name": "4로 이동",
+            "event": "click",
+            "sourceId": "behavior-schedule-page-4",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-schedule"
+              }
+            ]
+          },
+          {
+            "id": "behavior-schedule-next-click",
+            "name": "처음으로 →로 이동",
+            "event": "click",
+            "sourceId": "behavior-schedule-next",
+            "actions": [
+              {
+                "type": "navigate",
+                "slideId": "behavior-roi"
+              }
+            ]
+          }
+        ],
+        "machines": [],
+        "bindings": [
+          {
+            "id": "behavior-schedule-binding-1",
+            "targetId": "behavior-schedule-item-3",
+            "format": "text",
+            "expression": {
+              "type": "op",
+              "op": "concat",
+              "args": [
+                {
+                  "type": "literal",
+                  "value": "날짜 "
+                },
+                {
+                  "type": "variable",
+                  "id": "behavior-value-5"
+                },
+                {
+                  "type": "literal",
+                  "value": " · 체력 "
+                },
+                {
+                  "type": "variable",
+                  "id": "behavior-value-6"
+                },
+                {
+                  "type": "literal",
+                  "value": " · 능력 "
+                },
+                {
+                  "type": "variable",
+                  "id": "behavior-value-7"
+                }
+              ]
+            }
+          },
+          {
+            "id": "behavior-schedule-binding-2",
+            "targetId": "behavior-schedule-item-6",
+            "format": "text",
+            "expression": {
+              "type": "variable",
+              "id": "behavior-value-8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "assets": [],
+  "behavior": {
+    "variables": [
+      {
+        "id": "behavior-value-1",
+        "name": "예상 매출",
+        "type": "number",
+        "initial": 10000,
+        "minimum": 0,
+        "maximum": 1000000000,
+        "step": 100
+      },
+      {
+        "id": "behavior-value-2",
+        "name": "예상 비용",
+        "type": "number",
+        "initial": 6000,
+        "minimum": 1,
+        "maximum": 1000000000,
+        "step": 1
+      },
+      {
+        "id": "behavior-value-3",
+        "name": "남은 시간",
+        "type": "number",
+        "initial": 10,
+        "minimum": 0,
+        "maximum": 600,
+        "step": 1
+      },
+      {
+        "id": "behavior-value-4",
+        "name": "학습 확인",
+        "type": "boolean",
+        "initial": false
+      },
+      {
+        "id": "behavior-value-5",
+        "name": "날짜",
+        "type": "number",
+        "initial": 1,
+        "minimum": 1,
+        "maximum": 365,
+        "step": 1
+      },
+      {
+        "id": "behavior-value-6",
+        "name": "체력",
+        "type": "number",
+        "initial": 100,
+        "minimum": 0,
+        "maximum": 100,
+        "step": 1
+      },
+      {
+        "id": "behavior-value-7",
+        "name": "능력",
+        "type": "number",
+        "initial": 0,
+        "minimum": 0,
+        "maximum": 10000,
+        "step": 1
+      },
+      {
+        "id": "behavior-value-8",
+        "name": "일정 안내",
+        "type": "text",
+        "initial": "원하는 일정을 선택하세요."
+      }
+    ]
+  },
+  "theme": {
+    "colors": {
+      "primary": "#4f46e5",
+      "secondary": "#0d9488",
+      "background": "#f5f7fb",
+      "text": "#243557"
+    },
+    "fontFamily": "Malgun Gothic"
+  }
+}

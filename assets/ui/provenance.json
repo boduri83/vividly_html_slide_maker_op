@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "createdUtc": "2026-10-31T13:37:56.345311+00:00",
+  "theme": "Colibre",
+  "author": "Andreas Kainz",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseEvidence": {
+    "path": "C:\\Program Files\\LibreOffice\\license.txt",
+    "sha256": "e3752e56328b579e0e3be3039cf1106a4af31ee58db863ffd7624fa9421f6d7f",
+    "section": "Colibre",
+    "excerptFile": "assets/ui/LICENSE.txt"
+  },
+  "sourceRepository": "https://github.com/LibreOffice/core",
+  "installedBuildId": "9dea406ab7695df6325b11b0e19fdca8db4b7276",
+  "sourceTreeCommit": "9dea406ab7695df6325b11b0e19fdca8db4b7276",
+  "archive": {
+    "path": "C:\\Program Files\\LibreOffice\\share\\config\\images_colibre_svg.zip",
+    "bytes": 3210039,
+    "sha256": "fb5e4aa1568bfd0189c1fdad935023980f80f6626603109a59bed7df4bdb812c"
+  },
+  "extraction": "Existing local installation only; no network fetch. Original SVG bytes copied without modification. Source tree paths/blob identities read from the existing pinned checkout; individual byte comparison is recorded per icon.",
+  "files": [
+    {
+      "path": "assets/ui/paste.svg",
+      "archiveEntry": "cmd/lc_paste.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_paste.svg",
+      "sourceTreeBlob": "3a8701d24876ea813e801e4cdd9fedfca64b668a",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1324,
+      "sha256": "b92ed1b56dd0199b6786ceb483d862462f93d038f1c71bfec633ab00623934ca",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/copy.svg",
+      "archiveEntry": "cmd/lc_copy.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_copy.svg",
+      "sourceTreeBlob": "7f1d89c05d048c0b093e017898529f8d92fd5258",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1101,
+      "sha256": "aedf1d0b95d1ea525fce2f7b012413db0bf131a7a9e315321caddb65a692fbe1",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/cut.svg",
+      "archiveEntry": "cmd/lc_cut.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_cut.svg",
+      "sourceTreeBlob": "75990abbe8f1bdd6659b9b41c367afdd01896dc7",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 846,
+      "sha256": "5eb97e0e6db68f6cb32f4ec1f27b686006a9243909729904ce7ab79d4aab3af1",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/new-slide.svg",
+      "archiveEntry": "cmd/lc_insertpage.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_insertpage.svg",
+      "sourceTreeBlob": "17a2f2916a7b9a8ce9cdcf4afc8429b64cff2681",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 2446,
+      "sha256": "dcc53ce43669d27477d97bc9cd790cf7797a734e8b6be71d0badce970c024510",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/duplicate.svg",
+      "archiveEntry": "cmd/lc_copyobjects.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_copyobjects.svg",
+      "sourceTreeBlob": "4ba1de65a3a9cf74634d15b6cf3ea519ee013f94",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 608,
+      "sha256": "d5daca6bfc17ea81dbda8f39b15fc3ea35db0f0884e0111575b495dbc8c6b085",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/delete.svg",
+      "archiveEntry": "cmd/lc_delete.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_delete.svg",
+      "sourceTreeBlob": "5345984191e4e2bc40599126a74d2a3fc9b013ba",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 221,
+      "sha256": "2fd191d49544a4b721eaeea1fc5b6d5b1ae5eae203e98d56abe3c8f82dbe7a4a",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/text.svg",
+      "archiveEntry": "cmd/lc_text.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_text.svg",
+      "sourceTreeBlob": "53f37c4eafaad1b689f9a7af1167b6c9e4b5c19d",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 999,
+      "sha256": "dab57e93a74455d8288a8fd556d24ebd73a38b122a62cc55bcc77027776162b2",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/rectangle.svg",
+      "archiveEntry": "cmd/lc_rect.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_rect.svg",
+      "sourceTreeBlob": "f7576e59df85179c9feaf614833365e274c2cf0c",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 268,
+      "sha256": "1cb939c7883fee22b5c58e432c1c5dcff5ab5f2391fc4b4920b78a3e6090a6b4",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/ellipse.svg",
+      "archiveEntry": "cmd/lc_ellipse.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_ellipse.svg",
+      "sourceTreeBlob": "e04734c4242ce8c78361ac3a313ac36a82cf02ee",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1278,
+      "sha256": "e580b65e6820a67a39c436c3a421d9323cb526ab39c47382dc1c2904ed6c8c59",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/image.svg",
+      "archiveEntry": "cmd/lc_insertgraphic.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_insertgraphic.svg",
+      "sourceTreeBlob": "1bc34358a0322f859059a7ea6918cc47e40b11e0",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1129,
+      "sha256": "bc2ce9c769336954d5ca41b1abd89699430fb03577530a4c86b25df105e334c2",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/table.svg",
+      "archiveEntry": "cmd/lc_inserttable.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_inserttable.svg",
+      "sourceTreeBlob": "3c893034ae1a5e47a71ce2f104ee608cbeb65372",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 500,
+      "sha256": "d428efe79d9dd1517274cf9ff88069d24bb45ac3037af687080b67edada3a4fa",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/chart.svg",
+      "archiveEntry": "cmd/lc_drawchart.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_drawchart.svg",
+      "sourceTreeBlob": "f5a3e8fa4d60a261bf35f09051e06a6e1825a8a2",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 380,
+      "sha256": "306492c3f0245d41294322aef63b559bf5f08c45a7be5d3afcdb18678cbd8d13",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/connector.svg",
+      "archiveEntry": "cmd/lc_connector.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_connector.svg",
+      "sourceTreeBlob": "66a9c8ad0dcccfa824d5971e3bda22f236cbc211",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 317,
+      "sha256": "be3fa38d809626c3ae6793407d58ef0f292c69564baaf192c9d41be4ba194156",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/svg.svg",
+      "archiveEntry": "cmd/lc_insertdraw.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_insertdraw.svg",
+      "sourceTreeBlob": "0d9a59e4ce8d462c1773578e3a963478b25f10d1",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 896,
+      "sha256": "8214643e76f4b0639ed2d561171fa76fdfa4ea5b634bfa83c3ae77909a365cdf",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/align-left.svg",
+      "archiveEntry": "cmd/lc_objectalignleft.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_objectalignleft.svg",
+      "sourceTreeBlob": "8e411e5b29dee709b1c8cb662311badc3ee91e87",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1061,
+      "sha256": "18299581543bec38c961c0e861839de6240e66adf8f4c7a374d8a843a305266f",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/align-center.svg",
+      "archiveEntry": "cmd/lc_alignhorizontalcenter.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_alignhorizontalcenter.svg",
+      "sourceTreeBlob": "141db53bfae97a49d53b83a55374903dcb518c2c",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 396,
+      "sha256": "746d6df866d731d02562d7ef1682233321b2378700429410a07d57ce7fb2fd58",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/align-right.svg",
+      "archiveEntry": "cmd/lc_objectalignright.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_objectalignright.svg",
+      "sourceTreeBlob": "21a97cc455f8f049f795e1097fc3f6bb85e25c00",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1047,
+      "sha256": "9a751f5a4b16ec6918fa3df96664c6f504834d585909241e815f121c606b81a1",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/align-top.svg",
+      "archiveEntry": "cmd/lc_alignup.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_alignup.svg",
+      "sourceTreeBlob": "c6c17bbcc3333541d8d922956c1df45ae831ec37",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 977,
+      "sha256": "7114789d410d63ca35c967ec11f366f6e4290f37863835c962e24c8a62c19004",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/align-middle.svg",
+      "archiveEntry": "cmd/lc_alignmiddle.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_alignmiddle.svg",
+      "sourceTreeBlob": "e3b618d3be95f2c7cdfcd0834d9de92c9e59e25d",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1519,
+      "sha256": "965811ee4853877390619e5407013d1462bf5c3579fc47336c7c0d1e4aaada17",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/align-bottom.svg",
+      "archiveEntry": "cmd/lc_aligndown.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_aligndown.svg",
+      "sourceTreeBlob": "b81be868bc85c18d0c14f4b25e330f265b8161d2",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 991,
+      "sha256": "08ebbbb38c5a7599adb24e1c72c2d2fd8aec4a6e83676985995c2a56652023d4",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/group.svg",
+      "archiveEntry": "cmd/lc_group.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_group.svg",
+      "sourceTreeBlob": "f04867cb70230fc558ac43d23427e7c2da85b354",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 748,
+      "sha256": "8e95ec0ef881ab247975a42675725c53febd0e57224fd33c0422ecee03d37b64",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/ungroup.svg",
+      "archiveEntry": "cmd/lc_ungroup.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_ungroup.svg",
+      "sourceTreeBlob": "acf3f645e34b2d9103637d5956b06f51bcc8d29e",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 683,
+      "sha256": "02b120392fcaeca63ea28d9c82617ebfb5fa6556ab27eb5b26ad5b3fec20eec4",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/format-paint.svg",
+      "archiveEntry": "cmd/lc_formatpaintbrush.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_formatpaintbrush.svg",
+      "sourceTreeBlob": "5473927065ae80b8a46130430eaf51010d9ddb3c",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 2164,
+      "sha256": "7306822f1e9725aedcf853998f8bc4eb20583a8cd46b7019ca9d0a9716ffe804",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/save.svg",
+      "archiveEntry": "cmd/lc_save.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_save.svg",
+      "sourceTreeBlob": "8d178baf08f7c72d11ca9b951d0efff982279532",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 771,
+      "sha256": "801a8f86d2efe7dada258e04c73a04a924a9850511fd9814ee018551008236e6",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/undo.svg",
+      "archiveEntry": "cmd/lc_undo.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_undo.svg",
+      "sourceTreeBlob": "9671172588e465fca4f958dc88978564ed2a56b4",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 537,
+      "sha256": "f8f059e1118e9afcaff940326ca296b52b12d561a4b56fdc998b3bb3d54ce665",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/redo.svg",
+      "archiveEntry": "cmd/lc_redo.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_redo.svg",
+      "sourceTreeBlob": "d611aae77aefc5efc471998a7b1f2d771cb835d4",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 537,
+      "sha256": "14bc09ba8bc47491e2233ed93897240a4894099f0cc4225b715bee952b9ec145",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/play.svg",
+      "archiveEntry": "cmd/lc_presentation.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_presentation.svg",
+      "sourceTreeBlob": "2c23132019871db8866a235cd149bac600489452",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1699,
+      "sha256": "1f56fcbba8e8e50d26362ce4b2630f181142e93d30f102675ca3fb3d34fe2e4e",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/front.svg",
+      "archiveEntry": "cmd/lc_bringtofront.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_bringtofront.svg",
+      "sourceTreeBlob": "446682985abc70dbb8262c437b25e3c85ea87825",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 918,
+      "sha256": "321f54d124fb828bbb4e7a79224f39de79016b1ab0daaed4f0ec6822b430eaa5",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/back.svg",
+      "archiveEntry": "cmd/lc_sendtoback.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_sendtoback.svg",
+      "sourceTreeBlob": "4ccc6f560d918db264673da395490be40e4ba649",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 930,
+      "sha256": "51a28dcf71f0391ac015e9eee8c0bdda070d5745c49f96aed9ff942f67cf9112",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/distribute-h.svg",
+      "archiveEntry": "cmd/lc_distributehorzdistance.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_distributehorzdistance.svg",
+      "sourceTreeBlob": "c0e509cbd0a8c42f7033fe06c5a5198639736e07",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1153,
+      "sha256": "8b884ec528075f25c8f4f3d4e3dfc250d2e8d8e7347d8dc5412e360bc83a6f03",
+      "modified": false
+    },
+    {
+      "path": "assets/ui/distribute-v.svg",
+      "archiveEntry": "cmd/lc_distributevertdistance.svg",
+      "sourceGitPath": "icon-themes/colibre_svg/cmd/lc_distributevertdistance.svg",
+      "sourceTreeBlob": "f90d9a3ed173bfd0738151db95423961d08c1d2f",
+      "installedBytesMatchSourceBlob": true,
+      "bytes": 1208,
+      "sha256": "fd2e1c8ef3c02dad1233274d7facd4ee6d45858e8760db10015b7887353ac3c0",
+      "modified": false
+    }
+  ]
+}

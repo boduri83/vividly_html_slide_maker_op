@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "https://github.com/LibreOffice/core",
+  "sourceCommit": "9dea406ab7695df6325b11b0e19fdca8db4b7276",
+  "sourcePath": "oox/source/drawingml/customshapes/presetShapeDefinitions.xml",
+  "sourceBytes": 538972,
+  "sourceSha256": "eaff19f4405b3be6822428c96ef46cc685499217366fd58e5e63a5a24739f02f",
+  "license": "MPL-2.0",
+  "originalFile": "assets/vendor/shapes/presetShapeDefinitions.xml",
+  "generator": "scripts/build-shapes.py",
+  "runtimeTemplate": "assets/vendor/shapes/runtime-template.js",
+  "generatedFile": "src/shapes.js",
+  "presetCount": 187,
+  "adjustablePresetCount": 120,
+  "adjustmentHandleCount": 243,
+  "polarHandleCount": 23,
+  "references": [
+    "https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml.drawing.shapeguide.formula?view=openxml-3.0.1",
+    "https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml.drawing.arcto?view=openxml-3.0.1"
+  ],
+  "localImplementationReference": "svx/source/customshapes/EnhancedCustomShape2d.cxx:2040 (ellipse angle normalization), 2403 (ARCANGLETO)"
+}

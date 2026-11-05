@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#315bff">
+  <meta name="description" content="Vividly의 문서·복구본 보관, 선택적 AI·API·MCP 연결, HTML 공유와 공개 문의에 대한 개인정보·데이터 안내입니다.">
+  <title>개인정보·데이터 안내 — Vividly</title>
+  <link rel="icon" href="assets/brand/vividly-icon-32.png"><link rel="stylesheet" href="styles.css"><script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Vividly 홈"><img src="assets/brand/vividly-logo-light.svg" width="154" height="44" alt="Vividly — Present Vividly."></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">메뉴 <span aria-hidden="true">☰</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="주 메뉴"><a href="index.html#make">만들 수 있는 것</a><a href="index.html#preview">결과물 미리보기</a><a href="start.html">처음 사용하기</a><a class="nav-download" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">Windows 베타 받기 <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main id="main" class="document-main section-wrap">
+    <p class="breadcrumb"><a href="index.html">Vividly</a><span aria-hidden="true">/</span>개인정보·데이터 안내</p>
+    <header class="page-intro"><p class="eyebrow">사용 전에 알아두세요</p><h1>자료와 연결을<br>이해하고 사용하세요.</h1><p class="lead">수동 편집·저장·발표에는 AI 연결이 필요하지 않습니다.<br>기기에 남는 정보와 외부로 보내는 정보를 구분해 안내합니다.</p><p class="policy-date">2026년 11월 3일 · 초기 공개 베타 · Borvis Studio · 기획·제작: 보들이</p></header>
+    <div class="policy-layout">
+      <nav class="side-index" aria-label="개인정보 안내 목차"><p>이 페이지에서</p><a href="#local">기기에 남는 정보</a><a href="#connections">AI·API·MCP 연결</a><a href="#sharing">HTML 공유</a><a href="#website">소개 사이트</a><a href="#contact">문의와 제보</a></nav>
+      <div class="document-body">
+        <section class="policy-section" id="local" aria-labelledby="local-title">
+          <h2 id="local-title">기기에 남는 정보</h2>
+          <p>Vividly는 작성한 자료를 사용자가 고른 파일에 저장합니다. 현재 검토한 앱 코드에는 제작자가 운영하는 이용 분석·광고·자동 오류 보고 기능을 넣지 않았습니다. 모든 데이터가 종료 즉시 삭제되거나 문서 전체가 암호화된다는 뜻은 아닙니다.</p>
+          <p>Windows 설치형은 현재 사용자 계정에 앱·시작 메뉴 바로가기·선택한 바탕 화면 바로가기·설치된 앱 항목을 만듭니다. 앱을 제거해도 작성한 문서·복구본·연결 설정·보관한 키는 남습니다. 필요한 자료를 보관한 뒤 아래 안내에 따라 정리하세요.</p>
+          <table class="policy-table"><caption class="visually-hidden">주요 정보의 보관·삭제 방식</caption><tbody>
+            <tr><th scope="row">문서와 내보낸 파일</th><td>HTML·JSON·이미지·영상은 저장한 위치에 남습니다. 암호화된 문서 형식이 아니며 사용자가 직접 삭제합니다. 앱 종료나 폼 초기화로 별도 파일까지 지워지지 않습니다.</td></tr>
+            <tr><th scope="row">자동 복구본</th><td>확정된 편집의 최신본·직전본을 앱의 로컬 데이터 폴더에 평문으로 보관하며 자동 만료 기간은 없습니다. 복구 창의 <strong>이 복구본 버리기</strong>를 사용할 수 있습니다. 손상되어 격리한 파일까지 모두 지우는 전용 UI는 없습니다.</td></tr>
+            <tr><th scope="row">연결 설정과 키</th><td>모델·주소 등 설정은 로컬에 보관하며 <strong>API 키만</strong> OS 보호 저장소로 암호화합니다. 키 보관은 기본 선택이고, 끄면 해당 실행 중에만 사용합니다. 보관한 키 삭제 후 설정을 저장하거나 데이터 소스의 연결을 삭제할 수 있습니다.</td></tr>
+            <tr><th scope="row">발표 중 입력값</th><td>저자가 고른 <span class="inline-code">local</span>은 해당 앱/브라우저에 만료 없이, <span class="inline-code">session</span>은 해당 세션 동안 보관합니다. <span class="inline-code">none</span>은 실행 상태로 유지합니다. 폼 초기화는 저자 초기값으로 되돌리고 저장값 삭제를 시도합니다. 실패 안내가 나오면 저장값이 남을 수 있습니다.</td></tr>
+            <tr><th scope="row">클립보드와 설정</th><td>복사한 내용은 Windows 클립보드 및 그 기록에 남을 수 있습니다. 앱이 OS 클립보드 기록을 지우지는 않습니다. 가이드·격자·아바타 위치 같은 일부 설정도 기기에 유지됩니다.</td></tr>
+          </tbody></table>
+          <p><strong>저장하지 않고 닫기와 복구본 삭제는 다릅니다.</strong> 정상 저장 뒤 복구본 정리를 시도하지만 파일 입출력 실패까지 포함해 즉시 삭제를 보장하지 않습니다. 앱 전체 데이터·격리본을 한 번에 삭제하는 기능은 아직 없으며 정리 전 필요한 자료를 다른 이름으로 저장하세요.</p>
+          <p>연결 삭제는 이후 연결을 끊는 동작이며 이미 문서에 적용한 데이터까지 지우지는 않습니다.</p>
+        </section>
+        <section class="policy-section" id="connections" aria-labelledby="connections-title">
+          <h2 id="connections-title">AI·API·MCP는 선택해서 연결합니다.</h2>
+          <p>아바타와 외부 MCP 연결은 기본으로 꺼져 있습니다. 켜서 메시지를 보내면 질문, 선택한 작업 범위의 문서 요약, 허용된 도구로 조회한 확정 내용과 최근 대화 일부를 선택한 모델 제공처에 전달합니다.</p>
+          <p>제안의 <strong>적용 전 검토</strong>는 문서 변경을 확인하는 기능입니다. 모델로 보내는 정보의 사전 검토를 대신하지 않습니다.</p>
+          <h3>Codex와 모델 API</h3><p>Codex 직접 연결은 설치된 Codex와 해당 로그인·모델 서비스를 사용합니다. OpenAI·호환 또는 로컬 API 연결은 사용자가 설정한 주소로 요청합니다. 임시 대화나 <span class="inline-code">store:false</span> 요청이 제공처의 모든 기록 삭제를 보장하지는 않으므로 해당 서비스의 처리·보관 정책을 확인하세요.</p>
+          <h3>외부 MCP 호스트</h3><p>문서 조회·편집 허용은 아바타와 별도로 관리합니다. 호스트가 받은 정보를 다른 모델·서비스로 추가 전달할 수 있으며 연결 해제로 이미 전달한 정보를 회수할 수는 없습니다. 파일·자산 허용도 별도입니다.</p>
+          <h3>데이터 API</h3><p>사용자가 샘플 읽기·새로고침을 누르면 설정한 주소로 GET 요청을 보냅니다. 주소·인증 설정은 로컬에 보관하고 적용한 차트·표 데이터는 문서에 남습니다.</p>
+          <div class="note"><p>API 키를 별도로 보호해도 문서나 메시지 안에 직접 적은 비밀이 자동으로 제거되지는 않습니다. 외부 기능에는 공개 가능한 자료만 보내세요.</p></div>
+        </section>
+        <section class="policy-section" id="sharing" aria-labelledby="sharing-title">
+          <h2 id="sharing-title">HTML을 공유하기 전에</h2>
+          <p>편집용 HTML에는 화면의 내용 외에 <strong>전체 편집 데이터·저자 초기값·발표 메모·사용하지 않는 자산</strong>이 남을 수 있습니다. 원본 이미지·영상의 메타데이터를 자동으로 제거하지 않습니다. 화면에서 개체를 지웠다고 파일 안의 모든 정보가 삭제됐다고 보지 마세요.</p>
+          <p>내보내기의 노트 포함 여부와 실제 파일을 확인하세요. 문제를 설명할 때는 민감한 원본 대신 가상의 내용으로 만든 예제를 사용해도 됩니다.</p>
+          <p>앱 runtime의 MPL 소스와 고지도 HTML에 함께 들어갑니다. 소프트웨어 고지가 사용자 발표 내용의 라이선스를 바꾸지는 않습니다.</p>
+        </section>
+        <section class="policy-section" id="website" aria-labelledby="website-title">
+          <h2 id="website-title">소개 사이트와 GitHub</h2>
+          <p>이 소개 사이트는 GitHub Pages로 제공합니다. 사이트에는 자체 회원가입·분석 도구·광고·자동 오류 전송 기능을 추가하지 않았습니다. Pages 방문과 GitHub 저장소·Issues 이용에는 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 정책</a>도 적용됩니다. 앱의 기기 내 보관과 구분하세요.</p>
+        </section>
+        <section class="policy-section" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">문의와 문제 신고</h2>
+          <p>문의는 <a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues">프로젝트 Issues</a>에서 받습니다. 보들이의 공개 계정은 <a href="https://github.com/boduri83">보들이 GitHub</a>(boduri83)입니다. 현재 별도의 이메일·비공개 접수 창구는 제공하지 않습니다.</p>
+          <div class="support-callout"><h3>Issues와 첨부 파일은 공개됩니다.</h3><p>API 키·토큰·비밀번호·실제 고객 정보·민감한 원본 문서·개인 경로를 올리지 마세요. 로그나 화면은 필요한 부분만 고른 뒤 민감한 정보를 가려 주세요. 원본 문서 첨부는 필수가 아닙니다.</p><p>개인정보 관련 문의도 공개 가능한 개요만 적고 설명 방법을 먼저 상의하세요.</p><div class="plain-links"><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=bug_report.yml">오류 제보 <span aria-hidden="true">↗</span></a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=feature_request.yml">기능 제안 <span aria-hidden="true">↗</span></a></div></div>
+          <div class="plain-links"><a href="https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/PRIVACY.md">개인정보 안내 원문</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/blob/main/SUPPORT.md">사용·지원 안내</a></div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer section-wrap"><div><a class="footer-brand" href="index.html">Vividly<span>Present Vividly.</span></a><p>직접 만들고 함께 다듬는 HTML 프레젠테이션.</p><p>Borvis Studio · 기획·제작: 보들이</p></div><nav aria-label="하단 메뉴"><a href="start.html">첫 사용 안내</a><a href="privacy.html" aria-current="page">개인정보 안내</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues">지원·피드백</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op">소스 · MPL-2.0</a><a href="https://github.com/boduri83">보들이 GitHub</a></nav></footer>
+</body>
+</html>

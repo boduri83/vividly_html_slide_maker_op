@@ -1,0 +1,1361 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.5-motion.1",
+  "id": "document-vividly-advanced-showcase",
+  "title": "모션을 설계하고 선택에 반응하는 자료 · Vividly",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "advanced-hero",
+      "background": "#10172e",
+      "elements": [
+        {
+          "id": "advanced-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 62,
+            "width": 800,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "PRESENT VIVIDLY. / MOTION STUDIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.25,
+              "color": "#b7b1ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "첫 장 작은 제목"
+        },
+        {
+          "id": "advanced-title",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 142,
+            "width": 875,
+            "height": 196
+          },
+          "text": {
+            "paragraphs": [
+              "움직임을 설계하고,",
+              "선택에 반응하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 66,
+              "lineHeight": 1.25,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "모션 스튜디오 제목"
+        },
+        {
+          "id": "advanced-subtitle",
+          "type": "text",
+          "geometry": {
+            "x": 88,
+            "y": 373,
+            "width": 720,
+            "height": 85
+          },
+          "text": {
+            "paragraphs": [
+              "키프레임·모양·조건을 화면에서 연결하세요.",
+              "수동 편집과 에이전트가 같은 문서를 사용합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 24,
+              "lineHeight": 1.25,
+              "color": "#bec7e5",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "모션 제작 설명"
+        },
+        {
+          "id": "advanced-cta",
+          "type": "shape",
+          "geometry": {
+            "x": 88,
+            "y": 506,
+            "width": 330,
+            "height": 68
+          },
+          "shape": "rectangle",
+          "fill": "#7865ff",
+          "stroke": {
+            "color": "#7865ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "시나리오 살펴보기 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 25,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "시나리오 열기 버튼",
+          "style": {
+            "radius": 18,
+            "shadow": {
+              "x": 0,
+              "y": 12,
+              "blur": 35,
+              "spread": 0,
+              "color": "#7865ff44"
+            }
+          },
+          "component": {
+            "kind": "button"
+          },
+          "states": [
+            {
+              "id": "advanced-state-cta-hover",
+              "name": "포인터 강조",
+              "style": {
+                "fill": "#aa9cff",
+                "color": "#10172e",
+                "scale": 1.05
+              }
+            }
+          ]
+        },
+        {
+          "id": "advanced-orb",
+          "type": "shape",
+          "geometry": {
+            "x": 1010,
+            "y": 126,
+            "width": 150,
+            "height": 150
+          },
+          "shape": "rectangle",
+          "fill": "#8b78ff",
+          "stroke": {
+            "color": "#8b78ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "✦"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 62,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "움직이는 신호",
+          "style": {
+            "radius": 60,
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#9b8bff"
+                },
+                {
+                  "offset": 1,
+                  "color": "#3abfb5"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "advanced-key-tip",
+          "type": "shape",
+          "geometry": {
+            "x": 88,
+            "y": 622,
+            "width": 680,
+            "height": 38
+          },
+          "shape": "rectangle",
+          "fill": "#151d38",
+          "stroke": {
+            "color": "#151d38",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "키 A로 힌트 · 카드 위 포인터로 모양 변화"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.2,
+              "color": "#93a4cb",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "키 입력 안내",
+          "style": {
+            "radius": 10
+          }
+        },
+        {
+          "id": "advanced-hint",
+          "type": "text",
+          "geometry": {
+            "x": 830,
+            "y": 430,
+            "width": 350,
+            "height": 110
+          },
+          "text": {
+            "paragraphs": [
+              "같은 자료가\n선택에 맞춰 달라집니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 26,
+              "lineHeight": 1.25,
+              "color": "#a9fff1",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "키로 나타나는 힌트",
+          "initiallyHidden": true
+        }
+      ],
+      "name": "01 모션 스튜디오",
+      "notes": "키프레임과 텍스트 순차 효과를 소개합니다. 키 A로 힌트를 보여주고 CTA의 포인터 모양 변화를 확인합니다.",
+      "motions": [
+        {
+          "id": "advanced-motion-title",
+          "targetId": "advanced-title",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1250,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 38,
+              "scale": 0.97,
+              "rotate": 0,
+              "opacity": 0,
+              "blur": 8
+            },
+            {
+              "offset": 0.55,
+              "x": 0,
+              "y": -6,
+              "scale": 1.015,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ],
+          "stagger": {
+            "by": "word",
+            "delay": 90
+          }
+        },
+        {
+          "id": "advanced-motion-orb",
+          "targetId": "advanced-orb",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1850,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 200,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 0.8,
+              "rotate": -20,
+              "opacity": 0.3,
+              "blur": 12
+            },
+            {
+              "offset": 0.45,
+              "x": -70,
+              "y": 130,
+              "scale": 1.25,
+              "rotate": 20,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": -20,
+              "y": 70,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        }
+      ],
+      "interactions": [
+        {
+          "id": "advanced-hover",
+          "sourceId": "advanced-cta",
+          "event": "hover",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "advanced-cta",
+              "stateId": "advanced-state-cta-hover"
+            }
+          ]
+        },
+        {
+          "id": "advanced-leave",
+          "sourceId": "advanced-cta",
+          "event": "leave",
+          "actions": [
+            {
+              "type": "resetState",
+              "targetId": "advanced-cta"
+            }
+          ]
+        },
+        {
+          "id": "advanced-next",
+          "sourceId": "advanced-cta",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "advanced-scenario"
+            }
+          ]
+        },
+        {
+          "id": "advanced-key",
+          "sourceId": "advanced-cta",
+          "event": "key",
+          "actions": [
+            {
+              "type": "toggle",
+              "targetId": "advanced-hint"
+            }
+          ],
+          "trigger": {
+            "key": "a",
+            "once": false
+          }
+        }
+      ],
+      "transition": {
+        "type": "wipe",
+        "duration": 600,
+        "easing": "ease-out"
+      }
+    },
+    {
+      "id": "advanced-scenario",
+      "background": "#ffffff",
+      "elements": [
+        {
+          "id": "scenario-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 50,
+            "width": 1000,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "INTERACTIVE SCENARIO"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.25,
+              "color": "#635bff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "시나리오 작은 제목"
+        },
+        {
+          "id": "scenario-title",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 98,
+            "width": 1100,
+            "height": 72
+          },
+          "text": {
+            "paragraphs": [
+              "레버를 움직이면, 숫자가 답합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 44,
+              "lineHeight": 1.25,
+              "color": "#17223e",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "시나리오 제목"
+        },
+        {
+          "id": "scenario-description",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 188,
+            "width": 1080,
+            "height": 52
+          },
+          "text": {
+            "paragraphs": [
+              "같은 원본 숫자에 계산을 적용하고, 조건에 따라 카드 모양을 바꿉니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.25,
+              "color": "#61718d",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "시나리오 안내"
+        },
+        {
+          "id": "scenario-slider",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 280,
+            "width": 580,
+            "height": 88
+          },
+          "shape": "rectangle",
+          "fill": "#edf0ff",
+          "stroke": {
+            "color": "#edf0ff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "시나리오 선택"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.2,
+              "color": "#263858",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "성과 시나리오 슬라이더",
+          "style": {
+            "radius": 18
+          },
+          "component": {
+            "kind": "slider",
+            "variableId": "scenario-level"
+          }
+        },
+        {
+          "id": "scenario-kpi-card",
+          "type": "shape",
+          "geometry": {
+            "x": 760,
+            "y": 264,
+            "width": 438,
+            "height": 286
+          },
+          "shape": "rectangle",
+          "fill": "#17223e",
+          "stroke": {
+            "color": "#17223e",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              ""
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 26,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "계산 결과 카드",
+          "style": {
+            "radius": 24
+          },
+          "states": [
+            {
+              "id": "scenario-growth-state",
+              "name": "성장 시나리오 강조",
+              "style": {
+                "fill": "#635bff",
+                "scale": 1.035
+              }
+            }
+          ]
+        },
+        {
+          "id": "scenario-kpi-label",
+          "type": "text",
+          "geometry": {
+            "x": 796,
+            "y": 298,
+            "width": 360,
+            "height": 40
+          },
+          "text": {
+            "paragraphs": [
+              "예상 반응 수"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 22,
+              "lineHeight": 1.25,
+              "color": "#cbd2ee",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "계산 결과 이름"
+        },
+        {
+          "id": "scenario-kpi",
+          "type": "text",
+          "geometry": {
+            "x": 796,
+            "y": 360,
+            "width": 350,
+            "height": 100
+          },
+          "text": {
+            "paragraphs": [
+              "500건"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 64,
+              "lineHeight": 1.25,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "계산되는 KPI",
+          "binding": {
+            "variableId": "scenario-level",
+            "values": [
+              {
+                "value": "1",
+                "text": "120"
+              },
+              {
+                "value": "2",
+                "text": "250"
+              },
+              {
+                "value": "3",
+                "text": "420"
+              }
+            ],
+            "format": "number",
+            "prefix": "",
+            "suffix": "건",
+            "animate": true,
+            "formula": {
+              "operation": "multiply",
+              "operand": 2,
+              "fallback": "계산할 수 없음"
+            }
+          }
+        },
+        {
+          "id": "scenario-kpi-note",
+          "type": "text",
+          "geometry": {
+            "x": 796,
+            "y": 468,
+            "width": 350,
+            "height": 42
+          },
+          "text": {
+            "paragraphs": [
+              "선택 원본 × 2"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 20,
+              "lineHeight": 1.25,
+              "color": "#a4b3d4",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "계산식 설명"
+        },
+        {
+          "id": "scenario-caption",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 407,
+            "width": 568,
+            "height": 88
+          },
+          "text": {
+            "paragraphs": [
+              "균형 있는 투자를 선택했습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 28,
+              "lineHeight": 1.25,
+              "color": "#263858",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "선택에 따른 설명",
+          "binding": {
+            "variableId": "scenario-level",
+            "values": [
+              {
+                "value": "1",
+                "text": "작게 시작하고 빠르게 배웁니다."
+              },
+              {
+                "value": "2",
+                "text": "균형 있는 투자를 선택했습니다."
+              },
+              {
+                "value": "3",
+                "text": "성장을 위한 실행을 확대합니다."
+              }
+            ],
+            "format": "text"
+          }
+        },
+        {
+          "id": "scenario-next",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 568,
+            "width": 315,
+            "height": 64
+          },
+          "shape": "rectangle",
+          "fill": "#635bff",
+          "stroke": {
+            "color": "#635bff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "모션 재사용 보기 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "과정 장으로 이동",
+          "style": {
+            "radius": 16
+          },
+          "component": {
+            "kind": "button"
+          }
+        }
+      ],
+      "name": "02 선택과 계산",
+      "motions": [
+        {
+          "id": "scenario-reveal",
+          "targetId": "scenario-kpi-card",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 900,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 38,
+              "scale": 0.97,
+              "rotate": 0,
+              "opacity": 0,
+              "blur": 8
+            },
+            {
+              "offset": 0.55,
+              "x": 0,
+              "y": -6,
+              "scale": 1.015,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        }
+      ],
+      "interactions": [
+        {
+          "id": "scenario-growth",
+          "sourceId": "scenario-slider",
+          "event": "change",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "scenario-kpi-card",
+              "stateId": "scenario-growth-state"
+            }
+          ],
+          "condition": {
+            "variableId": "scenario-level",
+            "operator": "equals",
+            "value": "3"
+          }
+        },
+        {
+          "id": "scenario-reset",
+          "sourceId": "scenario-slider",
+          "event": "change",
+          "actions": [
+            {
+              "type": "resetState",
+              "targetId": "scenario-kpi-card"
+            }
+          ],
+          "condition": {
+            "variableId": "scenario-level",
+            "operator": "notEquals",
+            "value": "3"
+          }
+        },
+        {
+          "id": "scenario-go-process",
+          "sourceId": "scenario-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "advanced-process"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "flip",
+        "duration": 550,
+        "easing": "ease-in-out"
+      }
+    },
+    {
+      "id": "advanced-process",
+      "background": "#f7f9ff",
+      "elements": [
+        {
+          "id": "process-kicker",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 50,
+            "width": 1000,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "REUSABLE MOTION / DIRECT MANIPULATION"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.25,
+              "color": "#635bff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "과정 작은 제목"
+        },
+        {
+          "id": "process-title",
+          "type": "text",
+          "geometry": {
+            "x": 76,
+            "y": 98,
+            "width": 1100,
+            "height": 80
+          },
+          "text": {
+            "paragraphs": [
+              "같은 모션을, 다음 장에서도."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 46,
+              "lineHeight": 1.25,
+              "color": "#17223e",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "재사용 모션 제목"
+        },
+        {
+          "id": "process-description",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 194,
+            "width": 1100,
+            "height": 55
+          },
+          "text": {
+            "paragraphs": [
+              "모션 씬을 저장해 재사용하고, 키와 휠 동작으로 실행을 연결합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.25,
+              "color": "#61718d",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "과정 안내"
+        },
+        {
+          "id": "process-card-0",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 315,
+            "width": 352,
+            "height": 235
+          },
+          "shape": "rectangle",
+          "fill": "#635bff",
+          "stroke": {
+            "color": "#635bff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "01  메시지를 고른다"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 25,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실행 카드 1",
+          "style": {
+            "radius": 24
+          },
+          "states": [
+            {
+              "id": "process-state-0",
+              "name": "카드 강조",
+              "style": {
+                "opacity": 1,
+                "scale": 1.06
+              }
+            }
+          ]
+        },
+        {
+          "id": "process-card-1",
+          "type": "shape",
+          "geometry": {
+            "x": 470,
+            "y": 315,
+            "width": 352,
+            "height": 235
+          },
+          "shape": "rectangle",
+          "fill": "#17223e",
+          "stroke": {
+            "color": "#17223e",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "02  움직임을 다듬는다"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 25,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실행 카드 2",
+          "style": {
+            "radius": 24
+          },
+          "states": [
+            {
+              "id": "process-state-1",
+              "name": "카드 강조",
+              "style": {
+                "opacity": 1,
+                "scale": 1.06
+              }
+            }
+          ]
+        },
+        {
+          "id": "process-card-2",
+          "type": "shape",
+          "geometry": {
+            "x": 860,
+            "y": 315,
+            "width": 352,
+            "height": 235
+          },
+          "shape": "rectangle",
+          "fill": "#15a99d",
+          "stroke": {
+            "color": "#15a99d",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "03  함께 완성한다"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 25,
+              "lineHeight": 1.2,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "실행 카드 3",
+          "style": {
+            "radius": 24
+          },
+          "states": [
+            {
+              "id": "process-state-2",
+              "name": "카드 강조",
+              "style": {
+                "opacity": 1,
+                "scale": 1.06
+              }
+            }
+          ]
+        },
+        {
+          "id": "process-help",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 605,
+            "width": 1090,
+            "height": 62
+          },
+          "text": {
+            "paragraphs": [
+              "첫 카드 위 휠로 강조 · 두 번째 카드 위 포인터로 강조 · 키 R로 마지막 카드 재생"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.25,
+              "color": "#61718d",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "동작 확인 안내"
+        }
+      ],
+      "name": "03 모션 재사용",
+      "motions": [
+        {
+          "id": "process-motion-0",
+          "targetId": "process-card-0",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1100,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 38,
+              "scale": 0.97,
+              "rotate": 0,
+              "opacity": 0,
+              "blur": 8
+            },
+            {
+              "offset": 0.55,
+              "x": 0,
+              "y": -6,
+              "scale": 1.015,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "process-motion-1",
+          "targetId": "process-card-1",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1100,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 220,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 38,
+              "scale": 0.97,
+              "rotate": 0,
+              "opacity": 0,
+              "blur": 8
+            },
+            {
+              "offset": 0.55,
+              "x": 0,
+              "y": -6,
+              "scale": 1.015,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        },
+        {
+          "id": "process-motion-2",
+          "targetId": "process-card-2",
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1100,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 440,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 38,
+              "scale": 0.97,
+              "rotate": 0,
+              "opacity": 0,
+              "blur": 8
+            },
+            {
+              "offset": 0.55,
+              "x": 0,
+              "y": -6,
+              "scale": 1.015,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        }
+      ],
+      "interactions": [
+        {
+          "id": "process-wheel",
+          "sourceId": "process-card-0",
+          "event": "scroll",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "process-card-0",
+              "stateId": "process-state-0"
+            }
+          ],
+          "trigger": {
+            "threshold": 0.1,
+            "once": false,
+            "direction": "down"
+          }
+        },
+        {
+          "id": "process-hover",
+          "sourceId": "process-card-1",
+          "event": "hover",
+          "actions": [
+            {
+              "type": "setState",
+              "targetId": "process-card-1",
+              "stateId": "process-state-1"
+            }
+          ]
+        },
+        {
+          "id": "process-leave",
+          "sourceId": "process-card-1",
+          "event": "leave",
+          "actions": [
+            {
+              "type": "resetState",
+              "targetId": "process-card-1"
+            }
+          ]
+        },
+        {
+          "id": "process-key",
+          "sourceId": "process-card-2",
+          "event": "key",
+          "actions": [
+            {
+              "type": "playMotion",
+              "motionId": "process-motion-2"
+            }
+          ],
+          "trigger": {
+            "key": "r",
+            "once": false
+          }
+        }
+      ],
+      "transition": {
+        "type": "wipe",
+        "duration": 600,
+        "easing": "ease-out"
+      }
+    }
+  ],
+  "assets": [],
+  "variables": [
+    {
+      "id": "scenario-level",
+      "name": "실행 시나리오",
+      "initialValue": "2",
+      "options": [
+        {
+          "value": "1",
+          "label": "작게 시작"
+        },
+        {
+          "value": "2",
+          "label": "균형 투자"
+        },
+        {
+          "value": "3",
+          "label": "성장 확대"
+        }
+      ]
+    }
+  ],
+  "motionClips": [
+    {
+      "id": "advanced-clip-hero",
+      "name": "제목과 신호 · 2개 개체",
+      "tracks": [
+        {
+          "slot": 0,
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1250,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 0,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 38,
+              "scale": 0.97,
+              "rotate": 0,
+              "opacity": 0,
+              "blur": 8
+            },
+            {
+              "offset": 0.55,
+              "x": 0,
+              "y": -6,
+              "scale": 1.015,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ],
+          "stagger": {
+            "by": "word",
+            "delay": 90
+          }
+        },
+        {
+          "slot": 1,
+          "preset": "keyframes",
+          "start": "withPrevious",
+          "duration": 1850,
+          "delay": 0,
+          "easing": "ease-in-out",
+          "iterations": 1,
+          "at": 200,
+          "keyframes": [
+            {
+              "offset": 0,
+              "x": 0,
+              "y": 0,
+              "scale": 0.8,
+              "rotate": -20,
+              "opacity": 0.3,
+              "blur": 12
+            },
+            {
+              "offset": 0.45,
+              "x": -70,
+              "y": 130,
+              "scale": 1.25,
+              "rotate": 20,
+              "opacity": 1,
+              "blur": 0
+            },
+            {
+              "offset": 1,
+              "x": -20,
+              "y": 70,
+              "scale": 1,
+              "rotate": 0,
+              "opacity": 1,
+              "blur": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1550 @@
+{
+  "format": "html-slide-document",
+  "schemaVersion": "0.3-motion.1",
+  "id": "document-vividly-motion-showcase",
+  "title": "생생하게 움직이고, 선택에 반응하는 제안 · Vividly",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "unit": "logical-px"
+  },
+  "slides": [
+    {
+      "id": "slide-motion-cover",
+      "background": "#111a2f",
+      "elements": [
+        {
+          "id": "element-motion-cover-eyebrow",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 59,
+            "width": 1040,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "PRESENT VIVIDLY.  /  MOTION & INTERACTION"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.3,
+              "color": "#a6b4ff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "cover-eyebrow",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-cover-title",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 137,
+            "width": 850,
+            "height": 190
+          },
+          "text": {
+            "paragraphs": [
+              "생생한 이야기는,",
+              "클릭에서 시작됩니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 66,
+              "lineHeight": 1.16,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "cover-title",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-cover-caption",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 357,
+            "width": 710,
+            "height": 74
+          },
+          "text": {
+            "paragraphs": [
+              "순서와 시간을 직접 조절하고,",
+              "보는 사람이 참여하는 장표를 만드세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 24,
+              "lineHeight": 1.5,
+              "color": "#b7c4e2",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "cover-caption",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-cover-next",
+          "type": "shape",
+          "geometry": {
+            "x": 84,
+            "y": 489,
+            "width": 246,
+            "height": 52
+          },
+          "shape": "rectangle",
+          "fill": "#635bff",
+          "stroke": {
+            "color": "#635bff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "성과 살펴보기 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.3,
+              "color": "#fff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "cover-next",
+          "style": {
+            "radius": 16
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "element-motion-cover-hint",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 564,
+            "width": 720,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "다음 단계 버튼 · Space / → 키로 카드가 차례로 나타납니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.3,
+              "color": "#9caac8",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "cover-hint",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-cover-card-1",
+          "type": "shape",
+          "geometry": {
+            "x": 890,
+            "y": 138,
+            "width": 286,
+            "height": 116
+          },
+          "shape": "rectangle",
+          "fill": "#635bff",
+          "stroke": {
+            "color": "#635bff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "01  시간을 디자인하다"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "cover-card-1",
+          "rotation": -4,
+          "style": {
+            "radius": 24,
+            "gradient": {
+              "type": "linear",
+              "angle": 135,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#8a85ff"
+                },
+                {
+                  "offset": 1,
+                  "color": "#635bff"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "element-motion-cover-card-2",
+          "type": "shape",
+          "geometry": {
+            "x": 906,
+            "y": 289,
+            "width": 286,
+            "height": 116
+          },
+          "shape": "rectangle",
+          "fill": "#344362",
+          "stroke": {
+            "color": "#344362",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "02  선택에 응답하다"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "cover-card-2",
+          "rotation": 3,
+          "style": {
+            "radius": 24
+          }
+        },
+        {
+          "id": "element-motion-cover-card-3",
+          "type": "shape",
+          "geometry": {
+            "x": 890,
+            "y": 440,
+            "width": 286,
+            "height": 116
+          },
+          "shape": "rectangle",
+          "fill": "#a470f5",
+          "stroke": {
+            "color": "#a470f5",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "03  이야기로 연결하다"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 23,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "cover-card-3",
+          "rotation": -3,
+          "style": {
+            "radius": 24,
+            "gradient": {
+              "type": "linear",
+              "angle": 120,
+              "stops": [
+                {
+                  "offset": 0,
+                  "color": "#bf9af9"
+                },
+                {
+                  "offset": 1,
+                  "color": "#8a61d9"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "element-motion-cover-rule",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 644,
+            "width": 1120,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#34405e",
+          "stroke": {
+            "color": "#34405e",
+            "width": 0
+          },
+          "name": "cover-rule"
+        },
+        {
+          "id": "element-motion-cover-footer",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 666,
+            "width": 1030,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY / 가상의 모션·인터랙션 예제 · 모든 요소를 다시 편집할 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 13,
+              "lineHeight": 1.3,
+              "color": "#9caac8",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "cover-footer",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-cover-page",
+          "type": "text",
+          "geometry": {
+            "x": 1130,
+            "y": 661,
+            "width": 70,
+            "height": 27
+          },
+          "text": {
+            "paragraphs": [
+              "01"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.3,
+              "color": "#9caac8",
+              "align": "right",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "cover-page",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        }
+      ],
+      "name": "생생한 시작",
+      "section": "소개",
+      "motions": [
+        {
+          "id": "motion-cover-title",
+          "targetId": "element-motion-cover-title",
+          "preset": "fadeIn",
+          "start": "withPrevious",
+          "duration": 750,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-cover-caption",
+          "targetId": "element-motion-cover-caption",
+          "preset": "slideInUp",
+          "start": "afterPrevious",
+          "duration": 550,
+          "delay": 80,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-cover-card-1",
+          "targetId": "element-motion-cover-card-1",
+          "preset": "slideInRight",
+          "start": "onClick",
+          "duration": 600,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-cover-card-2",
+          "targetId": "element-motion-cover-card-2",
+          "preset": "slideInRight",
+          "start": "afterPrevious",
+          "duration": 500,
+          "delay": 100,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-cover-card-3",
+          "targetId": "element-motion-cover-card-3",
+          "preset": "zoomIn",
+          "start": "onClick",
+          "duration": 650,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        }
+      ],
+      "interactions": [
+        {
+          "id": "interaction-cover-next",
+          "sourceId": "element-motion-cover-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "slide-motion-results"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 450,
+        "easing": "ease-out"
+      }
+    },
+    {
+      "id": "slide-motion-results",
+      "background": "#f5f6fc",
+      "elements": [
+        {
+          "id": "element-motion-results-eyebrow",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 52,
+            "width": 1050,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "01 / CHOOSE A YEAR"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.3,
+              "color": "#635bff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "results-eyebrow",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-title",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 104,
+            "width": 1120,
+            "height": 84
+          },
+          "text": {
+            "paragraphs": [
+              "숫자로 보는 다음 가능성."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 52,
+              "lineHeight": 1.3,
+              "color": "#182342",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "results-title",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-caption",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 202,
+            "width": 1100,
+            "height": 44
+          },
+          "text": {
+            "paragraphs": [
+              "연도를 선택하면 KPI와 설명이 함께 바뀝니다. 화살표 키로도 선택할 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.3,
+              "color": "#71809e",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "results-caption",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-years",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 278,
+            "width": 600,
+            "height": 60
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "연도 선택"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.3,
+              "color": "#182342",
+              "align": "center",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "results-years",
+          "style": {
+            "radius": 18
+          },
+          "component": {
+            "kind": "tabs",
+            "variableId": "variable-year"
+          }
+        },
+        {
+          "id": "element-motion-results-kpi-surface",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 371,
+            "width": 528,
+            "height": 220
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 0
+          },
+          "name": "results-kpi-surface",
+          "style": {
+            "radius": 24,
+            "shadow": {
+              "x": 0,
+              "y": 12,
+              "blur": 32,
+              "spread": -10,
+              "color": "#26365a18"
+            }
+          }
+        },
+        {
+          "id": "element-motion-results-kpi-label",
+          "type": "text",
+          "geometry": {
+            "x": 112,
+            "y": 399,
+            "width": 440,
+            "height": 32
+          },
+          "text": {
+            "paragraphs": [
+              "캠페인 도달 지수"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.3,
+              "color": "#71809e",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "results-kpi-label",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-kpi",
+          "type": "text",
+          "geometry": {
+            "x": 110,
+            "y": 446,
+            "width": 445,
+            "height": 96
+          },
+          "text": {
+            "paragraphs": [
+              "128"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 72,
+              "lineHeight": 1.3,
+              "color": "#635bff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "results-kpi",
+          "binding": {
+            "variableId": "variable-year",
+            "values": [
+              {
+                "value": "2024",
+                "text": "128"
+              },
+              {
+                "value": "2025",
+                "text": "186"
+              },
+              {
+                "value": "2026",
+                "text": "248"
+              }
+            ],
+            "format": "number",
+            "prefix": "",
+            "suffix": "",
+            "animate": true
+          },
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-story-surface",
+          "type": "shape",
+          "geometry": {
+            "x": 640,
+            "y": 371,
+            "width": 560,
+            "height": 220
+          },
+          "shape": "rectangle",
+          "fill": "#182342",
+          "stroke": {
+            "color": "#182342",
+            "width": 0
+          },
+          "name": "results-story-surface",
+          "style": {
+            "radius": 24
+          }
+        },
+        {
+          "id": "element-motion-results-story-label",
+          "type": "text",
+          "geometry": {
+            "x": 674,
+            "y": 399,
+            "width": 488,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "숫자 뒤에 있는 이야기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.3,
+              "color": "#acb9dc",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "results-story-label",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-story",
+          "type": "text",
+          "geometry": {
+            "x": 674,
+            "y": 453,
+            "width": 478,
+            "height": 104
+          },
+          "text": {
+            "paragraphs": [
+              "작은 실험으로 발견한 가능성"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 30,
+              "lineHeight": 1.4,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "results-story",
+          "binding": {
+            "variableId": "variable-year",
+            "values": [
+              {
+                "value": "2024",
+                "text": "작은 실험으로 발견한 가능성"
+              },
+              {
+                "value": "2025",
+                "text": "반응을 학습하고 넓힌 접점"
+              },
+              {
+                "value": "2026",
+                "text": "참여와 성과로 이어지는 성장"
+              }
+            ],
+            "format": "text",
+            "prefix": "",
+            "suffix": "",
+            "animate": false
+          },
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-next",
+          "type": "shape",
+          "geometry": {
+            "x": 930,
+            "y": 278,
+            "width": 270,
+            "height": 52
+          },
+          "shape": "rectangle",
+          "fill": "#635bff",
+          "stroke": {
+            "color": "#635bff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "맞춤 제안 보기 →"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.3,
+              "color": "#fff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "results-next",
+          "style": {
+            "radius": 16
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "element-motion-results-rule",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 644,
+            "width": 1120,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#dce2f0",
+          "stroke": {
+            "color": "#dce2f0",
+            "width": 0
+          },
+          "name": "results-rule"
+        },
+        {
+          "id": "element-motion-results-footer",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 666,
+            "width": 1030,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY / 가상의 모션·인터랙션 예제 · 모든 요소를 다시 편집할 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 13,
+              "lineHeight": 1.3,
+              "color": "#7b87a3",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "results-footer",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-results-page",
+          "type": "text",
+          "geometry": {
+            "x": 1130,
+            "y": 661,
+            "width": 70,
+            "height": 27
+          },
+          "text": {
+            "paragraphs": [
+              "02"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.3,
+              "color": "#7b87a3",
+              "align": "right",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "results-page",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        }
+      ],
+      "name": "선택하는 성과",
+      "section": "성과",
+      "motions": [
+        {
+          "id": "motion-results-title",
+          "targetId": "element-motion-results-title",
+          "preset": "fadeIn",
+          "start": "withPrevious",
+          "duration": 500,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-results-kpi-surface",
+          "targetId": "element-motion-results-kpi-surface",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 550,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-results-story-surface",
+          "targetId": "element-motion-results-story-surface",
+          "preset": "slideInUp",
+          "start": "withPrevious",
+          "duration": 550,
+          "delay": 80,
+          "easing": "ease-out",
+          "iterations": 1
+        }
+      ],
+      "interactions": [
+        {
+          "id": "interaction-results-next",
+          "sourceId": "element-motion-results-next",
+          "event": "click",
+          "actions": [
+            {
+              "type": "goToSlide",
+              "targetId": "slide-motion-proposal"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "push",
+        "duration": 450,
+        "easing": "ease-in-out"
+      }
+    },
+    {
+      "id": "slide-motion-proposal",
+      "background": "#ffffff",
+      "elements": [
+        {
+          "id": "element-motion-proposal-eyebrow",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 52,
+            "width": 1060,
+            "height": 28
+          },
+          "text": {
+            "paragraphs": [
+              "02 / AN INTERACTIVE PROPOSAL"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 16,
+              "lineHeight": 1.3,
+              "color": "#635bff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "proposal-eyebrow",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-title",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 104,
+            "width": 1120,
+            "height": 84
+          },
+          "text": {
+            "paragraphs": [
+              "선택에 따라 달라지는 제안."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 52,
+              "lineHeight": 1.3,
+              "color": "#182342",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "proposal-title",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-caption",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 206,
+            "width": 1100,
+            "height": 40
+          },
+          "text": {
+            "paragraphs": [
+              "패키지를 고르고, 상세 패널에서 실행 방향을 확인하세요."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.3,
+              "color": "#71809e",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-caption",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-select-label",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 292,
+            "width": 350,
+            "height": 30
+          },
+          "text": {
+            "paragraphs": [
+              "캠페인 패키지"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 18,
+              "lineHeight": 1.3,
+              "color": "#71809e",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-select-label",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-plan",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 337,
+            "width": 500,
+            "height": 60
+          },
+          "shape": "rectangle",
+          "fill": "#f2f3fc",
+          "stroke": {
+            "color": "#f2f3fc",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "패키지 선택"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.3,
+              "color": "#182342",
+              "align": "left",
+              "verticalAlign": "middle"
+            }
+          },
+          "name": "proposal-plan",
+          "style": {
+            "radius": 14
+          },
+          "component": {
+            "kind": "select",
+            "variableId": "variable-plan"
+          }
+        },
+        {
+          "id": "element-motion-proposal-price",
+          "type": "text",
+          "geometry": {
+            "x": 80,
+            "y": 433,
+            "width": 600,
+            "height": 92
+          },
+          "text": {
+            "paragraphs": [
+              "₩750만"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 64,
+              "lineHeight": 1.3,
+              "color": "#635bff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "proposal-price",
+          "binding": {
+            "variableId": "variable-plan",
+            "values": [
+              {
+                "value": "starter",
+                "text": "450"
+              },
+              {
+                "value": "growth",
+                "text": "750"
+              },
+              {
+                "value": "scale",
+                "text": "1200"
+              }
+            ],
+            "format": "number",
+            "prefix": "₩",
+            "suffix": "만",
+            "animate": true
+          },
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-description",
+          "type": "text",
+          "geometry": {
+            "x": 84,
+            "y": 542,
+            "width": 650,
+            "height": 62
+          },
+          "text": {
+            "paragraphs": [
+              "브랜드 스토리와 소셜 경험을 함께 설계합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.5,
+              "color": "#71809e",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-description",
+          "binding": {
+            "variableId": "variable-plan",
+            "values": [
+              {
+                "value": "starter",
+                "text": "핵심 메시지와 첫 콘텐츠 접점부터 시작합니다."
+              },
+              {
+                "value": "growth",
+                "text": "브랜드 스토리와 소셜 경험을 함께 설계합니다."
+              },
+              {
+                "value": "scale",
+                "text": "참여 캠페인과 채널 확산을 함께 운영합니다."
+              }
+            ],
+            "format": "text",
+            "prefix": "",
+            "suffix": "",
+            "animate": false
+          },
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-open",
+          "type": "shape",
+          "geometry": {
+            "x": 808,
+            "y": 336,
+            "width": 392,
+            "height": 52
+          },
+          "shape": "rectangle",
+          "fill": "#635bff",
+          "stroke": {
+            "color": "#635bff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "상세 실행 방향 보기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.3,
+              "color": "#fff",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "proposal-open",
+          "style": {
+            "radius": 16
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "element-motion-proposal-panel-hint",
+          "type": "text",
+          "geometry": {
+            "x": 815,
+            "y": 414,
+            "width": 375,
+            "height": 92
+          },
+          "text": {
+            "paragraphs": [
+            "버튼 또는 Esc로 닫습니다.",
+            "닫으면 버튼으로 돌아옵니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.6,
+              "color": "#71809e",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-panel-hint",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-panel",
+          "type": "shape",
+          "geometry": {
+            "x": 772,
+            "y": 272,
+            "width": 428,
+            "height": 344
+          },
+          "shape": "rectangle",
+          "fill": "#182342",
+          "stroke": {
+            "color": "#182342",
+            "width": 0
+          },
+          "name": "proposal-panel",
+          "style": {
+            "radius": 24,
+            "shadow": {
+              "x": 0,
+              "y": 16,
+              "blur": 40,
+              "spread": -12,
+              "color": "#15203b44"
+            }
+          },
+          "component": {
+            "kind": "panel",
+            "initiallyOpen": false,
+            "dim": true,
+            "placement": "right",
+            "contentIds": [
+              "element-motion-proposal-panel-title",
+              "element-motion-proposal-panel-body",
+              "element-motion-proposal-close"
+            ]
+          }
+        },
+        {
+          "id": "element-motion-proposal-panel-title",
+          "type": "text",
+          "geometry": {
+            "x": 806,
+            "y": 308,
+            "width": 348,
+            "height": 55
+          },
+          "text": {
+            "paragraphs": [
+              "다음 행동을 설계합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 29,
+              "lineHeight": 1.3,
+              "color": "#ffffff",
+              "align": "left",
+              "verticalAlign": "top",
+              "bold": true
+            }
+          },
+          "name": "proposal-panel-title",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-panel-body",
+          "type": "text",
+          "geometry": {
+            "x": 806,
+            "y": 385,
+            "width": 348,
+            "height": 126
+          },
+          "text": {
+            "paragraphs": [
+              "메시지 → 콘텐츠 → 참여",
+              "선택한 패키지를 바탕으로",
+              "작게 실행하고 반응을 학습합니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 21,
+              "lineHeight": 1.65,
+              "color": "#c3cceb",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-panel-body",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-close",
+          "type": "shape",
+          "geometry": {
+            "x": 806,
+            "y": 538,
+            "width": 348,
+            "height": 52
+          },
+          "shape": "rectangle",
+          "fill": "#ffffff",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 0
+          },
+          "text": {
+            "paragraphs": [
+              "패널 닫기"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 19,
+              "lineHeight": 1.3,
+              "color": "#182342",
+              "align": "center",
+              "verticalAlign": "middle",
+              "bold": true
+            }
+          },
+          "name": "proposal-close",
+          "style": {
+            "radius": 16
+          },
+          "component": {
+            "kind": "button"
+          }
+        },
+        {
+          "id": "element-motion-proposal-rule",
+          "type": "shape",
+          "geometry": {
+            "x": 80,
+            "y": 644,
+            "width": 1120,
+            "height": 1
+          },
+          "shape": "rectangle",
+          "fill": "#dce2f0",
+          "stroke": {
+            "color": "#dce2f0",
+            "width": 0
+          },
+          "name": "proposal-rule"
+        },
+        {
+          "id": "element-motion-proposal-footer",
+          "type": "text",
+          "geometry": {
+            "x": 82,
+            "y": 666,
+            "width": 1030,
+            "height": 22
+          },
+          "text": {
+            "paragraphs": [
+              "VIVIDLY / 가상의 모션·인터랙션 예제 · 모든 요소를 다시 편집할 수 있습니다."
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 13,
+              "lineHeight": 1.3,
+              "color": "#7b87a3",
+              "align": "left",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-footer",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        },
+        {
+          "id": "element-motion-proposal-page",
+          "type": "text",
+          "geometry": {
+            "x": 1130,
+            "y": 661,
+            "width": 70,
+            "height": 27
+          },
+          "text": {
+            "paragraphs": [
+              "03"
+            ],
+            "textStyle": {
+              "fontFamily": "Malgun Gothic",
+              "fontSize": 17,
+              "lineHeight": 1.3,
+              "color": "#7b87a3",
+              "align": "right",
+              "verticalAlign": "top"
+            }
+          },
+          "name": "proposal-page",
+          "themeRefs": {
+            "fontFamily": true
+          }
+        }
+      ],
+      "name": "반응하는 제안",
+      "section": "제안",
+      "motions": [
+        {
+          "id": "motion-proposal-title",
+          "targetId": "element-motion-proposal-title",
+          "preset": "fadeIn",
+          "start": "withPrevious",
+          "duration": 500,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        },
+        {
+          "id": "motion-proposal-open-pulse",
+          "targetId": "element-motion-proposal-open",
+          "preset": "pulse",
+          "start": "onClick",
+          "duration": 450,
+          "delay": 0,
+          "easing": "ease-out",
+          "iterations": 1
+        }
+      ],
+      "interactions": [
+        {
+          "id": "interaction-proposal-open",
+          "sourceId": "element-motion-proposal-open",
+          "event": "click",
+          "actions": [
+            {
+              "type": "openPanel",
+              "targetId": "element-motion-proposal-panel"
+            }
+          ]
+        },
+        {
+          "id": "interaction-proposal-close",
+          "sourceId": "element-motion-proposal-close",
+          "event": "click",
+          "actions": [
+            {
+              "type": "closePanel",
+              "targetId": "element-motion-proposal-panel"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "zoom",
+        "duration": 450,
+        "easing": "ease-out"
+      }
+    }
+  ],
+  "assets": [],
+  "theme": {
+    "colors": {
+      "primary": "#635bff",
+      "secondary": "#a470f5",
+      "background": "#f5f6fc",
+      "text": "#182342"
+    },
+    "fontFamily": "Malgun Gothic"
+  },
+  "variables": [
+    {
+      "id": "variable-year",
+      "name": "연도",
+      "initialValue": "2024",
+      "options": [
+        {
+          "value": "2024",
+          "label": "2024"
+        },
+        {
+          "value": "2025",
+          "label": "2025"
+        },
+        {
+          "value": "2026",
+          "label": "2026"
+        }
+      ]
+    },
+    {
+      "id": "variable-plan",
+      "name": "패키지",
+      "initialValue": "growth",
+      "options": [
+        {
+          "value": "starter",
+          "label": "시작형 · Starter"
+        },
+        {
+          "value": "growth",
+          "label": "성장형 · Growth"
+        },
+        {
+          "value": "scale",
+          "label": "확장형 · Scale"
+        }
+      ]
+    }
+  ]
+}
