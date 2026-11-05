@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#315bff">
+  <meta name="description" content="슬라이드처럼 직접 편집하고, 움직임과 상호작용이 있는 HTML로 전달하세요. Vividly는 AI 연결 없이도 시작할 수 있는 Windows 프레젠테이션 앱입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vividly — Present Vividly.">
+  <meta property="og:description" content="슬라이드처럼 만들고, 웹처럼 전달하세요. 직접 편집하는 HTML 프레젠테이션 앱.">
+  <meta property="og:image" content="https://boduri83.github.io/vividly_html_slide_maker_op/assets/editor-preview.png">
+  <title>Vividly — Present Vividly.</title>
+  <link rel="icon" href="assets/brand/vividly-icon-32.png">
+  <link rel="apple-touch-icon" href="assets/brand/vividly-icon-128.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Vividly 홈"><img src="assets/brand/vividly-logo-light.svg" width="154" height="44" alt="Vividly — Present Vividly."></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">메뉴 <span aria-hidden="true">☰</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="주 메뉴">
+        <a href="#make">만들 수 있는 것</a><a href="#preview">결과물 미리보기</a><a href="start.html">처음 사용하기</a>
+        <a class="nav-download" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">Windows 베타 받기 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero section-wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="brand-dot" aria-hidden="true"></span> Present Vividly.</p>
+        <h1 id="hero-title">슬라이드처럼 만들고,<br><span>웹처럼 전달하세요.</span></h1>
+        <p class="hero-lead">텍스트와 도형을 직접 배치하고,<br class="desktop-break"> 움직임과 반응을 더해 하나의 HTML로.</p>
+        <p class="hero-description">익숙한 편집 방식으로 만드는 새로운 발표 자료.<br>AI 연결 없이도 첫 장부터 시작할 수 있습니다.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">Windows용 설치 <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="start.html">첫 자료 만들기 <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="download-meta">Windows 64비트 · 무료 공개 베타 · <a href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Windows-x64.zip">설치 없이 ZIP으로 사용</a></p>
+      </div>
+      <figure class="editor-figure" id="editor-figure">
+        <div class="editor-image-area">
+          <div class="brand-fallback" id="editor-fallback"><img src="assets/brand/vividly-logo-light.svg" width="840" height="240" alt="Vividly — Present Vividly."><p>아이디어가 선명해지는 작업 공간</p></div>
+          <img class="editor-image" id="editor-image" src="assets/editor-preview.png" alt="Vividly의 리본 메뉴, 슬라이드 작업 공간과 개체 편집 도구가 보이는 실제 앱 화면" width="1440" height="900" fetchpriority="high" hidden>
+        </div>
+        <figcaption><span id="editor-caption">Vividly · Present Vividly.</span><a id="editor-image-link" href="assets/editor-preview.png" target="_blank" rel="noopener" hidden>화면 크게 보기 <span aria-hidden="true">↗</span></a></figcaption>
+      </figure>
+    </section>
+
+    <section class="make-section section-wrap" id="make" aria-labelledby="make-title">
+      <div class="section-intro">
+        <p class="eyebrow">직접 만드는 HTML</p>
+        <h2 id="make-title">설명하는 자료에서<br>경험하는 자료로.</h2>
+        <p>한 장의 메시지를 다듬는 일부터,<br>클릭에 반응하는 이야기까지.</p>
+      </div>
+      <div class="capabilities">
+        <article class="capability-row"><span class="item-number" aria-hidden="true">01</span><div><h3>보면서 배치하고, 바로 다듬기</h3><p>글자·도형·이미지·차트를 화면에서 선택하고 위치, 크기, 색을 조절하세요. 리본 메뉴와 선택 도구로 자료의 모습을 직접 완성합니다.</p><p class="feature-tags">개체 편집 <span>·</span> 다양한 도형 <span>·</span> 차트와 텍스트</p></div></article>
+        <article class="capability-row"><span class="item-number" aria-hidden="true">02</span><div><h3>움직임과 상호작용 더하기</h3><p>등장하는 문장, 클릭하면 열리는 설명, 원하는 페이지로 이어지는 버튼. 색·그림자·그라데이션에 모션과 동작을 연결하세요.</p><p class="feature-tags">모션 <span>·</span> 클릭 동작 <span>·</span> 입력과 페이지 이동</p></div></article>
+        <article class="capability-row"><span class="item-number" aria-hidden="true">03</span><div><h3>저장한 자료를 다시 편집하기</h3><p>편집용 HTML을 저장하고 Vividly에서 다시 열어 글자와 개체를 수정합니다. 완성한 자료는 브라우저에서도 발표할 수 있습니다.</p><p class="feature-tags">HTML 저장·재열기 <span>·</span> 슬라이드 쇼 <span>·</span> 반응형 배치</p></div></article>
+      </div>
+    </section>
+
+    <section class="preview-section" id="preview" aria-labelledby="preview-title">
+      <div class="section-wrap">
+        <div class="section-heading-row"><div><p class="eyebrow">만든 뒤에는 이렇게</p><h2 id="preview-title">슬라이드를 넘어, 하나의 경험으로.</h2></div><a class="text-link" href="examples/first-deck.html" target="_blank" rel="noopener">예제를 새 창에서 열기 <span aria-hidden="true">↗</span></a></div>
+        <div class="presentation-embed"><iframe src="examples/first-deck.html" title="Vividly 첫 자료 예제의 실제 HTML 발표 미리보기" loading="lazy" sandbox="allow-scripts allow-downloads" allow="fullscreen" allowfullscreen></iframe></div>
+        <div class="preview-caption"><p>7장의 편집 가능한 쇼케이스. 네온 그라데이션·궤도 모션·라이브 차트·선택 버튼·키보드 동작을 직접 눌러보세요.</p><a href="examples/first-deck.html" download="Vividly-첫자료.html">이 예제를 받아 편집하기 <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="collaboration-section section-wrap" aria-labelledby="collaboration-title">
+      <div class="collaboration-copy"><p class="eyebrow">함께 만드는 방식도 자유롭게</p><h2 id="collaboration-title">내 손으로 시작하고,<br>필요하면 에이전트와 함께.</h2><p>기본 편집·저장·발표에는 AI 연결이 필요하지 않습니다. 원할 때 Codex·API 또는 MCP를 연결해 자료를 만드는 작업을 함께할 수 있습니다.</p><a class="light-link" href="privacy.html#connections">선택적 연결과 데이터 안내 <span aria-hidden="true">→</span></a></div>
+      <div class="collaboration-note"><img src="assets/brand/vividly-symbol.svg" width="132" height="132" alt=""><p>에이전트의 제안을 검토하고,<br>반영한 자료를 다시 직접 편집하세요.</p><span>선택적으로 연결하는 협업</span></div>
+    </section>
+
+    <section class="start-section section-wrap" aria-labelledby="start-title">
+      <p class="eyebrow">첫 자료까지, 짧은 세 걸음</p><h2 id="start-title">지금 한 장을 바꿔보세요.</h2>
+      <ol class="steps-track">
+        <li><span class="step-index">1</span><h3>설치하고 시작하기</h3><p>설치 파일을 실행하고 시작 메뉴에서 Vividly를 여세요. 설치 없는 ZIP 버전도 제공합니다.</p><a class="text-link" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">베타 다운로드 <span aria-hidden="true">↓</span></a></li>
+        <li><span class="step-index">2</span><h3>첫 자료 만들기</h3><p>7장 쇼케이스의 제목·차트·모션을 직접 바꾸고, HTML로 저장해 발표해 보세요.</p><a class="text-link" href="start.html">5분 시작 안내 <span aria-hidden="true">→</span></a></li>
+        <li><span class="step-index">3</span><h3>사용 경험 나누기</h3><p>막힌 부분이나 만들고 싶은 자료를 알려주세요. 원본 문서는 첨부하지 않아도 됩니다.</p><div class="plain-links"><a class="text-link" href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=feedback.yml&amp;version=0.24.0-beta.5">첫 사용 후기 <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/boduri83/vividly_html_slide_maker_op/issues/new?template=bug_report.yml">오류 제보 <span aria-hidden="true">↗</span></a></div></li>
+      </ol>
+    </section>
+
+    <section class="faq-section section-wrap" aria-labelledby="faq-title">
+      <div class="section-intro"><p class="eyebrow">시작하기 전에</p><h2 id="faq-title">궁금한 점이 있나요?</h2></div>
+      <div class="faq-list">
+        <details><summary>AI 계정이나 API 키가 꼭 필요한가요?</summary><p>기본 수동 편집·저장·발표는 AI 연결 없이 사용할 수 있습니다. 아바타·외부 API·MCP 협업은 필요할 때 선택해서 연결하는 기능입니다.</p></details>
+        <details><summary>어떤 컴퓨터에서 실행할 수 있나요?</summary><p>현재 베타는 Windows 64비트용 ZIP으로 제공합니다. 압축을 풀고 함께 들어 있는 폴더·파일을 유지한 채 실행하세요. 일반 앱 실행에 Node.js나 별도 개발 서버는 필요하지 않습니다.</p></details>
+        <details><summary>Windows에서 게시자 경고가 표시돼요.</summary><p>개발자 서명이 없는 초기 베타이므로 경고가 표시될 수 있습니다. <a href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/tag/v0.24.0-beta.5">공식 릴리스</a>의 파일명·버전·해시를 확인하세요.</p></details>
+        <details><summary>PowerPoint 파일이나 일반 웹페이지도 편집하나요?</summary><p>Vividly에서 저장한 편집 정보가 있는 HTML을 다시 열어 편집합니다. PPTX 파일이나 임의의 웹페이지를 그대로 가져와 편집하는 기능은 제공하지 않습니다.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-band"><div class="section-wrap"><div><p>Present Vividly.</p><h2>당신의 다음 이야기를<br>더 생생하게.</h2></div><a class="button button-white" href="https://github.com/boduri83/vividly_html_slide_maker_op/releases/download/v0.24.0-beta.5/Vividly-0.24.0-beta.5-Setup-x64.exe">Windows 베타 다운로드 <span aria-hidden="true">↓</span></a></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><div><a class="footer-brand" href="index.html">Vividly<span>Present Vividly.</span></a><p>직접 만들고 함께 다듬는 HTML 프레젠테이션.</p><p>Borvis Studio · 기획·제작: 보들이</p></div><nav aria-label="하단 메뉴"><a href="start.html">첫 사용 안내</a><a href="privacy.html">개인정보 안내</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op/issues">지원·피드백</a><a href="https://github.com/boduri83/vividly_html_slide_maker_op">소스 · MPL-2.0</a><a href="https://github.com/boduri83">보들이 GitHub</a></nav></footer>
+</body>
+</html>
